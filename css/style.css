@@ -776,8 +776,122 @@ form.search  button:hover {
     visibility: visible;
     opacity: 1;
 }
-/* RESPONSIVE */
+/* PAGE-SINGLE */
+.page-home .dpt-cat .dpt-trigger,.dpt-trigger .ri-close-line,
+.showdpt .dpt-trigger .ri-menu-3-line{
+    display: none;
+}
+/* nếu có showdpt thì hiện nút xóa */
+.showdpt .dpt-trigger .ri-close-line{
+    display: block;
+}
 
+/* Breadcrumb */
+.breadcrumb{
+    font-size: var(--font-small);
+    margin-bottom: 2em;
+}
+
+.breadcrumb li:not(:last-child)::after{
+    content: "/";
+    padding: 0 0.35em;
+}
+.breadcrumb li:last-child{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--light-text-color);
+}
+/* product-detail */
+.products.one .item {
+    flex-direction: column;
+}
+.products.one .price .discount {
+    font-size: 1em;
+    font-weight: var(--fw7);
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    padding: 1em;
+    z-index: 2;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border-radius: var(--percent50);
+    margin: 0.5em;
+}
+.products.one :where(.big-image, .small-image){
+    overflow: hidden;
+}
+.products.one .big-image{
+    position: relative;
+    margin-bottom: 1em;
+
+}
+.products.one :where(.big-image, .small-image) img {
+    object-fit: cover;
+    width: var(--percent100);
+    height: var(--percent100);
+    display: block;
+}
+.products.one .thumbnail-show{
+    position: relative;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    margin: 0 2em 2em 0;
+}
+.products :is(.swiper-button-next , .swiper-button-prev){
+    outline: 0;
+    color: var(--secondary-dark-color);
+    transition: var(--trans-bg),transform .3s;
+
+}
+.products .big-image:hover .swiper-button-next{
+    transform: translateX(10px);
+}
+.products .big-image:hover .swiper-button-prev{
+    transform: translateX(-10px);
+}
+.products :is(.swiper-button-next , .swiper-button-prev)::after{
+    font-size: 1.5em;
+}
+.products .big-image:hover :is(.swiper-button-next , .swiper-button-prev){
+    background-color: var(--light-bg-color);
+    /* border-radius: 5px; */
+}
+/* RESPONSIVE */
+@media screen and (min-width:481px) {
+    .products.main .item {
+        flex:  0 0 50%;
+    }
+    /* page-single */
+    .products.one .big-image {
+        margin-bottom: 2em;
+    }
+    .products.one .image-show {
+        height: 680px;
+    }
+    .products.one .thumbnail-show {
+        height: 160px;
+    }
+}
+@media screen and (min-width:768px) {
+    .products.main .item {
+        flex:  0 0 33.3333%;
+    }
+    .products .price .current{
+        font-size: 1.25em;
+    }
+    .products.mini ,.banner .row ,.widgets .row{
+        flex: 0 0 50%;
+    }
+    .products.one .row {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+}
 
 @media screen and (min-width:992px) {
     .container {
@@ -957,5 +1071,29 @@ form.search  button:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .products.main .item ,.widgets .row {
+        flex:0 0 25%;
+    }
+    .trending .products , .product-categories .row{
+        flex: 0 0 33.3333%;
+    }
+    .products .big .media {
+        max-height: 373px;
+    }
+
+    /* Page-single */
+    /* nếu ko có .page-home thì none */
+    #page:not(.page-home) .dpt-menu {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+
+    }
+    
+    #page.showdpt .dpt-menu {
+        opacity: 1;
+        visibility: visible;
+
     }
 }

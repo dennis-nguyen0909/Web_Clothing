@@ -71,7 +71,7 @@
 }
 
 /* RESPONSIVE */
-@media screen and (min-width:481px) {
+/* @media screen and (min-width:481px) {
     .products.main .item {
         flex:  0 0 50%;
     }
@@ -81,10 +81,9 @@
         flex:  0 0 33.3333%;
     }
 }
-/* màn pc thì vào */
+
 @media screen and (min-width:992px) {
-    /* response */
     .products.main .item ,.widgets .row {
         flex:0 0 25%;
     }
-}
+} */

@@ -64,3 +64,36 @@ $searchBtn.addEventListener("click", () => {
 $tClose.addEventListener("click", () => {
   $showClass.classList.remove("showsearch");
 });
+
+// Show dpt menu
+const $dptBtn = document.querySelector(".dpt-cat .dpt-trigger"),
+  $dptClass = document.querySelector(".site");
+$dptBtn.addEventListener("click", () => {
+  $dptClass.classList.toggle("showdpt");
+});
+
+// product image swiper
+var productThumb = new Swiper(".small-image", {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 3,
+  freeMode: true,
+  watchSlidesProgress: true,
+  breakpoints: {
+    481: {
+      spaceBetween: 32,
+    },
+  },
+});
+
+var productBig = new Swiper(".big-image", {
+  loop: true,
+  autoHeight: true,
+  navigation: {
+    nextEl: ".swiper-button-next", // Đã sửa từ nexEl thành nextEl
+    prevEl: ".swiper-button-prev", // Đã sửa từ preEl thành prevEl
+  },
+  thumbs: {
+    swiper: productThumb,
+  },
+});
