@@ -71,7 +71,7 @@
 }
 
 /* RESPONSIVE */
-/* @media screen and (min-width:481px) {
+@media screen and (min-width:481px) {
     .products.main .item {
         flex:  0 0 50%;
     }
@@ -86,4 +86,4 @@
     .products.main .item ,.widgets .row {
         flex:0 0 25%;
     }
-} */
+}

@@ -861,6 +861,285 @@ form.search  button:hover {
     background-color: var(--light-bg-color);
     /* border-radius: 5px; */
 }
+/* Product description */
+
+.products.one .available {
+    font-size: var(--font-small);
+    font-weight: var(--fw5);
+    padding: 0.5em;
+    margin-right: 1em;
+    border-radius: 3px;
+    color: #10ac84;
+    background-color: var(--light-bg-color);
+}
+.products.one .add-review{
+    color: var(--dark-color);
+}
+.products.one .price {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products.one .price .current {
+    font-size: 2.5em;
+}
+.products .variant form {
+    display: flex;
+    margin-top: 0.5em;
+}
+.products .variant form p {
+    position: relative;
+    margin: 0 0.5em 0.5em;
+}
+.products :where(.variant ,.actions) .circle {
+    display:block;
+    position: static;
+    top: 0;
+    margin: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.products .variant input {
+    clip: rect(0,0,0,0);
+    overflow: hidden;
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.products .variant label::before{
+    opacity: 1;
+}
+/* tạo lớp giả màu cho nút */
+.products .variant label[for="cogrey"]::before{
+    background-color: #576574;
+}
+.products .variant label[for="coblue"]::before{
+    background-color: #45a0ff;
+}
+.products .variant label[for="cogreen"]::before{
+    background-color: #1dd1a1;
+}
+/* khi checked */
+.single-product .variant form p input:checked +label{
+    background-color: transparent;
+    border: 2px solid var(--dark-color);
+    color: var(--white-color);
+}
+.products .sizes .variant label::before{
+    background-color: var(--white-color);
+}
+.products .sizes .variant label span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--percent100);
+    height: var(--percent100);
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-product .sizes .variant form p input:checked +label::before{
+    background-color: var(--dark-color);
+    opacity: 1;
+}
+.products .actions{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+.products .qty-control{
+    width: fit-content;
+    padding: 0.5em;
+    border: 1px solid var(--border-color);
+    margin: 0 2em 2em 0;
+}
+.products .actions :where(input,button){
+    font-size: 1.25em;
+    outline: 0;
+    border: 0;
+}
+.products .actions input {
+    width: 50px;
+    text-align: center;
+}
+.products .qty-control button::before{
+    background-color: transparent;
+}
+.products .actions .button-cart{
+    flex: 1;
+    min-width: 200px;
+}
+.products .actions .button-cart button {
+    width: var(--percent100);
+    cursor: pointer;
+}
+.wish-share a {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: var(--fw7);
+    margin: 1em 2em 1em 0;
+    transition: var(--trans-color);
+}
+
+/* collapse */
+.products .collapse .has-child > a  {
+    position: relative;
+    font-weight: var(--fw7);
+    text-transform: uppercase;
+    padding: 1em 1.25em;
+    border-top: 1px solid var(--border-color);
+    gap: 1em;
+    align-items: flex-start;
+}
+.products .collapse .has-child > a::before{
+    content: "+";
+    position: absolute;
+    left: 0;
+}
+.products .collapse .content {
+    margin: 0 0 1.5em 2em;
+    font-size: var(--font-small);
+}
+.products .collapse .content li span:first-child{
+    min-width: 100px;
+    display: inline-flex;
+    font-weight: var(--fw7);
+    text-transform: uppercase;
+}
+.products .collapse table {
+    line-height: 3em;
+}
+.products .collapse table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid var(--dark-color);
+}
+.products .collapse table :where(th,td){
+    border-bottom: 1px solid var(--border-color);
+    padding-left: 6em;
+}
+/* tạo hiệu ứng trượt từ trên xún */
+.products .collapse .content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    display: flex; 
+    flex-direction: column; 
+}
+.products .collapse .expand .content {
+    max-height: 2000px;
+    opacity: 1;
+}
+.products .collapse .expand > a::before{
+    content: "-";
+}
+/* PRODUCT REVIEW-FORM */
+.products .reviews h4 {
+    font-size: 2em;
+    color: var(--light-text-color);
+    padding-top:1em;
+    margin: 1em 0 0.5em;
+    border-top: 1px solid var(--border-color);
+}
+.products .review-block {
+    color: initial;
+}
+.products .review-block-head > a{
+    display: block;
+    font-size: 1.25em;
+    width: var(--percent100);
+    margin-top: 1em;
+    text-align: center;
+}
+
+.products .review-block-head .rate-sum {
+    position: relative;
+    font-size: 4em;
+    font-weight: var(--fw7);
+    padding-right: 0.5em;
+}
+.products .review-block-head .rate-sum::before{
+    content: "";
+    width: 2px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    transform: rotate(22deg);
+    background-color: var(--light-bg-color);
+}
+.products .review-block-body .item{
+    gap: 1em;
+    padding-bottom: 2.5em;
+    margin-top: 3.5em;
+}
+.products .review-block-body :where(.person ,.review-title){
+    font-weight: var(--fw7);
+    text-transform: uppercase;
+
+}
+.products .review-block-body :where(.review-title ,.view-all){
+    font-size: 1.25em;
+    justify-content: end;
+
+}
+/* lấy item trừ thằng cuối */
+.products .review-block-body .item:not(:last-child){
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Product review form */
+.review-form .rating {
+    flex-wrap: wrap;
+}
+.review-form p {
+    font-size: 1.25em;
+    margin-right:1em ;
+}
+.review-form .rate-this input {
+    display: none;
+}
+.review-form .rate-this label {
+    float: right;
+    font-size: 2em;
+    color: var(--secondary-dark-color);
+}
+/* checked star form */
+.rate-this > input:checked ~label,
+.rate-this:not(:checked) >label:hover,
+.rate-this:not(:checked) >label:hover ~ label {
+    color: #f1c40e;
+}
+.rate-this > input:checked + label:hover,
+.rate-this > input:checked ~ label:hover,
+.rate-this > label:hover ~ input:checked ~ label,
+.rate-this > input:checked ~ label:hover ~ label {
+    color: #ffed85;
+}
+.review-form form {
+    margin-top: 2.5em;
+}
+form p {
+    display: flex;
+    flex-direction:column ;
+    margin-bottom:2em ;
+}
+form :where(input ,textarea){
+    line-height: 1;
+    padding: 1em;
+    border: 1px solid var(--border-color);
+    outline: 0;
+}
+form label {
+    font-weight: var(--fw5);
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width:481px) {
     .products.main .item {
@@ -890,6 +1169,10 @@ form.search  button:hover {
     .products.one .row {
         flex: 0 0 50%;
         width: 50%;
+    }
+    .products.one  .is_sticky , .is_sticky{
+        position: sticky;
+        top: 2em;
     }
 }
 
@@ -1095,5 +1378,8 @@ form.search  button:hover {
         opacity: 1;
         visibility: visible;
 
+    }
+    .products.one .flexwrap > .row:last-child > .item {
+        padding-left: 2em;
     }
 }

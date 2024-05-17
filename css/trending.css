@@ -283,24 +283,24 @@
 }
 
 /* màn lớn hơn 768px thì vào */
-/* @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
     .products .price .current{
         font-size: 1.25em;
     }
     .products.mini ,.banner .row ,.widgets .row{
         flex: 0 0 50%;
     }
-} */
+}
 
 /* màn lớn hơn 992px thì vào */
-/* @media screen and (min-width:992px) {
+@media screen and (min-width:992px) {
     .trending .products , .product-categories .row{
         flex: 0 0 33.3333%;
     }
     .products .big .media {
         max-height: 373px;
     }
-} */
+}
 
 
 /* @media screen and (min-width:768px) and (max-width: 991px) {
