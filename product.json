@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "url": "assets/products/shoe1.jpg",
+        "name": "Black Women's Coat Dress",
+        "discount": "32%",
+        "rating": "1234",
+        "price": {
+            "current": "$129.99",
+            "normal": "$189.98"
+        },
+        "sold": "2795",
+        "shipping": "free shipping",
+        "information": "A stylish black coat dress for women with a classic design.",
+        "description": "A stylish black coat dress for women with a classic design.",
+        "reviews": [
+            {
+                "person": "Minh Duy",
+                "date": "17/5/2024",
+                "rating": 5,
+                "title": "Awesome product!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            },
+            {
+                "person": "Thanh My",
+                "date": "10/5/2024",
+                "rating": 5,
+                "title": "Great quality!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            }
+        ],
+        "colors": ["Grey", "Blue", "Green"],
+        "sizes": ["40", "41", "42", "43"],
+        "brand": "Nike",
+        "category": "Shoes",
+        "activity": "Running",
+        "material": "Fleece",
+        "gender": "Women"
+    },
+    {
+        "id": 2,
+        "url": "assets/products/shoe1.jpg",
+        "name": "giày",
+        "discount": "32%",
+        "rating": "1234",
+        "price": {
+            "current": "$129.99",
+            "normal": "$189.98"
+        },
+        "sold": "2795",
+        "shipping": "free shipping",
+        "information": "A stylish black coat dress for women with a classic design.",
+        "description": "A stylish black coat dress for women with a classic design.",
+        "reviews": [
+            {
+                "person": "Minh Duy",
+                "date": "17/5/2024",
+                "rating": 5,
+                "title": "Awesome product!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            },
+            {
+                "person": "Thanh My",
+                "date": "10/5/2024",
+                "rating": 5,
+                "title": "Great quality!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            }
+        ],
+        "colors": ["Grey", "Blue", "Green"],
+        "sizes": ["40", "41", "42", "43"],
+        "brand": "Nike",
+        "category": "Shoes",
+        "activity": "Running",
+        "material": "Fleece",
+        "gender": "Women"
+    },
+    {
+        "id": 3,
+        "url": "assets/products/shoe1.jpg",
+        "name": "Black Women's Coat Dress",
+        "discount": "32%",
+        "rating": "1234",
+        "price": {
+            "current": "$129.99",
+            "normal": "$189.98"
+        },
+        "sold": "2795",
+        "shipping": "free shipping",
+        "information": "A stylish black coat dress for women with a classic design.",
+        "description": "A stylish black coat dress for women with a classic design.",
+        "reviews": [
+            {
+                "person": "Minh Duy",
+                "date": "17/5/2024",
+                "rating": 5,
+                "title": "Awesome product!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            },
+            {
+                "person": "Thanh My",
+                "date": "10/5/2024",
+                "rating": 5,
+                "title": "Great quality!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            }
+        ],
+        "colors": ["Grey", "Blue", "Green"],
+        "sizes": ["40", "41", "42", "43"],
+        "brand": "Nike",
+        "category": "Shoes",
+        "activity": "Running",
+        "material": "Fleece",
+        "gender": "Women"
+    },
+    {
+        "id": 4,
+        "url": "assets/products/shoe1.jpg",
+        "name": "Black Women's Coat Dress",
+        "discount": "32%",
+        "rating": "1234",
+        "price": {
+            "current": "$129.99",
+            "normal": "$189.98"
+        },
+        "sold": "2795",
+        "shipping": "free shipping",
+        "information": "A stylish black coat dress for women with a classic design.",
+        "description": "A stylish black coat dress for women with a classic design.",
+        "reviews": [
+            {
+                "person": "Minh Duy",
+                "date": "17/5/2024",
+                "rating": 5,
+                "title": "Awesome product!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            },
+            {
+                "person": "Thanh My",
+                "date": "10/5/2024",
+                "rating": 5,
+                "title": "Great quality!",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+            }
+        ],
+        "colors": ["Grey", "Blue", "Green"],
+        "sizes": ["40", "41", "42", "43"],
+        "brand": "Nike",
+        "category": "Shoes",
+        "activity": "Running",
+        "material": "Fleece",
+        "gender": "Women"
+    }
+]
