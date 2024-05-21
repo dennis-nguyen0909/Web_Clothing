@@ -9,15 +9,13 @@ fetch("product.json")
 const showDetailProduct = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const productId = urlParams.get("id");
-  console.log(
-    "products",
-    products.filter((item) => item.id === +productId)
-  );
   if (!productId) {
-    console.error("No product ID found in the URL");
     return;
   }
   const thisProduct = products.filter((item) => item.id === +productId)[0];
+  const sizes = thisProduct.sizes;
+  const colors = thisProduct.colors;
+  console.log(colors);
 
   const breadcrumb = document.querySelector(".breadcrumb");
   breadcrumb.innerHTML = `
@@ -38,23 +36,27 @@ const showDetailProduct = () => {
           <div class="big-image">
               <div class="big-image-wrapper swiper-wrapper">
                   <div class="image-show swiper-slide">
-                      <a data-fslightbox href="assets/products/shoe1.jpg">
-                          <img src="assets/products/shoe1.jpg" alt="">
+                      <a id="primary-image" data-fslightbox href=${
+                        thisProduct.url
+                      }>
+                          <img id="primary-img" src=${thisProduct.url} alt="">
                       </a>
                   </div>
                   <div class="image-show swiper-slide">
-                      <a data-fslightbox href="assets/products/shoe1-1.jpg">
-                          <img src="assets/products/shoe1-1.jpg" alt="">
+                      <a data-fslightbox href=${thisProduct.image[0]}
+                          <img id="img-one" src=${thisProduct.image[0]} alt="">
                       </a>
                   </div>
                   <div class="image-show swiper-slide">
-                      <a data-fslightbox href="assets/products/shoe1-2.jpg">
-                          <img src="assets/products/shoe1-2.jpg" alt="">
+                      <a data-fslightbox href=${thisProduct.image[1]}>
+                          <img id="img-two" src=${thisProduct.image[1]} alt="">
                       </a>
                   </div>
                   <div class="image-show swiper-slide">
-                      <a data-fslightbox href="assets/products/shoe1-3.jpg">
-                          <img src="assets/products/shoe1-3.jpg" alt="">
+                      <a data-fslightbox href=${thisProduct.image[2]}>
+                          <img id="img-three" src=${
+                            thisProduct.image[2]
+                          } alt="">
                       </a>
                   </div>
               </div>
@@ -64,19 +66,21 @@ const showDetailProduct = () => {
           <div thumbSlider="" class="small-image">
               <ul class="small-image-wrapper flexitem swiper-wrapper">
                   <li class="thumbnail-show swiper-slide">
-                      <img src="assets/products/shoe1.jpg" alt="">
+                      <img id="img-one-1" src=${thisProduct.url} alt="">
                   </li>
                   <li class="thumbnail-show swiper-slide">
-                      <img src="assets/products/shoe1-1.jpg" alt="">
+                      <img id="img-two-2" src=${thisProduct.image[0]} alt="">
                   </li>
                   
                   <li class="thumbnail-show swiper-slide">
-                      <img src="assets/products/shoe1-2.jpg" alt="">
+                      <img id="img-three-3" src=${thisProduct.image[1]} alt="">
                   </li>
                   
                   <li class="thumbnail-show swiper-slide">
-                      <img src="assets/products/shoe1-3.jpg" alt="">
-                  </li>
+                  <img id="img-four-4" src=${thisProduct.image[2]} alt="">
+                    </li>
+                    
+              
                   
               </ul>
           </div>
@@ -104,42 +108,15 @@ const showDetailProduct = () => {
               <div class="colors">
                   <p>Color</p>
                   <div class="variant">
-                      <form action="">
-                          <P>
-                              <input type="radio" name="color" id="cogrey">
-                              <label for="cogrey" class="circle"></label>
-                          </P>
-                          <P>
-                              <input type="radio" name="color" id="coblue">
-                              <label for="coblue" class="circle"></label>
-                          </P>
-                          <P>
-                              <input type="radio" name="color" id="cogreen">
-                              <label for="cogreen" class="circle"></label>
-                          </P>
+                      <form id="colorsContainer" action="">
                       </form>
                   </div>
               </div>
               <div class="sizes">
                   <p>Size</p>
                   <div class="variant">
-                      <form action="">
-                          <P>
-                              <input type="radio" name="size" id="size-40">
-                              <label for="size-40" class="circle"><span>40</span></label>
-                          </P>
-                          <P>
-                              <input type="radio" name="size" id="size-41">
-                              <label for="size-41" class="circle"><span>41</span></label>
-                          </P>
-                          <P>
-                              <input type="radio" name="size" id="size-42">
-                              <label for="size-42" class="circle"><span>42</span></label>
-                          </P>
-                          <P>
-                              <input type="radio" name="size" id="size-43">
-                              <label for="size-43" class="circle"><span>43</span></label>
-                          </P>
+                      <form class="sizes-container" id="sizesContainer" action="">
+
                       </form>
                   </div>
               </div>
@@ -212,12 +189,6 @@ const showDetailProduct = () => {
                                       </tr>
                                   </thead>
                                   <tbody>
-                                      <tr>
-                                          <td>XS</td>
-                                          <td>82,5</td>
-                                          <td>62</td>
-                                          <td>87,5</td>
-                                      </tr>
                                       <tr>
                                           <td>S</td>
                                           <td>85</td>
@@ -345,6 +316,85 @@ const showDetailProduct = () => {
   </div>
 </div>
   `;
+  const sizesContainer = document.getElementById("sizesContainer");
+  sizes.forEach((size) => {
+    // Create elements
+    const pElement = document.createElement("p");
+
+    const inputElement = document.createElement("input");
+    inputElement.type = "radio";
+    inputElement.name = "size";
+    inputElement.id = `size-${size.id}`;
+
+    const labelElement = document.createElement("label");
+    labelElement.setAttribute("for", `size-${size.id}`);
+    labelElement.className = "circle";
+
+    const spanElement = document.createElement("span");
+    spanElement.textContent = size.name;
+
+    // Append elements to the DOM
+    labelElement.appendChild(spanElement);
+    pElement.appendChild(inputElement);
+    pElement.appendChild(labelElement);
+    sizesContainer.appendChild(pElement);
+  });
+  const colorsContainer = document.getElementById("colorsContainer");
+  colors.forEach((color) => {
+    const PElement = document.createElement("P");
+    const inputElm = document.createElement("input");
+    inputElm.type = "radio";
+    inputElm.name = "color";
+    inputElm.id = `${color.color}`;
+    const labelElm = document.createElement("label");
+    labelElm.htmlFor = color.color;
+    labelElm.classList.add("circle");
+
+    PElement.appendChild(inputElm);
+    PElement.appendChild(labelElm);
+    colorsContainer.appendChild(PElement);
+    const radBtn = document.getElementById(color.color);
+    inputElm.addEventListener("click", () => {
+      if (inputElm.checked) {
+        const findColor = colors.find((item) => item.color === inputElm.id);
+        if (findColor && findColor.image) {
+          // Get the image element
+          const imagePrimary = document.getElementById("primary-img");
+          // Update the image source
+          imagePrimary.src = findColor.image[0];
+          imagePrimary.setAttribute("href", findColor.url);
+
+          const oneImg = document.getElementById("img-one");
+          oneImg.src = findColor.image[0];
+          oneImg.setAttribute("href", findColor.image[0]);
+
+          const twoImg = document.getElementById("img-two");
+          twoImg.src = findColor.image[1];
+          twoImg.setAttribute("href", findColor.image[1]);
+
+          const threeImg = document.getElementById("img-three");
+          threeImg.src = findColor.image[2];
+          threeImg.setAttribute("href", findColor.image[2]);
+
+          const oneImgChild = document.getElementById("img-one-1");
+          oneImgChild.src = findColor.image[0];
+          oneImgChild.setAttribute("href", findColor.image[0]);
+
+          const twoImgChild = document.getElementById("img-two-2");
+          twoImgChild.src = findColor.image[1];
+          twoImgChild.setAttribute("href", findColor.image[1]);
+
+          const threeImgChild = document.getElementById("img-three-3");
+          threeImgChild.src = findColor.image[2];
+          threeImgChild.setAttribute("href", findColor.image[2]);
+
+          const fourImg = document.getElementById("img-four-4");
+          fourImg.src = findColor.image[3];
+          fourImg.setAttribute("href", findColor.image[3]);
+        }
+      }
+    });
+  });
 };
 
 document.addEventListener("click", function (event) {

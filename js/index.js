@@ -73,32 +73,35 @@ $dptBtn.addEventListener("click", () => {
 });
 
 // product image swiper
-var productThumb = new Swiper(".small-image", {
-  loop: true,
-  spaceBetween: 10,
-  slidesPerView: 3,
-  freeMode: true,
-  watchSlidesProgress: true,
-  breakpoints: {
-    481: {
-      spaceBetween: 32,
+document.addEventListener("DOMContentLoaded", () => {
+  var productThumb = new Swiper(".small-image", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 3,
+    freeMode: true,
+    watchSlidesProgress: true,
+    breakpoints: {
+      481: {
+        spaceBetween: 32,
+      },
     },
-  },
+  });
+
+  var productBig = new Swiper(".big-image", {
+    loop: true,
+    autoHeight: true,
+    navigation: {
+      nextEl: ".swiper-button-next", // Đã sửa từ nexEl thành nextEl
+      prevEl: ".swiper-button-prev", // Đã sửa từ preEl thành prevEl
+    },
+    thumbs: {
+      swiper: productThumb,
+    },
+  });
 });
 
-var productBig = new Swiper(".big-image", {
-  loop: true,
-  autoHeight: true,
-  navigation: {
-    nextEl: ".swiper-button-next", // Đã sửa từ nexEl thành nextEl
-    prevEl: ".swiper-button-prev", // Đã sửa từ preEl thành prevEl
-  },
-  thumbs: {
-    swiper: productThumb,
-  },
-});
 // stock products bar width percentage
-// tạo phần trăm thanh bar 
+// tạo phần trăm thanh bar
 var stocks = document.querySelectorAll(".products .stock");
 for (let x = 0; x < stocks.length; x++) {
   let stock = stocks[x].dataset.stock,

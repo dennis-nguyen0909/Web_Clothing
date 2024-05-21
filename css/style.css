@@ -920,6 +920,25 @@ form.search  button:hover {
 .products .variant label[for="cogreen"]::before{
     background-color: #1dd1a1;
 }
+.products .variant label[for="Gray"]::before{
+    background-color: #dddddd;
+}
+.products .variant label[for="Black"]::before{
+    background-color: black;
+}
+.products .variant label[for="White"]::before{
+    background-color: #fff;
+}.products .variant label[for="Blue"]::before{
+    background-color: #45a0ff;
+}
+.products .variant label[for="Pink"]::before{
+    background-color: pink;
+}.products .variant label[for="BlueBlack"]::before{
+    background-color: #173e67;
+}.products .variant label[for="Be"]::before{
+    background-color: rgb(255, 238, 190);
+}
+
 /* khi checked */
 .single-product .variant form p input:checked +label{
     background-color: transparent;
