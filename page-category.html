@@ -193,16 +193,124 @@
                                     <div class="icon-large"><i class="ri-heart-line"></i></div>
                                     <div class="fly-item"><span class="item-number">0</span></div>
                                 </a></li>
-                                <li><a href="#" class="iscart">
-                                    <div class="icon-large">
-                                        <i class="ri-shopping-cart-line"></i>
-                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                <li  class="iscart" >
+                                    <a href="#">
+                                        <div class="icon-large">
+                                            <i class="ri-shopping-cart-line"></i>
+                                            <div class="fly-item"><span class="item-number">0</span></div>
+                                        </div>
+                                        <div class="icon-text">
+                                            <div class="mini-text">Total</div>
+                                            <div class="cart-total">$0.00</div>
+                                        </div>
+                                    </a>
+                                    <div class="mini-cart">
+                                        <div class="content">
+                                            <div class="cart-head">
+                                                5 items in cart
+                                            </div>
+                                            <div class="cart-body">
+                                                <ul class="products mini">
+                                                    <li class="item">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#" >
+                                                                <img src="assets/products/home2.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <p><a href="#">Product one</a></p>
+                                                            <span class="price">
+                                                                <span>$279.99</span>
+                                                                <span class="fly-item">
+                                                                    <span>2x</span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#" >
+                                                                <img src="assets/products/home2.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <p><a href="#">Product one</a></p>
+                                                            <span class="price">
+                                                                <span>$279.99</span>
+                                                                <span class="fly-item">
+                                                                    <span>2x</span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#" >
+                                                                <img src="assets/products/home2.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <p><a href="#">Product one</a></p>
+                                                            <span class="price">
+                                                                <span>$279.99</span>
+                                                                <span class="fly-item">
+                                                                    <span>2x</span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#" >
+                                                                <img src="assets/products/home2.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <p><a href="#">Product one</a></p>
+                                                            <span class="price">
+                                                                <span>$279.99</span>
+                                                                <span class="fly-item">
+                                                                    <span>2x</span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#" >
+                                                                <img src="assets/products/home2.jpg" alt="">
+                                                            </a>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <p><a href="#">Product one</a></p>
+                                                            <span class="price">
+                                                                <span>$279.99</span>
+                                                                <span class="fly-item">
+                                                                    <span>2x</span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="cart-footer">
+                                                <div class="subtotal">
+                                                    <p>SubTotal</p>
+                                                    <p><strong>$1,231,231</strong></p>
+                                                </div>
+                                                <div class="actions">
+                                                    <a href="/cart.html" class="primary-button">Check Out</a>
+                                                    <a href="/checkout.html" class="secondary-button">View Cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="icon-text">
-                                        <div class="mini-text">Total</div>
-                                        <div class="cart-total">$0.00</div>
-                                    </div>
-                                </a></li>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1139,8 +1247,8 @@
                                     <span>Search</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
+                            <li >
+                                <a href="#" class="cart-trigger">
                                     <i class="ri-shopping-cart-line"></i>
                                     <span>Cart</span>
                                     <div class="fly-item">
@@ -1185,6 +1293,22 @@
             const isClosest =e.target.closest(".filter");
             if(!isClosest && filter.classList.contains("show")){
                 filter.classList.remove("show")
+            }
+        })
+        // show cart-trigger-on-mobile
+        const miniCart =document.querySelector(".mini-cart");
+        const cartTrigger =document.querySelector(".cart-trigger");
+        cartTrigger.addEventListener('click',()=>{
+            setTimeout(()=>{
+                if(!miniCart.classList.contains("show")){
+                    miniCart.classList.add("show")
+                }
+            },250)
+        })
+        document.addEventListener('click',(e)=>{
+            const isClosest= e.target.closest(".mini-cart");
+            if(!isClosest && miniCart.classList.contains("show")){
+                miniCart.classList.remove("show")
             }
         })
     </script>
