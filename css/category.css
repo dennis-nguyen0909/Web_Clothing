@@ -1,0 +1,209 @@
+.filter-block {
+
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.filter-block:not(:last-child) {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.filter-block h4 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+.filter-block li {
+    display: flex;
+    font-size: 0.9em;
+    position: relative;
+    line-height: 2;
+}
+
+.filter-block label .checked {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    line-height: 0;
+    display: inline-block;
+    border: 2px solid var(--secondary-dark-color);
+    vertical-align: text-top;
+    margin: 0 7px 0 0;
+    cursor: pointer;
+}
+
+/* tạo lớp giả khi click sẽ có checked::before và hiện lên */
+.filter-block label .checked::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--secondary-dark-color);
+    top: 2px;
+    left: 2px;
+    opacity: 0;
+}
+
+/* khi input đc check thì phần tử kế tiếp sau dấu + cũng đc checks */
+.filter-block input:checked+label .checked::before {
+    opacity: 1;
+}
+
+.filter-block li .count {
+    margin-left: auto;
+    color: var(--light-text-color);
+}
+
+.bycolor label[for="cored"]::before {
+    background-color: var(--primary-color);
+}
+
+.bycolor label[for="colight"]::before {
+    background-color: var(--border-color);
+}
+
+.bycolor label[for="cored"]::before {
+    background-color: var(--primary-color);
+}
+
+.bycolor input:checked+label {
+    background-color: transparent;
+    border: 2px solid var(--dark-color);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: var(--percent100);
+}
+
+input[type="range"]:focus {
+    outline: 0;
+}
+
+/* tạo đường line */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: var(--percent100);
+    height: 5px;
+    cursor: pointer;
+    background-color: var(--border-color);
+    box-shadow: none;
+    border: 0;
+}
+
+/* css thanh kéo */
+input[type="range"]::-webkit-slider-thumb {
+    z-index: 2;
+    position: relative;
+    height: 18px;
+    width: 14px;
+    background-color: var(--primary-color);
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+
+.byprice .price-range {
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-text-color);
+    margin-top: 0.5em;
+}
+
+.single-category .holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-category .sidebar,
+.single-category .section {
+    flex: 1 0 100%;
+}
+
+.page-title {
+    margin-bottom: 3em;
+}
+
+.cat-description p {
+    font-weight: var(--fw3);
+    font-size: 0.9em;
+}
+
+.cat-navigation {
+    font-size: 0.85em;
+    margin: 2em 0;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.cat-navigation .item-filter {
+    margin-right: auto;
+}
+
+.cat-navigation>div {
+    position: relative;
+}
+
+.cat-navigation .item-filter a {
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.cat-navigation ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    min-width: var(--percent100);
+    width: max-content;
+    z-index: 10;
+}
+
+.cat-navigation .label,
+.cat-navigation ul li {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+
+    transition: var(--trans-color);
+}
+
+:where(.item-sortir, .item-options) .label,
+.cat-navigation ul {
+    color: var(--light-text-color);
+    background-color: var(--light-bg-color);
+    cursor: pointer;
+}
+
+.cat-navigation :where(label, ul li):hover {
+    color: var(--dark-color);
+}
+
+/* khi hover filter hiện menu */
+:where(.item-sortir, .item-options):hover ul {
+    display: block;
+}
+
+.load-more {
+    margin: 2em 0 4em;
+}
+
+/* menu trượt ngang và ẩn đi */
+.filter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 2em;
+    max-width: 400px;
+    width: 90%;
+    background-color: var(--white-color);
+    overflow: auto;
+    z-index: 1000;
+    box-shadow: rgb(0 0 0 / 30%) 0 10px 50px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.filter.show {
+    visibility: visible;
+    opacity: 1;
+}
