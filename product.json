@@ -1,8 +1,8 @@
 [
     {
-        "id":1,
-        "name":"trending",
-        "data":[
+        "id": 1,
+        "name": "trending",
+        "data": [
             {
                 "id": 1,
                 "url": "assets/aoMLBXANH1/aoMLBXANH1.webp",
@@ -17,7 +17,11 @@
                 "shipping": "free shipping",
                 "information": "A stylish black coat dress for women with a classic design.",
                 "description": "A stylish black coat dress for women with a classic design.",
-                "image":["assets/aoMLBXANH1/aoMatTruoc.webp","assets/aoMLBXANH1/aoMatSau.webp","assets/aoMLBXANH1/matGan.jpeg"],
+                "image": [
+                    "assets/aoMLBXANH1/aoMatTruoc.webp",
+                    "assets/aoMLBXANH1/aoMatSau.webp",
+                    "assets/aoMLBXANH1/matGan.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -36,41 +40,61 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"Black",
-                        "image":["assets/aoMLBXANH1/aoden.webp","assets/aoMLBXANH1/denmattruoc.webp","assets/aoMLBXANH1/denmatsau.webp","assets/aoMLBXANH1/denmatgan.jpeg"]
-                    },  {
-                        "id":"2",
-                        "color":"Blue",
-                        "image":["assets/aoMLBXANH1/aoMLBXANH1.webp","assets/aoMLBXANH1/aoMatTruoc.webp","assets/aoMLBXANH1/aoMatSau.webp","assets/aoMLBXANH1/matGan.jpeg"]
-                    },  {
-                        "id":"3",
-                        "color":"White",
-                        "image":["assets/aoMLBXANH1/aotrang.webp","assets/aoMLBXANH1/trangmattruoc.webp","assets/aoMLBXANH1/trangmatsau.webp","assets/aoMLBXANH1/trangmatgan.webp"]
-                    }],
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/aoMLBXANH1/aoden.webp",
+                            "assets/aoMLBXANH1/denmattruoc.webp",
+                            "assets/aoMLBXANH1/denmatsau.webp",
+                            "assets/aoMLBXANH1/denmatgan.jpeg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Blue",
+                        "image": [
+                            "assets/aoMLBXANH1/aoMLBXANH1.webp",
+                            "assets/aoMLBXANH1/aoMatTruoc.webp",
+                            "assets/aoMLBXANH1/aoMatSau.webp",
+                            "assets/aoMLBXANH1/matGan.jpeg"
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "color": "White",
+                        "image": [
+                            "assets/aoMLBXANH1/aotrang.webp",
+                            "assets/aoMLBXANH1/trangmattruoc.webp",
+                            "assets/aoMLBXANH1/trangmatsau.webp",
+                            "assets/aoMLBXANH1/trangmatgan.webp"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
-                "brand": "Nike",
-                "category": "Shoes",
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Women"
+                "gender": [
+                    "Women"
+                ]
             },
             {
                 "id": 2,
@@ -86,7 +110,12 @@
                 "shipping": "free shipping",
                 "information": "Họa tiết in cùng phông chữ được cách điệu đáng yêu, trẻ trung là điểm nhấn nổi bật cho chiếc áo thun Varsity New York Yankees, sẵn sàng trở thành trợ thủ đắc lực cho các MLB-crew dẫn đầu xu hướng. Chính vì thế, không cần tô điểm cầu kỳ, chỉ cần mix-match đơn giản cùng chiếc chân váy denim thêm chút phụ kiện túi và nón bucket là đủ để bạn tự tin tỏa sáng trong mọi hoàn cảnh.",
                 "description": "Thích hợp mặc trong các dịp: Đi chơi, đi ăn....",
-                "image":["assets/sanpham2/1.webp","assets/sanpham2/2.webp","assets/sanpham2/3.webp","assets/sanpham2/4.jpeg"],
+                "image": [
+                    "assets/sanpham2/1.webp",
+                    "assets/sanpham2/2.webp",
+                    "assets/sanpham2/3.webp",
+                    "assets/sanpham2/4.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Gia Huy",
@@ -105,37 +134,56 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"Gray",
-                        "image":["assets/sanpham2/1.webp","assets/sanpham2/2.webp","assets/sanpham2/3.webp","assets/sanpham2/4.jpeg"]
-                    },  {
-                        "id":"2",
-                        "color":"Pink",
-                        "image":["assets/sanpham2/1_1.webp","assets/sanpham2/1_2.webp","assets/sanpham2/1_3.jpeg","assets/sanpham2/1_4.jpeg"]
-                    }],
+                        "id": "1",
+                        "color": "Gray",
+                        "image": [
+                            "assets/sanpham2/1.webp",
+                            "assets/sanpham2/2.webp",
+                            "assets/sanpham2/3.webp",
+                            "assets/sanpham2/4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Pink",
+                        "image": [
+                            "assets/sanpham2/1_1.webp",
+                            "assets/sanpham2/1_2.webp",
+                            "assets/sanpham2/1_3.jpeg",
+                            "assets/sanpham2/1_4.jpeg"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
-                "brand": " MLB ",
-                "category": "Áo thun",
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Women || Man"
+                "gender": [
+                    [
+                        "Men"
+                    ],
+                    [
+                        "Women"
+                    ]
+                ]
             },
             {
                 "id": 3,
@@ -151,7 +199,12 @@
                 "shipping": "free shipping",
                 "information": "Mang tinh thần năng động đậm chất MLB với chiếc áo thun Varsity Cursive Graphic Overfit. Có thiết kế basic kết hợp cùng họa tiết in ấn tượng ở trước áo, item này không chỉ đem lại cho bạn cảm giác thoải mái từ chất liệu vải mềm mại, mà còn hứa hẹn sẽ giúp bạn nâng tầm phong cách một cách dễ dàng.",
                 "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm ",
-                "image":["assets/sanpham3/1.webp","assets/sanpham3/2.webp","assets/sanpham3/3.jpeg","assets/sanpham3/4.jpeg"],
+                "image": [
+                    "assets/sanpham3/1.webp",
+                    "assets/sanpham3/2.webp",
+                    "assets/sanpham3/3.jpeg",
+                    "assets/sanpham3/4.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -170,41 +223,61 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"BlueBlack",
-                        "image":["assets/sanpham3/1.webp","assets/sanpham3/2.webp","assets/sanpham3/3.jpeg","assets/sanpham3/4.jpeg"]
-                    },  {
-                        "id":"2",
-                        "color":"Pink",
-                        "image":["assets/sanpham3/1_1.webp","assets/sanpham3/1_2.webp","assets/sanpham3/1_3.jpeg","assets/sanpham3/1_4.webp"]
-                    },  {
-                        "id":"3",
-                        "color":"White",
-                        "image":["assets/sanpham3/2_1.webp","assets/sanpham3/2_2.webp","assets/sanpham3/2_3.webp","assets/sanpham3/2_4.webp"]
-                    }],
+                        "id": "1",
+                        "color": "BlueBlack",
+                        "image": [
+                            "assets/sanpham3/1.webp",
+                            "assets/sanpham3/2.webp",
+                            "assets/sanpham3/3.jpeg",
+                            "assets/sanpham3/4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Pink",
+                        "image": [
+                            "assets/sanpham3/1_1.webp",
+                            "assets/sanpham3/1_2.webp",
+                            "assets/sanpham3/1_3.jpeg",
+                            "assets/sanpham3/1_4.webp"
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "color": "White",
+                        "image": [
+                            "assets/sanpham3/2_1.webp",
+                            "assets/sanpham3/2_2.webp",
+                            "assets/sanpham3/2_3.webp",
+                            "assets/sanpham3/2_4.webp"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
-                "brand": "Nike",
-                "category": "Shoes",
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Women"
+                "gender": [
+                    "Women"
+                ]
             },
             {
                 "id": 4,
@@ -220,7 +293,12 @@
                 "shipping": "free shipping",
                 "information": "Tự tin tỏa sáng cùng chiếc áo thun Classic Monogram Big Lux với họa tiết monogram cực kì đơn giản. Chiếc item này dành cho những ngày bạn không biết mặc gì nhưng vẫn đảm bảo được phong cách thời trang cá nhân, cũng như làm đa dạng sự lựa chọn cho tủ đồ của bạn.",
                 "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image":["assets/sanpham4/1.webp","assets/sanpham4/2.webp","assets/sanpham4/3.webp","assets/sanpham4/4.webp"],
+                "image": [
+                    "assets/sanpham4/1.webp",
+                    "assets/sanpham4/2.webp",
+                    "assets/sanpham4/3.webp",
+                    "assets/sanpham4/4.webp"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -239,37 +317,51 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"Black",
-                        "image":["assets/sanpham4/1.webp","assets/sanpham4/2.webp","assets/sanpham4/3.webp","assets/sanpham4/4.webp"]
-                    },  {
-                        "id":"2",
-                        "color":"Be",
-                        "image":["assets/sanpham4/1_1.webp","assets/sanpham4/1_2.webp","assets/sanpham4/1_3.webp","assets/sanpham4/1_4.jpeg"]
-                    }],
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/sanpham4/1.webp",
+                            "assets/sanpham4/2.webp",
+                            "assets/sanpham4/3.webp",
+                            "assets/sanpham4/4.webp"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Be",
+                        "image": [
+                            "assets/sanpham4/1_1.webp",
+                            "assets/sanpham4/1_2.webp",
+                            "assets/sanpham4/1_3.webp",
+                            "assets/sanpham4/1_4.jpeg"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
-                "brand": "Nike",
-                "category": "Shoes",
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Women"
+                "gender": [
+                    "Women"
+                ]
             },
             {
                 "id": 5,
@@ -285,7 +377,12 @@
                 "shipping": "free shipping",
                 "information": "Tự tin tỏa sáng cùng chiếc áo thun Classic Monogram Big Lux với họa tiết monogram cực kì đơn giản. Chiếc item này dành cho những ngày bạn không biết mặc gì nhưng vẫn đảm bảo được phong cách thời trang cá nhân, cũng như làm đa dạng sự lựa chọn cho tủ đồ của bạn.",
                 "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image":["assets/NikeMen2/1.jpeg","assets/NikeMen2/2.jpeg","assets/NikeMen2/3.jpeg","assets/NikeMen2/4.jpeg"],
+                "image": [
+                    "assets/NikeMen2/1.jpeg",
+                    "assets/NikeMen2/2.jpeg",
+                    "assets/NikeMen2/3.jpeg",
+                    "assets/NikeMen2/4.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -304,37 +401,51 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"GreenNhat",
-                        "image":["assets/NikeMen2/1.jpeg","assets/NikeMen2/2.jpeg","assets/NikeMen2/3.jpeg","assets/NikeMen2/4.jpeg"]
-                    },  {
-                        "id":"2",
-                        "color":"Black",
-                        "image":["assets/NikeMen2/1_1.png","assets/NikeMen2/1_2.jpeg","assets/NikeMen2/1_3.jpeg","assets/NikeMen2/1_4.png"]
-                    }],
+                        "id": "1",
+                        "color": "GreenNhat",
+                        "image": [
+                            "assets/NikeMen2/1.jpeg",
+                            "assets/NikeMen2/2.jpeg",
+                            "assets/NikeMen2/3.jpeg",
+                            "assets/NikeMen2/4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Black",
+                        "image": [
+                            "assets/NikeMen2/1_1.png",
+                            "assets/NikeMen2/1_2.jpeg",
+                            "assets/NikeMen2/1_3.jpeg",
+                            "assets/NikeMen2/1_4.png"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
-                    "brand": "Nike",
-                    "category": "T-Shirt",
-                    "activity": "Running",
-                    "material": "Fleece",
-                    "gender": "Men"
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Shirt",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
             },
             {
                 "id": 6,
@@ -350,7 +461,12 @@
                 "shipping": "free shipping",
                 "information": "Throwback hoops style meets soft-cotton comfort in this roomy tee. Dropped shoulders and a loose fit through the body give our Max90 tee a relaxed and casual look, while soft, midweight cotton fabric has you feeling like an all-star.",
                 "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image":["assets/NikeMen/1.jpeg","assets/NikeMen/2.jpeg","assets/NikeMen/3.jpeg","assets/NikeMen/4.jpeg"],
+                "image": [
+                    "assets/NikeMen/1.jpeg",
+                    "assets/NikeMen/2.jpeg",
+                    "assets/NikeMen/3.jpeg",
+                    "assets/NikeMen/4.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -369,37 +485,51 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"White",
-                        "image":["assets/NikeMen/1.jpeg","assets/NikeMen/2.jpeg","assets/NikeMen/3.jpeg","assets/NikeMen/4.jpeg"]
-                    },  {
-                        "id":"2",
-                        "color":"Black",
-                        "image":["assets/NikeMen/1.png","assets/NikeMen/2.png","assets/NikeMen/1_3.jpeg","assets/NikeMen/1_4.jpeg"]
-                    }],
+                        "id": "1",
+                        "color": "White",
+                        "image": [
+                            "assets/NikeMen/1.jpeg",
+                            "assets/NikeMen/2.jpeg",
+                            "assets/NikeMen/3.jpeg",
+                            "assets/NikeMen/4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Black",
+                        "image": [
+                            "assets/NikeMen/1.png",
+                            "assets/NikeMen/2.png",
+                            "assets/NikeMen/1_3.jpeg",
+                            "assets/NikeMen/1_4.jpeg"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
                 "brand": "Nike",
-                "category": "T-Shirt",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Men"
+                "gender": [
+                    "Men"
+                ]
             },
             {
                 "id": 7,
@@ -415,7 +545,12 @@
                 "shipping": "free shipping",
                 "information": "Throwback hoops style meets soft-cotton comfort in this roomy tee. Dropped shoulders and a loose fit through the body give our Max90 tee a relaxed and casual look, while soft, midweight cotton fabric has you feeling like an all-star.",
                 "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image":["assets/Nike/Jacket/1.png","assets/Nike/Jacket/2.png","assets/Nike/Jacket/3.png","assets/Nike/Jacket/4.png"],
+                "image": [
+                    "assets/Nike/Jacket/1.png",
+                    "assets/Nike/Jacket/2.png",
+                    "assets/Nike/Jacket/3.png",
+                    "assets/Nike/Jacket/4.png"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -434,33 +569,41 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"Black",
-                        "image":["assets/Nike/Jacket/1.png","assets/Nike/Jacket/2.png","assets/Nike/Jacket/3.png","assets/Nike/Jacket/4.png"]
-                    }],
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Jacket/1.png",
+                            "assets/Nike/Jacket/2.png",
+                            "assets/Nike/Jacket/3.png",
+                            "assets/Nike/Jacket/4.png"
+                        ]
+                    }
+                ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
                 "brand": "Nike",
-                "category": "T-Shirt",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Men"
+                "gender": [
+                    "Men"
+                ]
             },
             {
                 "id": 8,
@@ -476,7 +619,12 @@
                 "shipping": "free shipping",
                 "information": "Throwback hoops style meets soft-cotton comfort in this roomy tee. Dropped shoulders and a loose fit through the body give our Max90 tee a relaxed and casual look, while soft, midweight cotton fabric has you feeling like an all-star.",
                 "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image":["assets/Nike/Hoodie/1.jpeg","assets/Nike/Hoodie/2.jpeg","assets/Nike/Hoodie/3.png","assets/Nike/Hoodie/4.jpeg"],
+                "image": [
+                    "assets/Nike/Hoodie/1.jpeg",
+                    "assets/Nike/Hoodie/2.jpeg",
+                    "assets/Nike/Hoodie/3.png",
+                    "assets/Nike/Hoodie/4.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -495,51 +643,68 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"Gray",
-                        "image":["assets/Nike/Hoodie/1.jpeg","assets/Nike/Hoodie/2.jpeg","assets/Nike/Hoodie/3.png","assets/Nike/Hoodie/4.jpeg"]
+                        "id": "1",
+                        "color": "Gray",
+                        "image": [
+                            "assets/Nike/Hoodie/1.jpeg",
+                            "assets/Nike/Hoodie/2.jpeg",
+                            "assets/Nike/Hoodie/3.png",
+                            "assets/Nike/Hoodie/4.jpeg"
+                        ]
                     },
                     {
-                        "id":"2",
-                        "color":"Pupple",
-                        "image":["assets/Nike/Hoodie/1_1.png","assets/Nike/Hoodie/1_2.jpeg","assets/Nike/Hoodie/1_3.jpeg","assets/Nike/Hoodie/1_4.jpeg"]
+                        "id": "2",
+                        "color": "Pupple",
+                        "image": [
+                            "assets/Nike/Hoodie/1_1.png",
+                            "assets/Nike/Hoodie/1_2.jpeg",
+                            "assets/Nike/Hoodie/1_3.jpeg",
+                            "assets/Nike/Hoodie/1_4.jpeg"
+                        ]
                     },
                     {
-                        "id":"3",
-                        "color":"Black",
-                        "image":["assets/Nike/Hoodie/2_1.png","assets/Nike/Hoodie/2_2.png","assets/Nike/Hoodie/2_3.jpeg","assets/Nike/Hoodie/2_4.jpeg"]
+                        "id": "3",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Hoodie/2_1.png",
+                            "assets/Nike/Hoodie/2_2.png",
+                            "assets/Nike/Hoodie/2_3.jpeg",
+                            "assets/Nike/Hoodie/2_4.jpeg"
+                        ]
                     }
                 ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
                 "brand": "Nike",
-                "category": "T-Shirt",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Men"
+                "gender": [
+                    "Men"
+                ]
             }
         ]
     },
     {
-        "id":2,
-        "name":"feature",
-        "data":[
+        "id": 2,
+        "name": "feature",
+        "data": [
             {
                 "id": 1,
                 "url": "assets/Zara/shirt/1_1.jpeg",
@@ -554,7 +719,12 @@
                 "shipping": "free shipping",
                 "information": "Áo sơ mi vải pha sợi cotton, dáng regular fit. Cổ ve lật, cộc tay. Có một túi đáp trước ngực. Toàn thân chần chỉ nổi khác màu. Cài phía trước bằng hàng khuy cài.",
                 "description": "Chúng tôi đang triển khai các chương trình giám sát nhằm đảm bảo sự tuân thủ các tiêu chuẩn của chúng tôi về xã hội, môi trường, cũng như về độ an toàn và ",
-                "image":["assets/Zara/shirt/1_1.jpeg","assets/Zara/shirt/1_2.jpeg","assets/Zara/shirt/1_3.jpeg","assets/Zara/shirt/1_4.jpeg"],
+                "image": [
+                    "assets/Zara/shirt/1_1.jpeg",
+                    "assets/Zara/shirt/1_2.jpeg",
+                    "assets/Zara/shirt/1_3.jpeg",
+                    "assets/Zara/shirt/1_4.jpeg"
+                ],
                 "reviews": [
                     {
                         "person": "Minh Duy",
@@ -573,34 +743,1294 @@
                 ],
                 "colors": [
                     {
-                        "id":"1",
-                        "color":"Blue",
-                        "image":["assets/Zara/shirt/1_1.jpeg","assets/Zara/shirt/1_2.jpeg","assets/Zara/shirt/1_3.jpeg","assets/Zara/shirt/1_4.jpeg"]
+                        "id": "1",
+                        "color": "Blue",
+                        "image": [
+                            "assets/Zara/shirt/1_1.jpeg",
+                            "assets/Zara/shirt/1_2.jpeg",
+                            "assets/Zara/shirt/1_3.jpeg",
+                            "assets/Zara/shirt/1_4.jpeg"
+                        ]
                     }
                 ],
                 "sizes": [
-                        {
-                            "id":1,
-                            "name":"S"
-                        },
-                        {
-                            "id":2,
-                            "name":"M"
-                        },
-                        {
-                            "id":3,
-                            "name":"L"
-                        },
-                        {
-                            "id":4,
-                            "name":"XL"
-                        }
-                    ],
-                "brand": "Nike",
-                "category": "T-Shirt",
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Shirt",
                 "activity": "Running",
                 "material": "Fleece",
-                "gender": "Men"
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 2,
+                "url": "assets/Zara/shirt/3_1.jpg",
+                "name": "ÁO SƠ MI THÊU HỌA TIẾT",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.799.000đ",
+                    "normal": "2.000.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Áo sơ mi vải pha sợi cotton, dáng relaxed fit. Cổ ve nhọn khoét chữ K, cộc tay. Cài phía trước bằng hàng khuy cài.",
+                "description": "NGUỒN GỐC Chúng tôi phối hợp với các nhà cung cấp, người lao động, công đoàn và các tổ chức quốc tế nhằm phát triển một chuỗi cung ứng mà trong đó quyền con người được tôn trọng và thúc đẩy, góp phần thực hiện các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.Bằng việc hợp tác với các nhà cung cấp, chúng tôi nỗ lực tìm hiểu các cơ sở và quy trình mà họ sử dụng để sản xuất các sản phẩm may mặc của chúng tôi với mục đích truy xuất nguồn gốc của các sản phẩm.Sản xuất tại Thổ Nhĩ Kỳ",
+                "image": [
+                    "assets/Zara/shirt/3_1.jpg",
+                    "assets/Zara/shirt/3_2.jpg",
+                    "assets/Zara/shirt/3_3.jpg",
+                    "assets/Zara/shirt/3_4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/shirt/3_1.jpg",
+                            "assets/Zara/shirt/3_2.jpg",
+                            "assets/Zara/shirt/3_3.jpg",
+                            "assets/Zara/shirt/3_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Shirt",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 3,
+                "url": "assets/Zara/pant/1.jpg",
+                "name": "QUẦN VẢI COTTON - LINEN KIỂU BẠC MÀU",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.299.000đ",
+                    "normal": "2.000.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Quần vải pha sợi cotton và sợi linen, dáng regular fit. Cạp co giãn, điều chỉnh bằng dây rút. Có hai túi ở phía trước và hai túi đáp ở phía sau. Kiểu bạc màu.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Zara/pant/1.jpg",
+                    "assets/Zara/pant/2.jpg",
+                    "assets/Zara/pant/3.jpg",
+                    "assets/Zara/pant/4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Be",
+                        "image": [
+                            "assets/Zara/pant/1.jpg",
+                            "assets/Zara/pant/2.jpg",
+                            "assets/Zara/pant/3.jpg",
+                            "assets/Zara/pant/4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/pant/1_1.jpg",
+                            "assets/Zara/pant/1_2.jpg",
+                            "assets/Zara/pant/1_3.jpg",
+                            "assets/Zara/pant/1_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 4,
+                "url": "assets/Zara/pant/2_1.jpg",
+                "name": "QUẦN ÂU THEO BỘ SUIT VẢI VISCOSE - LINEN",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.999.000 VND",
+                    "normal": "2.300.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Quần vải pha sợi cotton và sợi linen, dáng regular fit. Cạp co giãn, điều chỉnh bằng dây rút. Có hai túi ở phía trước và hai túi đáp ở phía sau. Kiểu bạc màu.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Zara/pant/2_1.jpg",
+                    "assets/Zara/pant/2_2.jpg",
+                    "assets/Zara/pant/2_3.jpg",
+                    "assets/Zara/pant/2_4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Be",
+                        "image": [
+                            "assets/Zara/pant/2_1.jpg",
+                            "assets/Zara/pant/2_2.jpg",
+                            "assets/Zara/pant/2_3.jpg",
+                            "assets/Zara/pant/2_4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "BlueS",
+                        "image": [
+                            "assets/Zara/pant/3_1.jpg",
+                            "assets/Zara/pant/3_2.jpg",
+                            "assets/Zara/pant/3_3.jpg",
+                            "assets/Zara/pant/3_4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "color": "PinkS",
+                        "image": [
+                            "assets/Zara/pant/4_1.jpg",
+                            "assets/Zara/pant/4_2.jpg",
+                            "assets/Zara/pant/4_3.jpg",
+                            "assets/Zara/pant/4_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 5,
+                "url": "assets/Zara/pant/s_1.jpg",
+                "name": "QUẦN SHORT BERMUDA DÁNG CHINO VẢI DỆT",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000đ",
+                    "normal": "1.200.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Quần vải pha sợi cotton và sợi linen, dáng regular fit. Cạp co giãn, điều chỉnh bằng dây rút. Có hai túi ở phía trước và hai túi đáp ở phía sau. Kiểu bạc màu.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Zara/pant/s_1.jpg",
+                    "assets/Zara/pant/s_2.jpg",
+                    "assets/Zara/pant/s_3.jpg",
+                    "assets/Zara/pant/s_4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Be",
+                        "image": [
+                            "assets/Zara/pant/s_1.jpg",
+                            "assets/Zara/pant/s_2.jpg",
+                            "assets/Zara/pant/s_3.jpg",
+                            "assets/Zara/pant/s_4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Black",
+                        "image": [
+                            "assets/Zara/pant/ss_1.jpg",
+                            "assets/Zara/pant/ss_2.jpg",
+                            "assets/Zara/pant/ss_3.jpg",
+                            "assets/Zara/pant/ss_4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "color": "GreenS",
+                        "image": [
+                            "assets/Zara/pant/sss_1.jpg",
+                            "assets/Zara/pant/sss_2.jpg",
+                            "assets/Zara/pant/sss_3.jpg",
+                            "assets/Zara/pant/sss_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 6,
+                "url": "assets/Zara/pant/q_1.jpg",
+                "name": "QUẦN SHORT THÊU LOGO",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.599.000đ",
+                    "normal": "1.200.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Quần short bermuda vải cotton, dáng relaxed fit. Cạp co giãn, điều chỉnh bằng dây rút. Có túi hai bên và hai túi đáp phía sau. Thêu logo ở một bên ống quần.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Zara/pant/q_1.jpg",
+                    "assets/Zara/pant/q_2.jpg",
+                    "assets/Zara/pant/q_3.jpg",
+                    "assets/Zara/pant/q_4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Pupple",
+                        "image": [
+                            "assets/Zara/pant/q_1.jpg",
+                            "assets/Zara/pant/q_2.jpg",
+                            "assets/Zara/pant/q_3.jpg",
+                            "assets/Zara/pant/q_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 7,
+                "url": "assets/Zara/pant/n_1.jpg",
+                "name": "QUẦN VẢI DỆT CHÉO ỐNG SUÔNG",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.799.000đ",
+                    "normal": "1.950.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Quần cạp cao, có hai túi phía trước. Ống quần dáng suông. Cài phía trước bằng khóa kéo, khuy ẩn và móc gài.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Zara/pant/n_1.jpg",
+                    "assets/Zara/pant/n_2.jpg",
+                    "assets/Zara/pant/n_3.jpg",
+                    "assets/Zara/pant/n_4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "BlueS",
+                        "image": [
+                            "assets/Zara/pant/n_1.jpg",
+                            "assets/Zara/pant/n_2.jpg",
+                            "assets/Zara/pant/n_3.jpg",
+                            "assets/Zara/pant/n_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 8,
+                "url": "assets/Zara/pant/mayli1.jpg",
+                "name": "QUẦN MAY LI",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.299.000đ",
+                    "normal": "1.950.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Quần cạp cao, xẻ chữ V phía sau và may con đỉa. Có túi hai bên và túi may viền phía sau. Có các chi tiết xếp li phía trước. Cài phía trước bằng khóa kéo và khuy.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Zara/pant/mayli1.jpg",
+                    "assets/Zara/pant/mayli2.jpg",
+                    "assets/Zara/pant/mayli3.jpg",
+                    "assets/Zara/pant/mayli4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Brown",
+                        "image": [
+                            "assets/Zara/pant/mayli1.jpg",
+                            "assets/Zara/pant/mayli2.jpg",
+                            "assets/Zara/pant/mayli3.jpg",
+                            "assets/Zara/pant/mayli4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Be",
+                        "image": [
+                            "assets/Zara/pant/mayli_1.jpg",
+                            "assets/Zara/pant/mayli_2.jpg",
+                            "assets/Zara/pant/mayli_3.jpg",
+                            "assets/Zara/pant/mayli_4.jpg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 9,
+                "url": "assets/Nike/Men/1.png",
+                "name": "Men's Dri-FIT Woven Running Trousers",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.739.000đ",
+                    "normal": "2.090.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Dựa trên mẫu quần short chạy bộ cùng tên, Quần Challenger sẽ phù hợp hơn khi bạn cần độ che phủ tốt hơn cho quá trình tập luyện của mình. Chúng nhẹ, thoáng khí và dễ dàng mặc vào và cởi ra nhờ khóa kéo ở cổ tay áo. Nằm ở giữa lưng để tạo sự thoải mái khi chạy, túi đựng phương tiện đủ lớn cho hầu hết các điện thoại",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Men/1.png",
+                    "assets/Nike/Men/2.png",
+                    "assets/Nike/Men/3.png",
+                    "assets/Nike/Men/4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Men/1.png",
+                            "assets/Nike/Men/2.png",
+                            "assets/Nike/Men/3.png",
+                            "assets/Nike/Men/4.png"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Gray",
+                        "image": [
+                            "assets/Nike/Men/1_1.png",
+                            "assets/Nike/Men/1_2.png",
+                            "assets/Nike/Men/1_3.png",
+                            "assets/Nike/Men/1_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 10,
+                "url": "assets/Nike/Women/1.jpg",
+                "name": "Women's Open-Hem Trousers",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1.739.000đ",
+                    "normal": "2.090.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Những rung cảm cuối tuần sẽ có được một bộ đồng phục chính thức với chiếc quần ống rộng rộng rãi này. Vải terry Pháp mềm, trọng lượng vừa phải giúp chúng đủ thoáng khí để mặc quanh năm trong khi cạp quần co giãn có dây rút giúp bạn tìm được kiểu dáng vừa vặn hoàn hảo.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Women/1.jpg",
+                    "assets/Nike/Women/2.jpg",
+                    "assets/Nike/Women/3.jpg",
+                    "assets/Nike/Women/4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "GreenS",
+                        "image": [
+                            "assets/Nike/Women/1.jpg",
+                            "assets/Nike/Women/2.jpg",
+                            "assets/Nike/Women/3.jpg",
+                            "assets/Nike/Women/4.png"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Women/1_1.png",
+                            "assets/Nike/Women/1_2.png",
+                            "assets/Nike/Women/1_3.jpg",
+                            "assets/Nike/Women/1_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 11,
+                "url": "assets/Nike/Women/2_1.png",
+                "name": "Women's Dri-FIT Mid-Rise 7/8 Running Trousers",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1,839,000₫",
+                    "normal": "2,200,000₫"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Di chuyển dễ dàng với chiếc quần nhẹ, thấm mồ hôi này, mang đến sự cân bằng hoàn hảo giữa độ rộng và độ co dãn. Chân thon giúp bạn chạy thoải mái, trong khi túi cho phép bạn cất giữ những thứ cần thiết. Ngoài ra, các tấm lưới phía sau đầu gối mang đến cho bạn luồng không khí khi quãng đường của bạn nóng lên.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Women/2_1.png",
+                    "assets/Nike/Women/2_2.png",
+                    "assets/Nike/Women/2_3.jpg",
+                    "assets/Nike/Women/2_4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Be",
+                        "image": [
+                            "assets/Nike/Women/2_1.png",
+                            "assets/Nike/Women/2_2.png",
+                            "assets/Nike/Women/2_3.jpg",
+                            "assets/Nike/Women/2_4.png"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Women/3_1.png",
+                            "assets/Nike/Women/3_2.png",
+                            "assets/Nike/Women/3_3.jpg",
+                            "assets/Nike/Women/3_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 12,
+                "url": "assets/Nike/Men/short_1.png",
+                "name": "Men's Dri-FIT 13cm (approx.) Unlined Versatile Shorts",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "815,199₫",
+                    "normal": "1,019,000₫"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Được thiết kế để chạy bộ, tập luyện và tập yoga, quần short Form đa năng được thiết kế để đáp ứng những ngày bạn cần thay đổi thói quen tập thể dục của mình. Với đường may bên trong 13cm (xấp xỉ) và chất liệu vải mịn, thấm mồ hôi, những chiếc quần short này được thiết kế để theo kịp các chuyển động của bạn—từ các bài PR deadlift cho đến các lớp yoga nóng.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Men/short1.png",
+                    "assets/Nike/Men/short2.png",
+                    "assets/Nike/Men/short3.png",
+                    "assets/Nike/Men/short4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Men/short1.png",
+                            "assets/Nike/Men/short2.png",
+                            "assets/Nike/Men/short3.png",
+                            "assets/Nike/Men/short4.png"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "GreenS",
+                        "image": [
+                            "assets/Nike/Men/short_1.png",
+                            "assets/Nike/Men/short_2.png",
+                            "assets/Nike/Men/short_3.png",
+                            "assets/Nike/Men/short_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 13,
+                "url": "assets/Nike/Men/k1_1.jpg",
+                "name": "Men's French Terry Shorts",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "815,199₫",
+                    "normal": "1,019,000₫"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Với thiết kế rộng rãi vừa vặn trên mặt ngồi và đùi, chiếc quần short lông cừu này mang đến cho bạn cảm giác quen thuộc mà bạn yêu thích, đồng thời có thêm một chút không gian để thư giãn. Dòng chữ 'Nike' sa tanh được khâu lại để tạo nên vẻ hoàn thiện lấy cảm hứng từ trường đại học. Để có vẻ ngoài thoải mái, đồng bộ, hãy kết hợp chúng với áo hoodie phù hợp và giày thể thao Nike yêu thích của bạn.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Men/k1_1.jpg",
+                    "assets/Nike/Men/k1_2.jpg",
+                    "assets/Nike/Men/k1_3.jpg",
+                    "assets/Nike/Men/k1_4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Gray",
+                        "image": [
+                            "assets/Nike/Men/k1_1.jpg",
+                            "assets/Nike/Men/k1_2.jpg",
+                            "assets/Nike/Men/k1_3.jpg",
+                            "assets/Nike/Men/k1_4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "BlueBlack",
+                        "image": [
+                            "assets/Nike/Men/k2_1.png",
+                            "assets/Nike/Men/k2_2.jpg",
+                            "assets/Nike/Men/k2_3.jpg",
+                            "assets/Nike/Men/k2_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Pant",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 14,
+                "url": "assets/Nike/Men_Women/1.png",
+                "name": "Fleece Pullover Hoodie",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "2,499,000₫",
+                    "normal": "3,199,000₫"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "This product is made from at least 75% sustainable materials, using a blend of both recycled polyester and organic cotton fibres. The blend is at least 10% recycled fibres or at least 10% organic cotton fibres.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Men_Women/1.png",
+                    "assets/Nike/Men_Women/2.png",
+                    "assets/Nike/Men_Women/3.png",
+                    "assets/Nike/Men_Women/4.jpg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Men_Women/1.png",
+                            "assets/Nike/Men_Women/2.png",
+                            "assets/Nike/Men_Women/3.png",
+                            "assets/Nike/Men_Women/4.jpg"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "Brown",
+                        "image": [
+                            "assets/Nike/Men_Women/1_1.png",
+                            "assets/Nike/Men_Women/1_2.jpg",
+                            "assets/Nike/Men_Women/1_3.jpg",
+                            "assets/Nike/Men_Women/1_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Hoodie",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men",
+                    "Women"
+                ]
+            },
+            {
+                "id": 15,
+                "url": "assets/Nike/Men_Women/2_1.png",
+                "name": "Men's Pullover French Terry Hoodie",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "1,035,299₫",
+                    "normal": "1,535,299₫"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "This product is made from at least 75% sustainable materials, using a blend of both recycled polyester and organic cotton fibres. The blend is at least 10% recycled fibres or at least 10% organic cotton fibres.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Nike/Men_Women/2_1.png",
+                    "assets/Nike/Men_Women/2_2.png",
+                    "assets/Nike/Men_Women/2_3.jpg",
+                    "assets/Nike/Men_Women/2_4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Men_Women/2_1.png",
+                            "assets/Nike/Men_Women/2_2.png",
+                            "assets/Nike/Men_Women/2_3.jpg",
+                            "assets/Nike/Men_Women/2_4.png"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "White",
+                        "image": [
+                            "assets/Nike/Men_Women/3_1.png",
+                            "assets/Nike/Men_Women/3_2.png",
+                            "assets/Nike/Men_Women/3_3.jpg",
+                            "assets/Nike/Men_Women/3_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Nike",
+                "category": "Hoodie",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men",
+                    "Women"
+                ]
+            },
+            {
+                "id": 16,
+                "url": "assets/Uniqlo/1.avif",
+                "name": "AIRism Cotton Áo Polo Gài Nút Ngắn Tay (Open Collar)",
+                "discount": "10",
+                "rating": "12",
+                "price": {
+                    "current": "391.000đ",
+                    "normal": "890.000đ"
+                },
+                "sold": "100",
+                "shipping": "free shipping",
+                "information": "Được làm từ vải trơn thông thường có lớp lót 'AIRism' mịn màng.Chức năng Cool Touch.Thiết kế cổ mở đẹp mắt và thoáng mát.Mở hoàn toàn các nút để dễ dàng layer.Thiết kế vai rũ thoải mái.",
+                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "image": [
+                    "assets/Uniqlo/1.avif",
+                    "assets/Uniqlo/2.avif",
+                    "assets/Uniqlo/3.avif",
+                    "assets/Uniqlo/4.avif"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": "1",
+                        "color": "GreenS",
+                        "image": [
+                            "assets/Uniqlo/1.avif",
+                            "assets/Uniqlo/2.avif",
+                            "assets/Uniqlo/3.avif",
+                            "assets/Uniqlo/4.avif"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "color": "BlueBlack",
+                        "image": [
+                            "assets/Uniqlo/1_1.avif",
+                            "assets/Uniqlo/1_2.avif",
+                            "assets/Uniqlo/1_3.avif",
+                            "assets/Uniqlo/1_4.avif"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "S"
+                    },
+                    {
+                        "id": 2,
+                        "name": "M"
+                    },
+                    {
+                        "id": 3,
+                        "name": "L"
+                    },
+                    {
+                        "id": 4,
+                        "name": "XL"
+                    }
+                ],
+                "brand": "Uniqlo",
+                "category": "Shirt",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men",
+                    "Women"
+                ]
             }
         ]
     }

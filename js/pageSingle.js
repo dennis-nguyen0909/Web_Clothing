@@ -1,33 +1,40 @@
 let products = null;
 fetch("product.json")
-  .then((response) => response.json())
-  .then((data) => {
-    products = data[0].data;
-    console.log("products",data)
-    showDetailProduct();
-  });
+    .then((response) => response.json())
+    .then((data) => {
+        products = data;
+        console.log("products", data)
+        showDetailProduct();
+    });
 
 const showDetailProduct = () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const productId = urlParams.get("id");
-  if (!productId) {
-    return;
-  }
-  const thisProduct = products.filter((item) => item.id === +productId)[0];
-  const sizes = thisProduct.sizes;
-  const colors = thisProduct.colors;
-  console.log(colors);
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get("name");
+    console.log("name", name)
+    const productId = urlParams.get("id");
+    let thisProduct = products[0].data.filter((item) => item.id === +productId)[0];
+    if (!productId) {
+        return;
+    }
+    if (name === "feature") {
+        thisProduct = products[1].data.filter((item) => item.id === +productId)[0];
+        console.log("this", thisProduct)
+    }
 
-  const breadcrumb = document.querySelector(".breadcrumb");
-  breadcrumb.innerHTML = `
+    const sizes = thisProduct.sizes;
+    const colors = thisProduct.colors;
+    console.log(colors);
+
+    const breadcrumb = document.querySelector(".breadcrumb");
+    breadcrumb.innerHTML = `
         <ul class="flexitem">
         <li><a href="#">Home</a></li>
         <li><a href="#">Shoes</a></li>
         <li><a href="#">${thisProduct.name}</a></li>
         </ul>`;
 
-  const productOne = document.querySelector(".products.one");
-  productOne.innerHTML = `
+    const productOne = document.querySelector(".products.one");
+    productOne.innerHTML = `
   <div class="flexwrap">
   <div class="row">
       <div class="item is_sticky">
@@ -37,9 +44,8 @@ const showDetailProduct = () => {
           <div class="big-image">
               <div class="big-image-wrapper swiper-wrapper">
                   <div class="image-show swiper-slide">
-                      <a id="primary-image" data-fslightbox href=${
-                        thisProduct.url
-                      }>
+                      <a id="primary-image" data-fslightbox href=${thisProduct.url
+        }>
                           <img id="primary-img" src=${thisProduct.url} alt="">
                       </a>
                   </div>
@@ -55,9 +61,8 @@ const showDetailProduct = () => {
                   </div>
                   <div class="image-show swiper-slide">
                       <a data-fslightbox href=${thisProduct.image[2]}>
-                          <img id="img-three" src=${
-                            thisProduct.image[2]
-                          } alt="">
+                          <img id="img-three" src=${thisProduct.image[2]
+        } alt="">
                       </a>
                   </div>
               </div>
@@ -70,15 +75,15 @@ const showDetailProduct = () => {
                       <img id="img-one-1" src=${thisProduct.url} alt="">
                   </li>
                   <li class="thumbnail-show swiper-slide">
-                      <img id="img-two-2" src=${thisProduct.image[0]} alt="">
+                      <img id="img-two-2" src=${thisProduct.image[1]} alt="">
                   </li>
                   
                   <li class="thumbnail-show swiper-slide">
-                      <img id="img-three-3" src=${thisProduct.image[1]} alt="">
+                      <img id="img-three-3" src=${thisProduct.image[2]} alt="">
                   </li>
                   
                   <li class="thumbnail-show swiper-slide">
-                  <img id="img-four-4" src=${thisProduct.image[2]} alt="">
+                  <img id="img-four-4" src=${thisProduct.image[3]} alt="">
                     </li>
                     
               
@@ -93,9 +98,8 @@ const showDetailProduct = () => {
           <div class="content">
               <div class="rating">
                   <div class="stars"></div>
-                  <a href="#" class="mini-text">${
-                    thisProduct.reviews.length
-                  } reviews</a>
+                  <a href="#" class="mini-text">${thisProduct.reviews.length
+        } reviews</a>
                   <a href="" class="add-review mini-text">Add Your Review</a>
               </div>
               <div class="stock-sku">
@@ -221,9 +225,8 @@ const showDetailProduct = () => {
                       </li>
                       <li class="has-child ">
                           <a href="#" class="icon-small">
-                              Reviews <span class="mini-text">${
-                                thisProduct.reviews.length
-                              }-k</span>
+                              Reviews <span class="mini-text">${thisProduct.reviews.length
+        }-k</span>
                           </a>
                           <div class="content">
                               <div class="reviews">
@@ -232,22 +235,20 @@ const showDetailProduct = () => {
                                       <div class="review-block-head">
                                           <div class="flexitem">
                                               <span class="rate-sum">4.9</span>
-                                              <span>${
-                                                thisProduct.reviews.length
-                                              } Reviews</span>
+                                              <span>${thisProduct.reviews.length
+        } Reviews</span>
                                           </div>
                                           <a href="#review-form" class="secondary-button">Write Review</a>
                                       </div>
                                      <div class="review-block-body">
-                                            ${thisProduct.reviews
-                                              .map(
-                                                ({
-                                                  person,
-                                                  date,
-                                                  rating,
-                                                  title,
-                                                  text,
-                                                }) => `
+                                            ${thisProduct.reviews.map(
+            ({
+                person,
+                date,
+                rating,
+                title,
+                text,
+            }) => `
                                                 <ul>
                                                     <li class="item">
                                                     <div class="review-form">
@@ -265,9 +266,7 @@ const showDetailProduct = () => {
                                                     </div>
                                                     </li>
                                                 </ul>
-                                                `
-                                              )
-                                              .join("")}
+                                                `).join("")}
                                             <div class="second-links">
                                             <a href="#" class="view-all">View all reviews <i class="ri-arrow-right-line"></i></a>
                                             </div>
@@ -317,96 +316,97 @@ const showDetailProduct = () => {
   </div>
 </div>
   `;
-  const sizesContainer = document.getElementById("sizesContainer");
-  sizes.forEach((size) => {
-    // Create elements
-    const pElement = document.createElement("p");
+    const sizesContainer = document.getElementById("sizesContainer");
+    sizes.forEach((size) => {
+        // Create elements
+        const pElement = document.createElement("p");
 
-    const inputElement = document.createElement("input");
-    inputElement.type = "radio";
-    inputElement.name = "size";
-    inputElement.id = `size-${size.id}`;
+        const inputElement = document.createElement("input");
+        inputElement.type = "radio";
+        inputElement.name = "size";
+        inputElement.id = `size-${size.id}`;
 
-    const labelElement = document.createElement("label");
-    labelElement.setAttribute("for", `size-${size.id}`);
-    labelElement.className = "circle";
+        const labelElement = document.createElement("label");
+        labelElement.setAttribute("for", `size-${size.id}`);
+        labelElement.className = "circle";
 
-    const spanElement = document.createElement("span");
-    spanElement.textContent = size.name;
+        const spanElement = document.createElement("span");
+        spanElement.textContent = size.name;
 
-    // Append elements to the DOM
-    labelElement.appendChild(spanElement);
-    pElement.appendChild(inputElement);
-    pElement.appendChild(labelElement);
-    sizesContainer.appendChild(pElement);
-  });
-  const colorsContainer = document.getElementById("colorsContainer");
-  colors.forEach((color) => {
-    const PElement = document.createElement("P");
-    const inputElm = document.createElement("input");
-    inputElm.type = "radio";
-    inputElm.name = "color";
-    inputElm.id = `${color.color}`;
-    const labelElm = document.createElement("label");
-    labelElm.htmlFor = color.color;
-    labelElm.classList.add("circle");
-
-    PElement.appendChild(inputElm);
-    PElement.appendChild(labelElm);
-    colorsContainer.appendChild(PElement);
-    const radBtn = document.getElementById(color.color);
-    inputElm.addEventListener("click", () => {
-      if (inputElm.checked) {
-        const findColor = colors.find((item) => item.color === inputElm.id);
-        if (findColor && findColor.image) {
-          // Get the image element
-          const imagePrimary = document.getElementById("primary-img");
-          // Update the image source
-          imagePrimary.src = findColor.image[0];
-          imagePrimary.setAttribute("href", findColor.url);
-
-          const oneImg = document.getElementById("img-one");
-          oneImg.src = findColor.image[0];
-          oneImg.setAttribute("href", findColor.image[0]);
-
-          const twoImg = document.getElementById("img-two");
-          twoImg.src = findColor.image[1];
-          twoImg.setAttribute("href", findColor.image[1]);
-
-          const threeImg = document.getElementById("img-three");
-          threeImg.src = findColor.image[2];
-          threeImg.setAttribute("href", findColor.image[2]);
-
-          const oneImgChild = document.getElementById("img-one-1");
-          oneImgChild.src = findColor.image[0];
-          oneImgChild.setAttribute("href", findColor.image[0]);
-
-          const twoImgChild = document.getElementById("img-two-2");
-          twoImgChild.src = findColor.image[1];
-          twoImgChild.setAttribute("href", findColor.image[1]);
-
-          const threeImgChild = document.getElementById("img-three-3");
-          threeImgChild.src = findColor.image[2];
-          threeImgChild.setAttribute("href", findColor.image[2]);
-
-          const fourImg = document.getElementById("img-four-4");
-          fourImg.src = findColor.image[3];
-          fourImg.setAttribute("href", findColor.image[3]);
-        }
-      }
+        // Append elements to the DOM
+        labelElement.appendChild(spanElement);
+        pElement.appendChild(inputElement);
+        pElement.appendChild(labelElement);
+        sizesContainer.appendChild(pElement);
     });
-  });
+    const colorsContainer = document.getElementById("colorsContainer");
+    colors.forEach((color) => {
+        const PElement = document.createElement("P");
+        const inputElm = document.createElement("input");
+        inputElm.type = "radio";
+        inputElm.name = "color";
+        inputElm.id = `${color.color}`;
+        const labelElm = document.createElement("label");
+        labelElm.htmlFor = color.color;
+        labelElm.classList.add("circle");
+
+        PElement.appendChild(inputElm);
+        PElement.appendChild(labelElm);
+        colorsContainer.appendChild(PElement);
+        const radBtn = document.getElementById(color.color);
+        inputElm.addEventListener("click", () => {
+            if (inputElm.checked) {
+                const findColor = colors.find((item) => item.color === inputElm.id);
+                console.log("find", findColor)
+                if (findColor && findColor.image) {
+                    // Get the image element
+                    const imagePrimary = document.getElementById("primary-img");
+                    // Update the image source
+                    imagePrimary.src = findColor.image[0];
+                    imagePrimary.setAttribute("href", findColor.url);
+
+                    const oneImg = document.getElementById("img-one");
+                    oneImg.src = findColor.image[0];
+                    oneImg.setAttribute("href", findColor.image[0]);
+
+                    const twoImg = document.getElementById("img-two");
+                    twoImg.src = findColor.image[1];
+                    twoImg.setAttribute("href", findColor.image[1]);
+
+                    const threeImg = document.getElementById("img-three");
+                    threeImg.src = findColor.image[2];
+                    threeImg.setAttribute("href", findColor.image[2]);
+
+                    const oneImgChild = document.getElementById("img-one-1");
+                    oneImgChild.src = findColor.image[0];
+                    oneImgChild.setAttribute("href", findColor.image[0]);
+
+                    const twoImgChild = document.getElementById("img-two-2");
+                    twoImgChild.src = findColor.image[1];
+                    twoImgChild.setAttribute("href", findColor.image[1]);
+
+                    const threeImgChild = document.getElementById("img-three-3");
+                    threeImgChild.src = findColor.image[2];
+                    threeImgChild.setAttribute("href", findColor.image[2]);
+
+                    const fourImg = document.getElementById("img-four-4");
+                    fourImg.src = findColor.image[3];
+                    fourImg.setAttribute("href", findColor.image[3]);
+                }
+            }
+        });
+    });
 };
 
 document.addEventListener("click", function (event) {
-  if (event.target.closest(".has-child .icon-small")) {
-    event.preventDefault();
-    const $subMenu = document.querySelectorAll(".has-child .icon-small");
-    $subMenu.forEach((item) => {
-      if (item !== event.target) {
-        item.closest(".has-child").classList.remove("expand");
-      }
-    });
-    event.target.closest(".has-child").classList.toggle("expand");
-  }
+    if (event.target.closest(".has-child .icon-small")) {
+        event.preventDefault();
+        const $subMenu = document.querySelectorAll(".has-child .icon-small");
+        $subMenu.forEach((item) => {
+            if (item !== event.target) {
+                item.closest(".has-child").classList.remove("expand");
+            }
+        });
+        event.target.closest(".has-child").classList.toggle("expand");
+    }
 });

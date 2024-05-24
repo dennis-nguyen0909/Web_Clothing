@@ -1083,8 +1083,25 @@ form.search button:hover {
 }
 
 .products .variant label[for="Be"]::before {
-    background-color: rgb(255, 238, 190);
+    background-color: rgb(207, 197, 185);
 }
+
+.products .variant label[for="GreenS"]::before {
+    background-color: rgb(109, 116, 100);
+}
+
+.products .variant label[for="BlueS"]::before {
+    background-color: rgb(197, 215, 227);
+}
+
+.products .variant label[for="PinkS"]::before {
+    background-color: rgb(230, 210, 211);
+}
+
+.products .variant label[for="Brown"]::before {
+    background-color: rgb(133, 123, 110);
+}
+
 
 /* khi checked */
 .single-product .variant form p input:checked+label {
@@ -1600,19 +1617,19 @@ form label {
         display: block;
     } */
     .dpt-menu .beauty ul {
-        background-image: url('../assets/images/products/nike.png');
+        background-image: url('../../Web_Clothing/assets/Zara/pant/3_2.jpg');
     }
 
     .dpt-menu .electronic ul {
-        background-image: url('../assets/images/products/nike.png');
+        background-image: url('../../Web_Clothing/assets/Zara/pant/2_2.jpg');
     }
 
     .dpt-menu .fashion ul {
-        background-image: url('../assets/images/products/nike.png');
+        background-image: url('../../Web_Clothing/assets/Zara/pant/4_2.jpg');
     }
 
     .dpt-menu .homekit .mega {
-        background-image: url('../assets/images/products/nike.png');
+        background-image: url('../../Web_Clothing/assets/Zara/shirt/1_4.jpeg');
     }
 
     .dpt-menu .has-child> :where(ul, .mega)::before {
