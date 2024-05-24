@@ -2,7 +2,8 @@ let products = null;
 fetch("product.json")
   .then((response) => response.json())
   .then((data) => {
-    products = data;
+    products = data[0].data;
+    console.log("products",data)
     showDetailProduct();
   });
 
