@@ -1621,15 +1621,15 @@ form label {
     }
 
     .dpt-menu .electronic ul {
-        background-image: url('../../Web_Clothing/assets/Zara/pant/2_2.jpg');
+        background-image: url('../assets/Zara/pant/2_2.jpg');
     }
 
     .dpt-menu .fashion ul {
-        background-image: url('../../Web_Clothing/assets/Zara/pant/4_2.jpg');
+        background-image: url('../assets/Zara/pant/4_2.jpg');
     }
 
     .dpt-menu .homekit .mega {
-        background-image: url('../../Web_Clothing/assets/Zara/shirt/1_4.jpeg');
+        background-image: url('../assets/Zara/shirt/1_4.jpeg');
     }
 
     .dpt-menu .has-child> :where(ul, .mega)::before {
