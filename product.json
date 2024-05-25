@@ -229,6 +229,631 @@
                     "Women",
                     "Men"
                 ]
+            },
+            {
+                "id": 3,
+                "url": "assets/MLB/1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Chunky Runner Race",
+                "discount": "20",
+                "rating": "1234",
+                "price": {
+                    "current": "3,239,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Khám phá sự kết hợp hoàn hảo giữa nét hiện đại và phong cách hoài cổ của thập niên 90 qua đôi giày sneakers Chunky Runner Race. Nổi bật với thiết kế đế chunky đặc trưng được điểm tô bởi những đường nét màu bạc trẻ trung, phá cách, đôi giày không những giúp bạn dễ dàng kết hợp với nhiều trang phục khác nhau mà còn tạo nên những bản phối độc đáo, ấn tượng, chắc chắn sẽ là lựa chọn lý tưởng cho những ai đam mê sự hoài cổ nhưng vẫn muốn toát lên vẻ ngoài thời thượng, hiện đại.",
+                "description": "Logo: Chi tiết logo bóng chày in nổi bật ở má ngoài",
+                "image": [
+                    "assets/MLB/1.webp",
+                    "assets/MLB/2.webp",
+                    "assets/MLB/3.webp",
+                    "assets/MLB/4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Gray",
+                        "image": [
+                            "assets/MLB/1.webp",
+                            "assets/MLB/2.webp",
+                            "assets/MLB/3.webp",
+                            "assets/MLB/4.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Shoes",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women",
+                    "Men"
+                ]
+            },
+            {
+                "id": 4,
+                "url": "assets/MLB/1_1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Chunky Liner Mid Classic Monogram",
+                "discount": "20",
+                "rating": "1234",
+                "price": {
+                    "current": "4,390,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Khoác lên mình thiết kế cổ thấp năng động kết hợp với đế chunky hiện đại trên nền chất liệu da tổng hợp cao cấp mang đến sự êm ái, thoải mái cho từng bước chân, đôi giày sneakers Chunky Liner Mid Classic Monogram hứa hẹn sẽ mang đến cho bạn sự trẻ trung và thời thượng, góp phần khẳng định đẳng cấp thời trang đường phố của bạn. ",
+                "description": "Kiểu dáng giày sneakers đế chunky cá tính.Phom ôm chân, dễ dàng di chuyển.Cộng hưởng cùng họa tiết monogram thời thượng.Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
+                "image": [
+                    "assets/MLB/1_1.webp",
+                    "assets/MLB/1_2.webp",
+                    "assets/MLB/1_3.webp",
+                    "assets/MLB/1_4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Pink",
+                        "image": [
+                            "assets/MLB/1_1.webp",
+                            "assets/MLB/1_2.webp",
+                            "assets/MLB/1_3.webp",
+                            "assets/MLB/1_4.webp"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "BlueBlack",
+                        "image": [
+                            "assets/MLB/2_1.webp",
+                            "assets/MLB/2_2.webp",
+                            "assets/MLB/2_3.webp",
+                            "assets/MLB/2_4.webp"
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "color": "Gray",
+                        "image": [
+                            "assets/MLB/3_1.webp",
+                            "assets/MLB/3_2.webp",
+                            "assets/MLB/3_3.webp",
+                            "assets/MLB/3_4.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Shoes",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women",
+                    "Men"
+                ]
+            },
+            {
+                "id": 5,
+                "url": "assets/Adidas/1.avif",
+                "name": "SAMBA OG SHOES",
+                "discount": "20",
+                "rating": "1234",
+                "price": {
+                    "current": "3,600,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "This product is excluded from all promotional discounts and offers.",
+                "description": "Born on the pitch, the Samba is a timeless icon of street style. This silhouette stays true to its legacy with a tasteful, low-profile, soft leather upper, suede overlays and gum sole, making it a staple in everyone's closet - on and off the pitch.",
+                "image": [
+                    "assets/Adidas/1.avif",
+                    "assets/Adidas/2.avif",
+                    "assets/Adidas/3.avif",
+                    "assets/Adidas/4.avif"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Adidas/1.avif",
+                            "assets/Adidas/2.avif",
+                            "assets/Adidas/3.avif",
+                            "assets/Adidas/4.avif"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "Be",
+                        "image": [
+                            "assets/Adidas/1_1.avif",
+                            "assets/Adidas/1_2.avif",
+                            "assets/Adidas/1_3.avif",
+                            "assets/Adidas/1_4.avif"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "Adidas",
+                "category": "Shoes",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women",
+                    "Men"
+                ]
+            },
+            {
+                "id": 6,
+                "url": "assets/Zara/1.jpeg",
+                "name": "GIÀY DA PHIÊN BẢN GIỚI HẠN",
+                "discount": "20",
+                "rating": "1234",
+                "price": {
+                    "current": "3.499.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Giày da chất lượng cao. Có viền nổi trên mu giày. Khuôn tròn. Có quai hỗ trợ xỏ ở phía sau.",
+                "description": "Chúng tôi phối hợp với các nhà cung cấp, người lao động, công đoàn và các tổ chức quốc tế nhằm phát triển một chuỗi cung ứng mà trong đó quyền con người được tôn trọng và thúc đẩy, góp phần thực hiện các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.Bằng việc hợp tác với các nhà cung cấp, chúng tôi nỗ lực tìm hiểu các cơ sở và quy trình mà họ sử dụng để sản xuất các sản phẩm may mặc của chúng tôi với mục đích truy xuất nguồn gốc của các sản phẩm.Sản xuất tại Bồ Đào Nha",
+                "image": [
+                    "assets/Zara/1.jpeg",
+                    "assets/Zara/2.jpeg",
+                    "assets/Zara/3.jpeg",
+                    "assets/Zara/4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Zara/1.jpeg",
+                        "assets/Zara/2.jpeg",
+                        "assets/Zara/3.jpeg",
+                        "assets/Zara/4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Shoes",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            }, 
+            {
+                "id": 7,
+                "url": "assets/Zara/1_1.jpeg",
+                "name": "GIÀY MOCCASIN DA LỘN CÓ ĐAI NGANG",
+                "discount": "0",
+                "rating": "134",
+                "price": {
+                    "current": "2.699.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Giày moccasin dáng giày tây. Có đai ngang trang trí trên mu giày. Đế dày. Chất liệu da lộn.",
+                "description": "Chúng tôi phối hợp với các nhà cung cấp, người lao động, công đoàn và các tổ chức quốc tế nhằm phát triển một chuỗi cung ứng mà trong đó quyền con người được tôn trọng và thúc đẩy, góp phần thực hiện các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.Bằng việc hợp tác với các nhà cung cấp, chúng tôi nỗ lực tìm hiểu các cơ sở và quy trình mà họ sử dụng để sản xuất các sản phẩm may mặc của chúng tôi với mục đích truy xuất nguồn gốc của các sản phẩm.Sản xuất tại Bồ Đào Nha",
+                "image": [
+                    "assets/Zara/1_1.jpeg",
+                    "assets/Zara/1_2.jpeg",
+                    "assets/Zara/1_3.jpeg",
+                    "assets/Zara/1_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "ZaraY",
+                        "image": [
+                            "assets/Zara/1_1.jpeg",
+                        "assets/Zara/1_2.jpeg",
+                        "assets/Zara/1_3.jpeg",
+                        "assets/Zara/1_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Shoes",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 8,
+                "url": "assets/Zara/2_1.jpeg",
+                "name": "GIÀY THỂ THAO ĐẾ DÀY",
+                "discount": "0",
+                "rating": "134",
+                "price": {
+                    "current": "1.199.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Giày thể thao. Phối nhiều chất liệu và màu sắc. Có dây buộc với 7 hàng lỗ xỏ dây. Có chi tiết khác màu phía sau. Đế dày, phối các chi tiết nổi trang trí.",
+                "description": "Chúng tôi phối hợp với các nhà cung cấp, người lao động, công đoàn và các tổ chức quốc tế nhằm phát triển một chuỗi cung ứng mà trong đó quyền con người được tôn trọng và thúc đẩy, góp phần thực hiện các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.Bằng việc hợp tác với các nhà cung cấp, chúng tôi nỗ lực tìm hiểu các cơ sở và quy trình mà họ sử dụng để sản xuất các sản phẩm may mặc của chúng tôi với mục đích truy xuất nguồn gốc của các sản phẩm.Sản phẩm này được sản xuất với các nguồn gốc như sau:Sản xuất tại Myanmar,Sản xuất tại Ấn Độ,Sản xuất tại Việt Nam",
+                "image": [
+                    "assets/Zara/2_1.jpeg",
+                    "assets/Zara/2_2.jpeg",
+                    "assets/Zara/2_3.jpeg",
+                    "assets/Zara/2_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/2_1.jpeg",
+                        "assets/Zara/2_2.jpeg",
+                        "assets/Zara/2_3.jpeg",
+                        "assets/Zara/2_4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "Black",
+                        "image": [
+                            "assets/Zara/3_1.jpeg",
+                        "assets/Zara/3_2.jpeg",
+                        "assets/Zara/3_3.jpeg",
+                        "assets/Zara/3_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Shoes",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
             }
         ]
     },
@@ -238,23 +863,23 @@
         "data": [
             {
                 "id": 1,
-                "url": "assets/Zara/shirt/1_1.jpeg",
-                "name": "ÁO SƠ MI HỌA TIẾT KẺ SỌC",
-                "discount": "10",
+                "url": "assets/Nike/Kids/1.png",
+                "name": "Nike Air Max Plus Older Kids' Shoes",
+                "discount": "20",
                 "rating": "12",
                 "price": {
-                    "current": "1.299.000đ",
-                    "normal": "1.500.000đ"
+                    "current": "2,855,199₫",
+                    "normal": "3,569,000₫"
                 },
                 "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Áo sơ mi vải pha sợi cotton, dáng regular fit. Cổ ve lật, cộc tay. Có một túi đáp trước ngực. Toàn thân chần chỉ nổi khác màu. Cài phía trước bằng hàng khuy cài.",
-                "description": "Chúng tôi đang triển khai các chương trình giám sát nhằm đảm bảo sự tuân thủ các tiêu chuẩn của chúng tôi về xã hội, môi trường, cũng như về độ an toàn và ",
+                "information": "Who says kids don't deserve big cushioning? Not us. Get a taste of our legendary Tuned Air technology with the Nike Air Max Plus. From the school playground to your back garden, these comfy kicks are ready to play with breathable mesh fabric up top and a durable rubber sole underfoot. Plus, wavy design lines and iconic plastic accents celebrate bold style.",
+                "description": "Revolutionary Air technology first made its way into Nike footwear in 1978. In 1987, the Air Max 1 debuted with visible Air technology in its heel, allowing fans more than just the feel of Air cushioning—suddenly they could see it. Since then, next-generation Air Max shoes have become a hit with athletes and collectors by offering striking colour combinations and reliable, lightweight cushioning.",
                 "image": [
-                    "assets/Zara/shirt/1_1.jpeg",
-                    "assets/Zara/shirt/1_2.jpeg",
-                    "assets/Zara/shirt/1_3.jpeg",
-                    "assets/Zara/shirt/1_4.jpeg"
+                    "assets/Nike/Kids/1.png",
+                    "assets/Nike/Kids/2.png",
+                    "assets/Nike/Kids/3.png",
+                    "assets/Nike/Kids/4.png"
                 ],
                 "reviews": [
                     {
@@ -274,61 +899,88 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
+                        "id": 1,
+                        "color": "Gray",
+                        "image": [
+                            "assets/Nike/Kids/1.png",
+                            "assets/Nike/Kids/2.png",
+                            "assets/Nike/Kids/3.png",
+                            "assets/Nike/Kids/4.png"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "Pupple",
+                        "image": [
+                            "assets/Nike/Kids/1_1.png",
+                            "assets/Nike/Kids/1_2.png",
+                            "assets/Nike/Kids/1_3.png",
+                            "assets/Nike/Kids/1_4.png"
+                        ]
+                    },
+                    {
+                        "id": 3,
                         "color": "Blue",
                         "image": [
-                            "assets/Zara/shirt/1_1.jpeg",
-                            "assets/Zara/shirt/1_2.jpeg",
-                            "assets/Zara/shirt/1_3.jpeg",
-                            "assets/Zara/shirt/1_4.jpeg"
+                            "assets/Nike/Kids/2_1.png",
+                            "assets/Nike/Kids/2_2.png",
+                            "assets/Nike/Kids/2_3.png",
+                            "assets/Nike/Kids/2_4.png"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Shirt",
+                "brand": "Nike",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Kids"
                 ]
             },
             {
                 "id": 2,
-                "url": "assets/Zara/shirt/3_1.jpg",
-                "name": "ÁO SƠ MI THÊU HỌA TIẾT",
-                "discount": "10",
+                "url": "assets/Nike/Kids/k1.png",
+                "name": "Air Max 1 Older Kids' Shoes",
+                "discount": "20",
                 "rating": "12",
                 "price": {
-                    "current": "1.799.000đ",
-                    "normal": "2.000.000đ"
+                    "current": "2,549,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Áo sơ mi vải pha sợi cotton, dáng relaxed fit. Cổ ve nhọn khoét chữ K, cộc tay. Cài phía trước bằng hàng khuy cài.",
-                "description": "NGUỒN GỐC Chúng tôi phối hợp với các nhà cung cấp, người lao động, công đoàn và các tổ chức quốc tế nhằm phát triển một chuỗi cung ứng mà trong đó quyền con người được tôn trọng và thúc đẩy, góp phần thực hiện các Mục tiêu Phát triển Bền vững của Liên Hợp Quốc.Bằng việc hợp tác với các nhà cung cấp, chúng tôi nỗ lực tìm hiểu các cơ sở và quy trình mà họ sử dụng để sản xuất các sản phẩm may mặc của chúng tôi với mục đích truy xuất nguồn gốc của các sản phẩm.Sản xuất tại Thổ Nhĩ Kỳ",
+                "information": "With its easygoing lines, heritage athletics look and, of course, visible Air cushioning, the Nike Air Max 1 is the perfect finish to any outfit. The rich mixture of materials adds depth while making it a durable and lightweight shoe for everyday wear.",
+                "description": "Revolutionary Air technology first made its way into Nike footwear in 1978. In 1987, the Air Max 1 debuted with visible Air technology in its heel, allowing fans more than just the feel of Air cushioning—suddenly they could see it. Since then, next-generation Air Max shoes have become a hit with athletes and collectors by offering striking colour combinations and reliable, lightweight cushioning.",
                 "image": [
-                    "assets/Zara/shirt/3_1.jpg",
-                    "assets/Zara/shirt/3_2.jpg",
-                    "assets/Zara/shirt/3_3.jpg",
-                    "assets/Zara/shirt/3_4.jpg"
+                    "assets/Nike/Kids/k1.png",
+                    "assets/Nike/Kids/k2.png",
+                    "assets/Nike/Kids/k3.jpeg",
+                    "assets/Nike/Kids/k4.jpeg"
                 ],
                 "reviews": [
                     {
@@ -348,61 +1000,78 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "White",
+                        "id": 1,
+                        "color": "Black",
                         "image": [
-                            "assets/Zara/shirt/3_1.jpg",
-                            "assets/Zara/shirt/3_2.jpg",
-                            "assets/Zara/shirt/3_3.jpg",
-                            "assets/Zara/shirt/3_4.jpg"
+                            "assets/Nike/Kids/k1.png",
+                            "assets/Nike/Kids/k2.png",
+                            "assets/Nike/Kids/k3.jpeg",
+                            "assets/Nike/Kids/k4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "Be",
+                        "image": [
+                            "assets/Nike/Kids/k1_1.png",
+                            "assets/Nike/Kids/k1_2.png",
+                            "assets/Nike/Kids/k1_3.png",
+                            "assets/Nike/Kids/k1_4.png"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Shirt",
+                "brand": "Nike",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Kids"
                 ]
             },
             {
                 "id": 3,
-                "url": "assets/Zara/pant/1.jpg",
-                "name": "QUẦN VẢI COTTON - LINEN KIỂU BẠC MÀU",
-                "discount": "10",
+                "url": "assets/Nike/Kids/m1.png",
+                "name": "Nike Dunk Low Older Kids' Shoes",
+                "discount": "20",
                 "rating": "12",
                 "price": {
-                    "current": "1.299.000đ",
-                    "normal": "2.000.000đ"
+                    "current": "2,299,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Quần vải pha sợi cotton và sợi linen, dáng regular fit. Cạp co giãn, điều chỉnh bằng dây rút. Có hai túi ở phía trước và hai túi đáp ở phía sau. Kiểu bạc màu.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "The Nike Dunk Low returns covered in crisp material overlays with heritage-inspired colour blocking.A cool combination of soft colours gives this makeup a classic feel.Check out the outsole—the speckles are there because it's made from about 15% Nike Grind.",
+                "description": "Revolutionary Air technology first made its way into Nike footwear in 1978. In 1987, the Air Max 1 debuted with visible Air technology in its heel, allowing fans more than just the feel of Air cushioning—suddenly they could see it. Since then, next-generation Air Max shoes have become a hit with athletes and collectors by offering striking colour combinations and reliable, lightweight cushioning.",
                 "image": [
-                    "assets/Zara/pant/1.jpg",
-                    "assets/Zara/pant/2.jpg",
-                    "assets/Zara/pant/3.jpg",
-                    "assets/Zara/pant/4.jpg"
+                    "assets/Nike/Kids/m1.png",
+                    "assets/Nike/Kids/m2.png",
+                    "assets/Nike/Kids/m3.png",
+                    "assets/Nike/Kids/m4.png"
                 ],
                 "reviews": [
                     {
@@ -422,71 +1091,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Be",
+                        "id": 1,
+                        "color": "Pink",
                         "image": [
-                            "assets/Zara/pant/1.jpg",
-                            "assets/Zara/pant/2.jpg",
-                            "assets/Zara/pant/3.jpg",
-                            "assets/Zara/pant/4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "White",
-                        "image": [
-                            "assets/Zara/pant/1_1.jpg",
-                            "assets/Zara/pant/1_2.jpg",
-                            "assets/Zara/pant/1_3.jpg",
-                            "assets/Zara/pant/1_4.jpg"
+                            "assets/Nike/Kids/m1.png",
+                            "assets/Nike/Kids/m2.png",
+                            "assets/Nike/Kids/m3.png",
+                            "assets/Nike/Kids/m4.png"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Pant",
+                "brand": "Nike",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Kids"
                 ]
             },
             {
                 "id": 4,
-                "url": "assets/Zara/pant/2_1.jpg",
-                "name": "QUẦN ÂU THEO BỘ SUIT VẢI VISCOSE - LINEN",
-                "discount": "10",
+                "url": "assets/Adidas/Kids/1.avif",
+                "name": "Kids • Sportswear ADILETTE SANDALS",
+                "discount": "20",
                 "rating": "12",
                 "price": {
-                    "current": "1.999.000 VND",
-                    "normal": "2.300.000đ"
+                    "current": "2,299,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Quần vải pha sợi cotton và sợi linen, dáng regular fit. Cạp co giãn, điều chỉnh bằng dây rút. Có hai túi ở phía trước và hai túi đáp ở phía sau. Kiểu bạc màu.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "KIDS' COMFORTABLE SANDALS WITH A CONTOURED FOOTBED.",
+                "description": "Inspired by classic Adilette slides, these kids' adidas sandals are perfect for sunny days of play in and out of the water. A hook-and-loop strap creates an easy on and off. The quick-drying upper lets them play in comfort until they're back on dry land.",
                 "image": [
-                    "assets/Zara/pant/2_1.jpg",
-                    "assets/Zara/pant/2_2.jpg",
-                    "assets/Zara/pant/2_3.jpg",
-                    "assets/Zara/pant/2_4.jpg"
+                    "assets/Adidas/Kids/1.avif",
+                    "assets/Adidas/Kids/2.avif",
+                    "assets/Adidas/Kids/3.avif",
+                    "assets/Adidas/Kids/4.avif"
                 ],
                 "reviews": [
                     {
@@ -506,81 +1172,78 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Be",
+                        "id": 1,
+                        "color": "Pink",
                         "image": [
-                            "assets/Zara/pant/2_1.jpg",
-                            "assets/Zara/pant/2_2.jpg",
-                            "assets/Zara/pant/2_3.jpg",
-                            "assets/Zara/pant/2_4.jpg"
+                            "assets/Adidas/Kids/1.avif",
+                            "assets/Adidas/Kids/2.avif",
+                            "assets/Adidas/Kids/3.avif",
+                            "assets/Adidas/Kids/4.avif"
                         ]
                     },
                     {
-                        "id": "2",
-                        "color": "BlueS",
+                        "id": 2,
+                        "color": "Black",
                         "image": [
-                            "assets/Zara/pant/3_1.jpg",
-                            "assets/Zara/pant/3_2.jpg",
-                            "assets/Zara/pant/3_3.jpg",
-                            "assets/Zara/pant/3_4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "color": "PinkS",
-                        "image": [
-                            "assets/Zara/pant/4_1.jpg",
-                            "assets/Zara/pant/4_2.jpg",
-                            "assets/Zara/pant/4_3.jpg",
-                            "assets/Zara/pant/4_4.jpg"
+                            "assets/Adidas/Kids/1_1.avif",
+                            "assets/Adidas/Kids/1_2.avif",
+                            "assets/Adidas/Kids/1_3.avif",
+                            "assets/Adidas/Kids/1_4.avif"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Pant",
+                "brand": "Adidas",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Kids"
                 ]
             },
             {
                 "id": 5,
-                "url": "assets/Zara/pant/s_1.jpg",
-                "name": "QUẦN SHORT BERMUDA DÁNG CHINO VẢI DỆT",
-                "discount": "10",
+                "url": "assets/Adidas/Kids/2_1.avif",
+                "name": "Kids • Originals COUNTRY XLG SHOES KIDS",
+                "discount": "20",
                 "rating": "12",
                 "price": {
-                    "current": "1.099.000đ",
-                    "normal": "1.200.000đ"
+                    "current": "1,600,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Quần vải pha sợi cotton và sợi linen, dáng regular fit. Cạp co giãn, điều chỉnh bằng dây rút. Có hai túi ở phía trước và hai túi đáp ở phía sau. Kiểu bạc màu.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "KIDS' COMFORTABLE SANDALS WITH A CONTOURED FOOTBED.",
+                "description": "Inspired by classic Adilette slides, these kids' adidas sandals are perfect for sunny days of play in and out of the water. A hook-and-loop strap creates an easy on and off. The quick-drying upper lets them play in comfort until they're back on dry land.",
                 "image": [
-                    "assets/Zara/pant/s_1.jpg",
-                    "assets/Zara/pant/s_2.jpg",
-                    "assets/Zara/pant/s_3.jpg",
-                    "assets/Zara/pant/s_4.jpg"
+                    "assets/Adidas/Kids/2_1.avif",
+                    "assets/Adidas/Kids/2_2.avif",
+                    "assets/Adidas/Kids/2_3.avif",
+                    "assets/Adidas/Kids/2_4.avif"
                 ],
                 "reviews": [
                     {
@@ -600,81 +1263,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Be",
+                        "id": 1,
+                        "color": "White",
                         "image": [
-                            "assets/Zara/pant/s_1.jpg",
-                            "assets/Zara/pant/s_2.jpg",
-                            "assets/Zara/pant/s_3.jpg",
-                            "assets/Zara/pant/s_4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Black",
-                        "image": [
-                            "assets/Zara/pant/ss_1.jpg",
-                            "assets/Zara/pant/ss_2.jpg",
-                            "assets/Zara/pant/ss_3.jpg",
-                            "assets/Zara/pant/ss_4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "color": "GreenS",
-                        "image": [
-                            "assets/Zara/pant/sss_1.jpg",
-                            "assets/Zara/pant/sss_2.jpg",
-                            "assets/Zara/pant/sss_3.jpg",
-                            "assets/Zara/pant/sss_4.jpg"
+                            "assets/Adidas/Kids/2_1.avif",
+                        "assets/Adidas/Kids/2_2.avif",
+                        "assets/Adidas/Kids/2_3.avif",
+                        "assets/Adidas/Kids/2_4.avif"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Pant",
+                "brand": "Adidas",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Kids"
                 ]
             },
             {
                 "id": 6,
-                "url": "assets/Zara/pant/q_1.jpg",
-                "name": "QUẦN SHORT THÊU LOGO",
-                "discount": "10",
+                "url": "assets/Adidas/Kids/á.avif",
+                "name": "Kids • Originals FORTARUN X DISNEY SHOES KIDS",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1.599.000đ",
-                    "normal": "1.200.000đ"
+                    "current": "1,500,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Quần short bermuda vải cotton, dáng relaxed fit. Cạp co giãn, điều chỉnh bằng dây rút. Có túi hai bên và hai túi đáp phía sau. Thêu logo ở một bên ống quần.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "KIDS' COMFORTABLE SANDALS WITH A CONTOURED FOOTBED.",
+                "description": "Inspired by classic Adilette slides, these kids' adidas sandals are perfect for sunny days of play in and out of the water. A hook-and-loop strap creates an easy on and off. The quick-drying upper lets them play in comfort until they're back on dry land.",
                 "image": [
-                    "assets/Zara/pant/q_1.jpg",
-                    "assets/Zara/pant/q_2.jpg",
-                    "assets/Zara/pant/q_3.jpg",
-                    "assets/Zara/pant/q_4.jpg"
+                    "assets/Adidas/Kids/á.avif",
+                    "assets/Adidas/Kids/a2.avif",
+                    "assets/Adidas/Kids/a3.avif",
+                    "assets/Adidas/Kids/a4.avif"
                 ],
                 "reviews": [
                     {
@@ -694,61 +1344,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Pupple",
+                        "id": 1,
+                        "color": "Pink",
                         "image": [
-                            "assets/Zara/pant/q_1.jpg",
-                            "assets/Zara/pant/q_2.jpg",
-                            "assets/Zara/pant/q_3.jpg",
-                            "assets/Zara/pant/q_4.jpg"
+                            "assets/Adidas/Kids/á.avif",
+                            "assets/Adidas/Kids/a2.avif",
+                            "assets/Adidas/Kids/a3.avif",
+                            "assets/Adidas/Kids/a4.avif"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Pant",
+                "brand": "Adidas",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Kids"
                 ]
             },
             {
                 "id": 7,
-                "url": "assets/Zara/pant/n_1.jpg",
-                "name": "QUẦN VẢI DỆT CHÉO ỐNG SUÔNG",
-                "discount": "10",
+                "url": "assets/Adidas/Kids/d1.avif",
+                "name": "Kids • Originals ADIFOM ADILETTE SLIDES KIDS",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1.799.000đ",
-                    "normal": "1.950.000đ"
+                    "current": "1,100,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Quần cạp cao, có hai túi phía trước. Ống quần dáng suông. Cài phía trước bằng khóa kéo, khuy ẩn và móc gài.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "KIDS' COMFORTABLE SANDALS WITH A CONTOURED FOOTBED.",
+                "description": "Inspired by classic Adilette slides, these kids' adidas sandals are perfect for sunny days of play in and out of the water. A hook-and-loop strap creates an easy on and off. The quick-drying upper lets them play in comfort until they're back on dry land.",
                 "image": [
-                    "assets/Zara/pant/n_1.jpg",
-                    "assets/Zara/pant/n_2.jpg",
-                    "assets/Zara/pant/n_3.jpg",
-                    "assets/Zara/pant/n_4.jpg"
+                    "assets/Adidas/Kids/d1.avif",
+                    "assets/Adidas/Kids/d2.avif",
+                    "assets/Adidas/Kids/d3.avif",
+                    "assets/Adidas/Kids/d4.avif"
                 ],
                 "reviews": [
                     {
@@ -768,61 +1425,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "BlueS",
+                        "id": 1,
+                        "color": "Black",
                         "image": [
-                            "assets/Zara/pant/n_1.jpg",
-                            "assets/Zara/pant/n_2.jpg",
-                            "assets/Zara/pant/n_3.jpg",
-                            "assets/Zara/pant/n_4.jpg"
+                            "assets/Adidas/Kids/d1.avif",
+                            "assets/Adidas/Kids/d2.avif",
+                            "assets/Adidas/Kids/d3.avif",
+                            "assets/Adidas/Kids/d4.avif"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Pant",
+                "brand": "Adidas",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Women"
+                    "Kids"
                 ]
             },
             {
                 "id": 8,
-                "url": "assets/Zara/pant/mayli1.jpg",
-                "name": "QUẦN MAY LI",
-                "discount": "10",
+                "url": "assets/Adidas/Kids/sp1.avif",
+                "name": "Kids • Originals X CRAZYFAST LEAGUE TURF BOOTS",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1.299.000đ",
-                    "normal": "1.950.000đ"
+                    "current": "1,700,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Quần cạp cao, xẻ chữ V phía sau và may con đỉa. Có túi hai bên và túi may viền phía sau. Có các chi tiết xếp li phía trước. Cài phía trước bằng khóa kéo và khuy.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "LIGHTWEIGHT BOOTS FOR MAD ACCELERATION, MADE IN PART WITH RECYCLED MATERIALS.",
+                "description": "Nothing beats the rush of pure speed. Change the game in an instant and leave defenders trailing with lightweight adidas X Crazyfast. Keeping you stable at full tilt, these football boots for juniors sit on a specialist artificial turf outsole. Featuring extra layers only where reinforcement is required, their coated textile upper comes with a flat-knit collar for solid lockdown.",
                 "image": [
-                    "assets/Zara/pant/mayli1.jpg",
-                    "assets/Zara/pant/mayli2.jpg",
-                    "assets/Zara/pant/mayli3.jpg",
-                    "assets/Zara/pant/mayli4.jpg"
+                    "assets/Adidas/Kids/sp1.avif",
+                    "assets/Adidas/Kids/sp2.avif",
+                    "assets/Adidas/Kids/sp3.avif",
+                    "assets/Adidas/Kids/sp4.avif"
                 ],
                 "reviews": [
                     {
@@ -842,71 +1506,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Brown",
+                        "id": 1,
+                        "color": "Black",
                         "image": [
-                            "assets/Zara/pant/mayli1.jpg",
-                            "assets/Zara/pant/mayli2.jpg",
-                            "assets/Zara/pant/mayli3.jpg",
-                            "assets/Zara/pant/mayli4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Be",
-                        "image": [
-                            "assets/Zara/pant/mayli_1.jpg",
-                            "assets/Zara/pant/mayli_2.jpg",
-                            "assets/Zara/pant/mayli_3.jpg",
-                            "assets/Zara/pant/mayli_4.jpg"
+                            "assets/Adidas/Kids/d1.avif",
+                            "assets/Adidas/Kids/d2.avif",
+                            "assets/Adidas/Kids/d3.avif",
+                            "assets/Adidas/Kids/d4.avif"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Zara",
-                "category": "Pant",
+                "brand": "Adidas",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Women"
+                    "Kids"
                 ]
             },
             {
                 "id": 9,
-                "url": "assets/Nike/Men/1.png",
-                "name": "Men's Dri-FIT Woven Running Trousers",
-                "discount": "10",
+                "url": "assets/MLB/one/1_1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Playball Lux Jacquard Diamond Monogram",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1.739.000đ",
-                    "normal": "2.090.000đ"
+                    "current": "1,950,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Dựa trên mẫu quần short chạy bộ cùng tên, Quần Challenger sẽ phù hợp hơn khi bạn cần độ che phủ tốt hơn cho quá trình tập luyện của mình. Chúng nhẹ, thoáng khí và dễ dàng mặc vào và cởi ra nhờ khóa kéo ở cổ tay áo. Nằm ở giữa lưng để tạo sự thoải mái khi chạy, túi đựng phương tiện đủ lớn cho hầu hết các điện thoại",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Bất chấp thời gian, đôi giày sneakers vẫn luôn là must have item trong lòng giới mộ điệu bởi sự thoải mái và linh hoạt. Nắm bắt xu hướng thời trang, MLB mang đến bạn Playball Lux Jacquard Diamond Monogram - một siêu phẩm hứa hẹn khuấy đảo mọi phong cách.Có thiết kế ôm chân vừa vặn, kết hợp cùng họa tiết monogram đặc trưng trên nền da cao cấp, dù bạn là tín đồ của phong cách streetwear cá tính hay thanh lịch, item này sẽ luôn sẵn sàng đồng hành, giúp bạn tỏa sáng trong mọi khoảnh khắc.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Men/1.png",
-                    "assets/Nike/Men/2.png",
-                    "assets/Nike/Men/3.png",
-                    "assets/Nike/Men/4.png"
+                    "assets/MLB/one/1.webp",
+                    "assets/MLB/one/2.webp",
+                    "assets/MLB/one/3.webp",
+                    "assets/MLB/one/4.webp"
                 ],
                 "reviews": [
                     {
@@ -926,71 +1587,94 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Black",
+                        "id": 1,
+                        "color": "Be",
                         "image": [
-                            "assets/Nike/Men/1.png",
-                            "assets/Nike/Men/2.png",
-                            "assets/Nike/Men/3.png",
-                            "assets/Nike/Men/4.png"
+                            "assets/MLB/one/1.webp",
+                            "assets/MLB/one/2.webp",
+                            "assets/MLB/one/3.webp",
+                            "assets/MLB/one/4.jpeg"
                         ]
                     },
                     {
-                        "id": "2",
-                        "color": "Gray",
+                        "id": 2,
+                        "color": "Black",
                         "image": [
-                            "assets/Nike/Men/1_1.png",
-                            "assets/Nike/Men/1_2.png",
-                            "assets/Nike/Men/1_3.png",
-                            "assets/Nike/Men/1_4.png"
+                            "assets/MLB/one/1_1.webp",
+                            "assets/MLB/one/1_2.webp",
+                            "assets/MLB/one/1_3.webp",
+                            "assets/MLB/one/1_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Pant",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Men","Women"
                 ]
             },
             {
                 "id": 10,
-                "url": "assets/Nike/Women/1.jpg",
-                "name": "Women's Open-Hem Trousers",
-                "discount": "10",
+                "url": "assets/MLB/one/2_1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Bigball Chunky Varsity",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1.739.000đ",
-                    "normal": "2.090.000đ"
+                    "current": "3,290,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Những rung cảm cuối tuần sẽ có được một bộ đồng phục chính thức với chiếc quần ống rộng rộng rãi này. Vải terry Pháp mềm, trọng lượng vừa phải giúp chúng đủ thoáng khí để mặc quanh năm trong khi cạp quần co giãn có dây rút giúp bạn tìm được kiểu dáng vừa vặn hoàn hảo.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Bất chấp thời gian, đôi giày sneakers vẫn luôn là must have item trong lòng giới mộ điệu bởi sự thoải mái và linh hoạt. Nắm bắt xu hướng thời trang, MLB mang đến bạn Playball Lux Jacquard Diamond Monogram - một siêu phẩm hứa hẹn khuấy đảo mọi phong cách.Có thiết kế ôm chân vừa vặn, kết hợp cùng họa tiết monogram đặc trưng trên nền da cao cấp, dù bạn là tín đồ của phong cách streetwear cá tính hay thanh lịch, item này sẽ luôn sẵn sàng đồng hành, giúp bạn tỏa sáng trong mọi khoảnh khắc.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Women/1.jpg",
-                    "assets/Nike/Women/2.jpg",
-                    "assets/Nike/Women/3.jpg",
-                    "assets/Nike/Women/4.png"
+                    "assets/MLB/one/2_1.webp",
+                    "assets/MLB/one/2_2.webp",
+                    "assets/MLB/one/2_3.webp",
+                    "assets/MLB/one/2_4.webp"
                 ],
                 "reviews": [
                     {
@@ -1010,71 +1694,84 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "GreenS",
-                        "image": [
-                            "assets/Nike/Women/1.jpg",
-                            "assets/Nike/Women/2.jpg",
-                            "assets/Nike/Women/3.jpg",
-                            "assets/Nike/Women/4.png"
-                        ]
-                    },
-                    {
-                        "id": "2",
+                        "id": 1,
                         "color": "Black",
                         "image": [
-                            "assets/Nike/Women/1_1.png",
-                            "assets/Nike/Women/1_2.png",
-                            "assets/Nike/Women/1_3.jpg",
-                            "assets/Nike/Women/1_4.png"
+                            "assets/MLB/one/2_1.webp",
+                            "assets/MLB/one/2_2.webp",
+                            "assets/MLB/one/2_3.webp",
+                            "assets/MLB/one/2_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Pant",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Women"
+                    "Men","Women"
                 ]
             },
             {
                 "id": 11,
-                "url": "assets/Nike/Women/2_1.png",
-                "name": "Women's Dri-FIT Mid-Rise 7/8 Running Trousers",
-                "discount": "10",
+                "url": "assets/MLB/one/3_1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Chunky Liner Basic SD",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1,839,000₫",
-                    "normal": "2,200,000₫"
+                    "current": "3,590,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Di chuyển dễ dàng với chiếc quần nhẹ, thấm mồ hôi này, mang đến sự cân bằng hoàn hảo giữa độ rộng và độ co dãn. Chân thon giúp bạn chạy thoải mái, trong khi túi cho phép bạn cất giữ những thứ cần thiết. Ngoài ra, các tấm lưới phía sau đầu gối mang đến cho bạn luồng không khí khi quãng đường của bạn nóng lên.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Bất chấp thời gian, đôi giày sneakers vẫn luôn là must have item trong lòng giới mộ điệu bởi sự thoải mái và linh hoạt. Nắm bắt xu hướng thời trang, MLB mang đến bạn Playball Lux Jacquard Diamond Monogram - một siêu phẩm hứa hẹn khuấy đảo mọi phong cách.Có thiết kế ôm chân vừa vặn, kết hợp cùng họa tiết monogram đặc trưng trên nền da cao cấp, dù bạn là tín đồ của phong cách streetwear cá tính hay thanh lịch, item này sẽ luôn sẵn sàng đồng hành, giúp bạn tỏa sáng trong mọi khoảnh khắc.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Women/2_1.png",
-                    "assets/Nike/Women/2_2.png",
-                    "assets/Nike/Women/2_3.jpg",
-                    "assets/Nike/Women/2_4.png"
+                    "assets/MLB/one/3_1.webp",
+                    "assets/MLB/one/3_2.webp",
+                    "assets/MLB/one/3_3.webp",
+                    "assets/MLB/one/3_4.webp"
                 ],
                 "reviews": [
                     {
@@ -1094,71 +1791,84 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Be",
+                        "id": 1,
+                        "color": "GreenBlack",
                         "image": [
-                            "assets/Nike/Women/2_1.png",
-                            "assets/Nike/Women/2_2.png",
-                            "assets/Nike/Women/2_3.jpg",
-                            "assets/Nike/Women/2_4.png"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Black",
-                        "image": [
-                            "assets/Nike/Women/3_1.png",
-                            "assets/Nike/Women/3_2.png",
-                            "assets/Nike/Women/3_3.jpg",
-                            "assets/Nike/Women/3_4.png"
+                            "assets/MLB/one/3_1.webp",
+                            "assets/MLB/one/3_2.webp",
+                            "assets/MLB/one/3_3.webp",
+                            "assets/MLB/one/3_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Pant",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Women"
+                    "Men","Women"
                 ]
             },
             {
                 "id": 12,
-                "url": "assets/Nike/Men/short_1.png",
-                "name": "Men's Dri-FIT 13cm (approx.) Unlined Versatile Shorts",
-                "discount": "10",
+                "url": "assets/MLB/one/4_1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Chunky Liner Mid Denim",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "815,199₫",
-                    "normal": "1,019,000₫"
+                    "current": "4,290,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Được thiết kế để chạy bộ, tập luyện và tập yoga, quần short Form đa năng được thiết kế để đáp ứng những ngày bạn cần thay đổi thói quen tập thể dục của mình. Với đường may bên trong 13cm (xấp xỉ) và chất liệu vải mịn, thấm mồ hôi, những chiếc quần short này được thiết kế để theo kịp các chuyển động của bạn—từ các bài PR deadlift cho đến các lớp yoga nóng.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Bất chấp thời gian, đôi giày sneakers vẫn luôn là must have item trong lòng giới mộ điệu bởi sự thoải mái và linh hoạt. Nắm bắt xu hướng thời trang, MLB mang đến bạn Playball Lux Jacquard Diamond Monogram - một siêu phẩm hứa hẹn khuấy đảo mọi phong cách.Có thiết kế ôm chân vừa vặn, kết hợp cùng họa tiết monogram đặc trưng trên nền da cao cấp, dù bạn là tín đồ của phong cách streetwear cá tính hay thanh lịch, item này sẽ luôn sẵn sàng đồng hành, giúp bạn tỏa sáng trong mọi khoảnh khắc.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Men/short1.png",
-                    "assets/Nike/Men/short2.png",
-                    "assets/Nike/Men/short3.png",
-                    "assets/Nike/Men/short4.png"
+                    "assets/MLB/one/4_1.webp",
+                    "assets/MLB/one/4_2.webp",
+                    "assets/MLB/one/4_3.webp",
+                    "assets/MLB/one/4_4.webp"
                 ],
                 "reviews": [
                     {
@@ -1178,71 +1888,94 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Black",
+                        "id": 1,
+                        "color": "BlueNhat",
                         "image": [
-                            "assets/Nike/Men/short1.png",
-                            "assets/Nike/Men/short2.png",
-                            "assets/Nike/Men/short3.png",
-                            "assets/Nike/Men/short4.png"
+                            "assets/MLB/one/4_1.webp",
+                            "assets/MLB/one/4_2.webp",
+                            "assets/MLB/one/4_3.webp",
+                            "assets/MLB/one/4_4.webp"
                         ]
                     },
                     {
-                        "id": "2",
-                        "color": "GreenS",
+                        "id": 2,
+                        "color": "Gray",
                         "image": [
-                            "assets/Nike/Men/short_1.png",
-                            "assets/Nike/Men/short_2.png",
-                            "assets/Nike/Men/short_3.png",
-                            "assets/Nike/Men/short_4.png"
+                            "assets/MLB/one/5_1.webp",
+                            "assets/MLB/one/5_2.webp",
+                            "assets/MLB/one/5_3.webp",
+                            "assets/MLB/one/5_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Pant",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Men","Women"
                 ]
             },
             {
                 "id": 13,
-                "url": "assets/Nike/Men/k1_1.jpg",
-                "name": "Men's French Terry Shorts",
-                "discount": "10",
+                "url": "assets/MLB/one/6_1.webp",
+                "name": "MLB - Giày clog unisex mũi tròn Chunky Bouncer",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "815,199₫",
-                    "normal": "1,019,000₫"
+                    "current": "1,890,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Với thiết kế rộng rãi vừa vặn trên mặt ngồi và đùi, chiếc quần short lông cừu này mang đến cho bạn cảm giác quen thuộc mà bạn yêu thích, đồng thời có thêm một chút không gian để thư giãn. Dòng chữ 'Nike' sa tanh được khâu lại để tạo nên vẻ hoàn thiện lấy cảm hứng từ trường đại học. Để có vẻ ngoài thoải mái, đồng bộ, hãy kết hợp chúng với áo hoodie phù hợp và giày thể thao Nike yêu thích của bạn.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Nếu bạn đã quá chán với kiểu dép truyền thống, hãy thử làm mới với đôi giày clog trendy này! Mang phong cách tối giản kết hợp cùng logo thương hiệu MLB tinh tế và chất liệu êm ái, chắc chắn sẽ mang đến cho bạn sự thoải mái cần có nhưng vẫn thời trang.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Men/k1_1.jpg",
-                    "assets/Nike/Men/k1_2.jpg",
-                    "assets/Nike/Men/k1_3.jpg",
-                    "assets/Nike/Men/k1_4.jpg"
+                    "assets/MLB/one/6_1.webp",
+                    "assets/MLB/one/6_2.webp",
+                    "assets/MLB/one/6_3.webp",
+                    "assets/MLB/one/6_4.webp"
                 ],
                 "reviews": [
                     {
@@ -1262,71 +1995,84 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Gray",
+                        "id": 1,
+                        "color": "White",
                         "image": [
-                            "assets/Nike/Men/k1_1.jpg",
-                            "assets/Nike/Men/k1_2.jpg",
-                            "assets/Nike/Men/k1_3.jpg",
-                            "assets/Nike/Men/k1_4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "BlueBlack",
-                        "image": [
-                            "assets/Nike/Men/k2_1.png",
-                            "assets/Nike/Men/k2_2.jpg",
-                            "assets/Nike/Men/k2_3.jpg",
-                            "assets/Nike/Men/k2_4.png"
+                            "assets/MLB/one/6_1.webp",
+                            "assets/MLB/one/6_2.webp",
+                            "assets/MLB/one/6_3.webp",
+                            "assets/MLB/one/6_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Pant",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
+                    "Men","Women"
                 ]
             },
             {
                 "id": 14,
-                "url": "assets/Nike/Men_Women/1.png",
-                "name": "Fleece Pullover Hoodie",
-                "discount": "10",
+                "url": "assets/MLB/one/7_1.webp",
+                "name": "MLB - Giày sandals unisex đế thấp quai ngang Chunky Water Monogram",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "2,499,000₫",
-                    "normal": "3,199,000₫"
+                    "current": "1,890,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "This product is made from at least 75% sustainable materials, using a blend of both recycled polyester and organic cotton fibres. The blend is at least 10% recycled fibres or at least 10% organic cotton fibres.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Nếu bạn đã quá chán với kiểu dép truyền thống, hãy thử làm mới với đôi giày clog trendy này! Mang phong cách tối giản kết hợp cùng logo thương hiệu MLB tinh tế và chất liệu êm ái, chắc chắn sẽ mang đến cho bạn sự thoải mái cần có nhưng vẫn thời trang.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Men_Women/1.png",
-                    "assets/Nike/Men_Women/2.png",
-                    "assets/Nike/Men_Women/3.png",
-                    "assets/Nike/Men_Women/4.jpg"
+                    "assets/MLB/one/7_1.webp",
+                    "assets/MLB/one/7_2.webp",
+                    "assets/MLB/one/7_3.webp",
+                    "assets/MLB/one/7_4.webp"
                 ],
                 "reviews": [
                     {
@@ -1346,72 +2092,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Black",
+                        "id": 1,
+                        "color": "BlueNhat",
                         "image": [
-                            "assets/Nike/Men_Women/1.png",
-                            "assets/Nike/Men_Women/2.png",
-                            "assets/Nike/Men_Women/3.png",
-                            "assets/Nike/Men_Women/4.jpg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Brown",
-                        "image": [
-                            "assets/Nike/Men_Women/1_1.png",
-                            "assets/Nike/Men_Women/1_2.jpg",
-                            "assets/Nike/Men_Women/1_3.jpg",
-                            "assets/Nike/Men_Women/1_4.png"
+                            "assets/MLB/one/7_1.webp",
+                            "assets/MLB/one/7_2.webp",
+                            "assets/MLB/one/7_3.webp",
+                            "assets/MLB/one/7_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Hoodie",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men",
                     "Women"
                 ]
             },
             {
                 "id": 15,
-                "url": "assets/Nike/Men_Women/2_1.png",
-                "name": "Men's Pullover French Terry Hoodie",
-                "discount": "10",
+                "url": "assets/MLB/one/8_1.webp",
+                "name": "MLB - Giày sneakers unisex cổ thấp Chunky Liner",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "1,035,299₫",
-                    "normal": "1,535,299₫"
+                    "current": "1,890,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "This product is made from at least 75% sustainable materials, using a blend of both recycled polyester and organic cotton fibres. The blend is at least 10% recycled fibres or at least 10% organic cotton fibres.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Nếu bạn đã quá chán với kiểu dép truyền thống, hãy thử làm mới với đôi giày clog trendy này! Mang phong cách tối giản kết hợp cùng logo thương hiệu MLB tinh tế và chất liệu êm ái, chắc chắn sẽ mang đến cho bạn sự thoải mái cần có nhưng vẫn thời trang.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Nike/Men_Women/2_1.png",
-                    "assets/Nike/Men_Women/2_2.png",
-                    "assets/Nike/Men_Women/2_3.jpg",
-                    "assets/Nike/Men_Women/2_4.png"
+                    "assets/MLB/one/8_1.webp",
+                    "assets/MLB/one/8_2.webp",
+                    "assets/MLB/one/8_3.webp",
+                    "assets/MLB/one/8_4.webp"
                 ],
                 "reviews": [
                     {
@@ -1431,72 +2173,68 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Black",
-                        "image": [
-                            "assets/Nike/Men_Women/2_1.png",
-                            "assets/Nike/Men_Women/2_2.png",
-                            "assets/Nike/Men_Women/2_3.jpg",
-                            "assets/Nike/Men_Women/2_4.png"
-                        ]
-                    },
-                    {
-                        "id": "2",
+                        "id": 1,
                         "color": "White",
                         "image": [
-                            "assets/Nike/Men_Women/3_1.png",
-                            "assets/Nike/Men_Women/3_2.png",
-                            "assets/Nike/Men_Women/3_3.jpg",
-                            "assets/Nike/Men_Women/3_4.png"
+                            "assets/MLB/one/8_1.webp",
+                            "assets/MLB/one/8_2.webp",
+                            "assets/MLB/one/8_3.webp",
+                            "assets/MLB/one/8_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
                     }
                 ],
-                "brand": "Nike",
-                "category": "Hoodie",
+                "brand": "MLB",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men",
                     "Women"
                 ]
             },
             {
                 "id": 16,
-                "url": "assets/Uniqlo/1.avif",
-                "name": "AIRism Cotton Áo Polo Gài Nút Ngắn Tay (Open Collar)",
-                "discount": "10",
+                "url": "assets/MLB/Dép/1.webp",
+                "name": "MLB - Dép unisex quai ngang bản rộng Chunky Bouncer",
+                "discount": "0",
                 "rating": "12",
                 "price": {
-                    "current": "391.000đ",
-                    "normal": "890.000đ"
+                    "current": "1,990,000₫"
                 },
-                "sold": "100",
+                "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Được làm từ vải trơn thông thường có lớp lót 'AIRism' mịn màng.Chức năng Cool Touch.Thiết kế cổ mở đẹp mắt và thoáng mát.Mở hoàn toàn các nút để dễ dàng layer.Thiết kế vai rũ thoải mái.",
-                "description": "LỚP NGOÀI 75% vải cotton 25% vải lanh",
+                "information": "Đôi dép quai ngang đơn giản nhưng hiện đại với phom đế cao chunky cùng phần quai dép cách điệu độc đáo. Không cần cầu kì, đôi dép này hoàn hảo để phối với nhiều loại trang phục, mang đến cho bạn vẻ ngoài năng động, cá tính.",
+                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm",
                 "image": [
-                    "assets/Uniqlo/1.avif",
-                    "assets/Uniqlo/2.avif",
-                    "assets/Uniqlo/3.avif",
-                    "assets/Uniqlo/4.avif"
+                    "assets/MLB/Dép/1.webp",
+                    "assets/MLB/Dép/2.webp",
+                    "assets/MLB/Dép/3.webp",
+                    "assets/MLB/Dép/4.webp"
                 ],
                 "reviews": [
                     {
@@ -1516,53 +2254,77 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "GreenS",
+                        "id": 1,
+                        "color": "White",
                         "image": [
-                            "assets/Uniqlo/1.avif",
-                            "assets/Uniqlo/2.avif",
-                            "assets/Uniqlo/3.avif",
-                            "assets/Uniqlo/4.avif"
+                            "assets/MLB/Dép/1.webp",
+                            "assets/MLB/Dép/2.webp",
+                            "assets/MLB/Dép/3.webp",
+                            "assets/MLB/Dép/4.webp"
                         ]
                     },
                     {
-                        "id": "2",
-                        "color": "BlueBlack",
+                        "id": 2,
+                        "color": "Black",
                         "image": [
-                            "assets/Uniqlo/1_1.avif",
-                            "assets/Uniqlo/1_2.avif",
-                            "assets/Uniqlo/1_3.avif",
-                            "assets/Uniqlo/1_4.avif"
+                            "assets/MLB/Dép/1_1.jpeg",
+                            "assets/MLB/Dép/1_2.webp",
+                            "assets/MLB/Dép/1_3.webp",
+                            "assets/MLB/Dép/1_4.webp"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "Uniqlo",
-                "category": "Shirt",
+                "brand": "MLB",
+                "category": "Dép",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men",
-                    "Women"
+                    "Women","Men"
                 ]
             }
+            
         ]
     }
 ]

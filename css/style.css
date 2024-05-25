@@ -1101,7 +1101,15 @@ form.search button:hover {
 .products .variant label[for="Brown"]::before {
     background-color: rgb(133, 123, 110);
 }
-
+.products .variant label[for="ZaraY"]::before {
+    background-color: rgb(171,145,115);
+}
+.products .variant label[for="GreenBlack"]::before {
+    background-color: rgb(8,35,37);
+}
+.products .variant label[for="BlueNhat"]::before {
+    background-color: rgb(123,157,184);
+}
 
 /* khi checked */
 .single-product .variant form p input:checked+label {

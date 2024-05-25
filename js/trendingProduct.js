@@ -140,7 +140,7 @@ console.log(products[0].name)
                     <span class="mini-text">(${item.rating})</span>
                 </div>
                 <h3 class="main-links">
-                    <a href="#">${item.name}</a>
+                    <a href="page-single.html?id=${item.id}&name=${products[1].name}">${item.name}</a>
                 </h3>
                 <div class="price">
                     <span class="current">${item.price.current}</span>
