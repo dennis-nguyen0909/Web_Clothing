@@ -24,7 +24,8 @@ const showDetailProduct = () => {
     const sizes = thisProduct.sizes;
     const colors = thisProduct.colors;
     console.log(colors);
-
+    console.log(thisProduct)
+    const priceNormal = thisProduct.price.normal ? thisProduct.price.normal : ''
     const breadcrumb = document.querySelector(".breadcrumb");
     breadcrumb.innerHTML = `
         <ul class="flexitem">
@@ -108,7 +109,7 @@ const showDetailProduct = () => {
               </div>
               <div class="price">
                   <span class="current">${thisProduct.price.current}</span>
-                  <span class="normal">${thisProduct.price.normal}</span>
+                  <span class="normal">${priceNormal}</span>
               </div>
               <div class="colors">
                   <p>Color</p>

@@ -68,7 +68,7 @@ const showCategory = (newProducts)=>{
                         <a href="page-single.html?id=${item.id}">${item.name}</a>
                     </h3>
                     <div class="price">
-                        <span class="current">${item.current}</span>
+                        <span class="current">${item.price.current}</span>
                         <span class="normal mini-text">${priceNormal}</span>
                     </div>
                     <div class="stock mini-text" data-stock="4000">

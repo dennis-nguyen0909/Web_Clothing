@@ -20,6 +20,7 @@ const loadProduct = () => {
   
   products[0].data.filter((item)=>item.id<=4).forEach((product) => {
     // Create HTML for each product
+    const priceNormal = product.price.normal ? product.price.normal : ''
     const productHTML = `
         <div class="item">
           <div class="media">
@@ -48,8 +49,8 @@ const loadProduct = () => {
               <span class="mini-text">(${product.rating})</span>
             </div>
             <div class="price">
-              <span class="current">$${product.price.current}</span>
-              <span class="normal mini-text">$${product.price.normal}</span>
+              <span class="current">${product.price.current}</span>
+              <span class="normal mini-text">${priceNormal}</span>
             </div>
             <div class="mini-text">
               <p>${product.sold} sold</p>
@@ -67,6 +68,8 @@ const loadProduct = () => {
   });
 
   products[0].data.filter((item)=>item.id>4).forEach((product) => {
+    const priceNormal = product.price.normal ? product.price.normal : ''
+
     const productHTML2 = `
         <div class="item">
           <div class="media">
@@ -95,8 +98,8 @@ const loadProduct = () => {
               <span class="mini-text">(${product.rating})</span>
             </div>
             <div class="price">
-              <span class="current">$${product.price.current}</span>
-              <span class="normal mini-text">$${product.price.normal}</span>
+              <span class="current">${product.price.current}</span>
+              <span class="normal mini-text">${priceNormal}</span>
             </div>
             <div class="mini-text">
               <p>${product.sold} sold</p>
@@ -112,9 +115,9 @@ const loadProduct = () => {
       `;
     listProducts2.innerHTML+=productHTML2;
   });
-console.log(products[1].name)
-console.log(products[0].name)
+
   products[1].data.forEach((item)=>{
+    const priceNormal = item.price.normal ? item.price.normal :''
     const html=`
             <div class="item">
             <div class="media">
@@ -144,7 +147,7 @@ console.log(products[0].name)
                 </h3>
                 <div class="price">
                     <span class="current">${item.price.current}</span>
-                    <span class="normal mini-text">${item.price.normal}</span>
+                    <span class="normal mini-text">${priceNormal}</span>
                 </div>
             </div>
         </div>
