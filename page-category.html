@@ -40,8 +40,8 @@
                             <!-- ul.flexitem.main-links>li*3>a -->
                             <ul class="flexitem main-links">
                                 <li><a href="#">Blog</a></li>
-                                <li><a href="#">Feature Products</a></li>
-                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#" id="featureProduct">Feature Products</a></li>
+                                <li><a href="#" id="trendingProduct">Trending</a></li>
                             </ul>
                         </div>
                         <div class="right">
@@ -76,246 +76,138 @@
                 </div>
             </div>
         <!-- .header-nav>.container>.wrapper.flexitem -->
-            <div class="header-nav">
-                <div class="container">
-                    <div class="wrapper flexitem">
-                        <!-- a.trigger.desktop-hide.i.ri-menu-2-line -->
-                        <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
-                        <div class="left flexitem">
-                            <div class="logo"><a href="/"><span class="circle"></span>.Dennis</a></div>
-                            <!-- .nav.mobile-hide>ul.flexitem.second-links -->
-                            <nav class="mobile-hide">
-                                <ul class="flexitem second-links">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Shop</a></li>
-                                    <li class="has-child">
-                                        <a href="#">Woman<div class="icon-small"><i class="ri-arrow-down-s-line"></i></div></a>
-                                        <!-- .mega>.container>.wrapper>.flexcol*4>.row>h4+ul>li*5>a -->
-                                        <div class="mega">
-                                            <div class="container">
-                                                <div class="wrapper">
-                                                    <div class="flexcol">
-                                                        <div class="row">
-                                                            <h4>Women's Clothing</h4>
-                                                            <ul>
-                                                                <li><a href="">Dresses</a></li>
-                                                                <li><a href="">Tops & Tees</a></li>
-                                                                <li><a href="">Jackets & Coats</a></li>
-                                                                <li><a href="">Pants & Capris</a></li>
-                                                                <li><a href="">Sweaters</a></li>
-                                                                <li><a href="">Costumes</a></li>
-                                                                <li><a href="">Hoodies & SweatShirts</a></li>
-                                                                <li><a href="">Pajamas & Robes</a></li>
-                                                                <li><a href="">Shorts</a></li>
-                                                                <li><a href="">Swimwear</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flexcol">
-                                                        <div class="row">
-                                                            <h4>Jewelry</h4>
-                                                            <ul>
-                                                                <li><a href="">Accessories</a></li>
-                                                                <li><a href="">Bags & Purses</a></li>
-                                                                <li><a href="">Necklaces</a></li>
-                                                                <li><a href="">Rings</a></li>
-                                                                <li><a href="">Earrings</a></li>
-                                                                <li><a href="">Bracelets</a></li>
-                                                                <li><a href="">Body Jewelry</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flexcol">
-                                                        <div class="row">
-                                                            <h4>Beauty</h4>
-                                                            <ul>
-                                                                <li><a href="">Bath Accessories</a></li>
-                                                                <li><a href="">Makeup & Cosmetics</a></li>
-                                                                <li><a href="">Skin Care</a></li>
-                                                                <li><a href="">Hair Care</a></li>
-                                                                <li><a href="">Essential Oils</a></li>
-                                                                <li><a href="">Fragrances</a></li>
-                                                                <li><a href="">Soaps & Bath Bombs</a></li>
-                                                                <li><a href="">Face Marks & Coverings</a></li>
-                                                                <li><a href="">Spa Kits & Gifts</a></li>
-
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flexcol">
-                                                        <div class="row">
-                                                            <h4>Top brands</h4>
-                                                            <ul class="women-brands">
-                                                                <li><a href="">Nike</a></li>
-                                                                <li><a href="">Louis Vuitton</a></li>
-                                                                <li><a href="">Hermes</a></li>
-                                                                <li><a href="">Gucci</a></li>
-                                                                <li><a href="">Zalando</a></li>
-                                                                <li><a href="">Tiffany & Co.</a></li>
-                                                                <li><a href="">Zara</a></li>
-                                                                <li><a href="">H&M</a></li>
-                                                                <li><a href="">Cartier</a></li>
-                                                                <li><a href="">Chanel</a></li>
-                                                                <li><a href="">Hurley</a></li>
-                                                            </ul>
-                                                            <a href="#" class="view-all">View all brands <i class="ri-arrow-right-line"></i></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flexcol products">
-                                                        <div class="row">
-                                                            <div class="media">
-                                                                <div class="thumbnail object-cover">
-                                                                    <a href="#">
-                                                                        <img src="assets/products/apparel1.jpg" alt="">
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="text-content">
-                                                                <h4>Most wanted!</h4>
-                                                                <a href="#" class="primary-button">Order Now!</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Men</a></li>
-                                    <li><a href="#">Sports
-                                        <div class="fly-item"><span>New!</span></div>
-                                    </a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="right">
+        <div class="header-nav">
+            <div class="container">
+                <div class="wrapper flexitem">
+                    <!-- a.trigger.desktop-hide.i.ri-menu-2-line -->
+                    <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
+                    <div class="left flexitem">
+                        <div class="logo"><a href="/"><span class="circle"></span>.Dennis</a></div>
+                        <!-- .nav.mobile-hide>ul.flexitem.second-links -->
+                        <nav class="mobile-hide">
                             <ul class="flexitem second-links">
-                                <li class="mobile-hide"><a href="#">
-                                    <div class="icon-large"><i class="ri-heart-line"></i></div>
-                                    <div class="fly-item"><span class="item-number">0</span></div>
-                                </a></li>
-                                <li  class="iscart" >
-                                    <a href="#">
-                                        <div class="icon-large">
-                                            <i class="ri-shopping-cart-line"></i>
-                                            <div class="fly-item"><span class="item-number">0</span></div>
-                                        </div>
-                                        <div class="icon-text">
-                                            <div class="mini-text">Total</div>
-                                            <div class="cart-total">$0.00</div>
-                                        </div>
-                                    </a>
-                                    <div class="mini-cart">
-                                        <div class="content">
-                                            <div class="cart-head">
-                                                5 items in cart
-                                            </div>
-                                            <div class="cart-body">
-                                                <ul class="products mini">
-                                                    <li class="item">
-                                                        <div class="thumbnail object-cover">
-                                                            <a href="#" >
-                                                                <img src="assets/products/home2.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="item-content">
-                                                            <p><a href="#">Product one</a></p>
-                                                            <span class="price">
-                                                                <span>$279.99</span>
-                                                                <span class="fly-item">
-                                                                    <span>2x</span>
-                                                                </span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
-                                                    </li>
-                                                    <li class="item">
-                                                        <div class="thumbnail object-cover">
-                                                            <a href="#" >
-                                                                <img src="assets/products/home2.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="item-content">
-                                                            <p><a href="#">Product one</a></p>
-                                                            <span class="price">
-                                                                <span>$279.99</span>
-                                                                <span class="fly-item">
-                                                                    <span>2x</span>
-                                                                </span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
-                                                    </li>
-                                                    <li class="item">
-                                                        <div class="thumbnail object-cover">
-                                                            <a href="#" >
-                                                                <img src="assets/products/home2.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="item-content">
-                                                            <p><a href="#">Product one</a></p>
-                                                            <span class="price">
-                                                                <span>$279.99</span>
-                                                                <span class="fly-item">
-                                                                    <span>2x</span>
-                                                                </span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
-                                                    </li>
-                                                    <li class="item">
-                                                        <div class="thumbnail object-cover">
-                                                            <a href="#" >
-                                                                <img src="assets/products/home2.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="item-content">
-                                                            <p><a href="#">Product one</a></p>
-                                                            <span class="price">
-                                                                <span>$279.99</span>
-                                                                <span class="fly-item">
-                                                                    <span>2x</span>
-                                                                </span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
-                                                    </li>
-                                                    <li class="item">
-                                                        <div class="thumbnail object-cover">
-                                                            <a href="#" >
-                                                                <img src="assets/products/home2.jpg" alt="">
-                                                            </a>
-                                                        </div>
-                                                        <div class="item-content">
-                                                            <p><a href="#">Product one</a></p>
-                                                            <span class="price">
-                                                                <span>$279.99</span>
-                                                                <span class="fly-item">
-                                                                    <span>2x</span>
-                                                                </span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="cart-footer">
-                                                <div class="subtotal">
-                                                    <p>SubTotal</p>
-                                                    <p><strong>$1,231,231</strong></p>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li class="has-child">
+                                    <a href="page-category.html?name=Women">Woman<div class="icon-small"><i class="ri-arrow-down-s-line"></i></div></a>
+                                    <!-- .mega>.container>.wrapper>.flexcol*4>.row>h4+ul>li*5>a -->
+                                    <div class="mega">
+                                        <div class="container">
+                                            <div class="wrapper">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Women's Clothing</h4>
+                                                        <ul>
+                                                            <li><a href="">Dresses</a></li>
+                                                            <li><a href="">Tops & Tees</a></li>
+                                                            <li><a href="">Jackets & Coats</a></li>
+                                                            <li><a href="">Pants & Capris</a></li>
+                                                            <li><a href="">Sweaters</a></li>
+                                                            <li><a href="">Costumes</a></li>
+                                                            <li><a href="">Hoodies & SweatShirts</a></li>
+                                                            <li><a href="">Pajamas & Robes</a></li>
+                                                            <li><a href="">Shorts</a></li>
+                                                            <li><a href="">Swimwear</a></li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                                <div class="actions">
-                                                    <a href="/cart.html" class="primary-button">Check Out</a>
-                                                    <a href="/checkout.html" class="secondary-button">View Cart</a>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Jewelry</h4>
+                                                        <ul>
+                                                            <li><a href="">Accessories</a></li>
+                                                            <li><a href="">Bags & Purses</a></li>
+                                                            <li><a href="">Necklaces</a></li>
+                                                            <li><a href="">Rings</a></li>
+                                                            <li><a href="">Earrings</a></li>
+                                                            <li><a href="">Bracelets</a></li>
+                                                            <li><a href="">Body Jewelry</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Beauty</h4>
+                                                        <ul>
+                                                            <li><a href="">Bath Accessories</a></li>
+                                                            <li><a href="">Makeup & Cosmetics</a></li>
+                                                            <li><a href="">Skin Care</a></li>
+                                                            <li><a href="">Hair Care</a></li>
+                                                            <li><a href="">Essential Oils</a></li>
+                                                            <li><a href="">Fragrances</a></li>
+                                                            <li><a href="">Soaps & Bath Bombs</a></li>
+                                                            <li><a href="">Face Marks & Coverings</a></li>
+                                                            <li><a href="">Spa Kits & Gifts</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Top brands</h4>
+                                                        <ul class="women-brands">
+                                                            <li><a href="">Nike</a></li>
+                                                            <li><a href="">Louis Vuitton</a></li>
+                                                            <li><a href="">Hermes</a></li>
+                                                            <li><a href="">Gucci</a></li>
+                                                            <li><a href="">Zalando</a></li>
+                                                            <li><a href="">Tiffany & Co.</a></li>
+                                                            <li><a href="">Zara</a></li>
+                                                            <li><a href="">H&M</a></li>
+                                                            <li><a href="">Cartier</a></li>
+                                                            <li><a href="">Chanel</a></li>
+                                                            <li><a href="">Hurley</a></li>
+                                                        </ul>
+                                                        <a href="#" class="view-all">View all brands <i class="ri-arrow-right-line"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol products">
+                                                    <div class="row">
+                                                        <div class="media">
+                                                            <div class="thumbnail object-cover">
+                                                                <a href="#">
+                                                                    <img src="assets/products/apparel1.jpg" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-content">
+                                                            <h4>Most wanted!</h4>
+                                                            <a href="#" class="primary-button">Order Now!</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+                                <li><a href="page-category.html?name=Men">Men</a></li>
+                                <li><a href="page-category.html?category=Sports">Sports
+                                    <div class="fly-item"><span>New!</span></div>
+                                </a></li>
                             </ul>
-                        </div>
+                        </nav>
+                    </div>
+                    <div class="right">
+                        <ul class="flexitem second-links">
+                            <li class="mobile-hide"><a href="#">
+                                <div class="icon-large"><i class="ri-heart-line"></i></div>
+                                <div class="fly-item"><span class="item-number">0</span></div>
+                            </a></li>
+                            <li><a href="#" class="iscart">
+                                <div class="icon-large">
+                                    <i class="ri-shopping-cart-line"></i>
+                                    <div class="fly-item"><span class="item-number">0</span></div>
+                                </div>
+                                <div class="icon-text">
+                                    <div class="mini-text">Total</div>
+                                    <div class="cart-total">$0.00</div>
+                                </div>
+                            </a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
             <!-- .header-main.mobile-hide>.container>.wrapper.flexitem>.left+.right -->
             <div class="header-main mobile-hide">
                 <div class="container">
@@ -701,8 +593,8 @@
                                         <div class="cat-head">
                                             <div class="breadcrumb">
                                                 <ul class="flexitem">
-                                                    <li><a href="">Home</a></li>
-                                                    <li>Women</li>
+                                                    <li><a href="./index.html">Home</a></li>
+                                                    <li id="name-page">Women</li>
                                                 </ul>
                                             </div>
                                             <div class="page-title">
@@ -805,206 +697,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="item">
-                                            <div class="media">
-                                                <div class="thumbnail object-cover">
-                                                    <a href="#">
-                                                        <img src="assets/products/apparel1.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="hoverable">
-                                                    <ul>
-                                                        <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="discount circle flexcenter">
-                                                    <span>25%</span>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <div class="offer">
-                                                    <p class="mini-text">Offer ends at</p>
-                                                    <ul class="flexcenter">
-                                                        <li>1</li>
-                                                        <li>15</li>
-                                                        <li>27</li>
-                                                        <li>07</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="rating">
-                                                    <div class="stars"></div>
-                                                    <span class="mini-text">(2,548)</span>
-                                                </div>
-                                                <h3 class="main-links">
-                                                    <a href="#">Happy Sailed Womens Summer Boho Floral</a>
-                                                </h3>
-                                                <div class="price">
-                                                    <span class="current">$129.99</span>
-                                                    <span class="normal mini-text">$189.98</span>
-                                                </div>
-                                                <div class="stock mini-text" data-stock="4000">
-                                                    <div class="qty">
-                                                        <span>Sold: <strong class="qty-sold">3459</strong></span>
-                                                        <span>Stock: <strong class="qty-available">107</strong></span>
-                                                    </div>
-                                                    <div class="bar">
-                                                        <div class="available"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="media">
-                                                <div class="thumbnail object-cover">
-                                                    <a href="#">
-                                                        <img src="assets/products/apparel1.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="hoverable">
-                                                    <ul>
-                                                        <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="discount circle flexcenter">
-                                                    <span>25%</span>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <div class="offer">
-                                                    <p class="mini-text">Offer ends at</p>
-                                                    <ul class="flexcenter">
-                                                        <li>1</li>
-                                                        <li>15</li>
-                                                        <li>27</li>
-                                                        <li>07</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="rating">
-                                                    <div class="stars"></div>
-                                                    <span class="mini-text">(2,548)</span>
-                                                </div>
-                                                <h3 class="main-links">
-                                                    <a href="#">Happy Sailed Womens Summer Boho Floral</a>
-                                                </h3>
-                                                <div class="price">
-                                                    <span class="current">$129.99</span>
-                                                    <span class="normal mini-text">$189.98</span>
-                                                </div>
-                                                <div class="stock mini-text" data-stock="4000">
-                                                    <div class="qty">
-                                                        <span>Sold: <strong class="qty-sold">3459</strong></span>
-                                                        <span>Stock: <strong class="qty-available">107</strong></span>
-                                                    </div>
-                                                    <div class="bar">
-                                                        <div class="available"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="media">
-                                                <div class="thumbnail object-cover">
-                                                    <a href="#">
-                                                        <img src="assets/products/apparel1.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="hoverable">
-                                                    <ul>
-                                                        <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="discount circle flexcenter">
-                                                    <span>25%</span>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <div class="offer">
-                                                    <p class="mini-text">Offer ends at</p>
-                                                    <ul class="flexcenter">
-                                                        <li>1</li>
-                                                        <li>15</li>
-                                                        <li>27</li>
-                                                        <li>07</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="rating">
-                                                    <div class="stars"></div>
-                                                    <span class="mini-text">(2,548)</span>
-                                                </div>
-                                                <h3 class="main-links">
-                                                    <a href="#">Happy Sailed Womens Summer Boho Floral</a>
-                                                </h3>
-                                                <div class="price">
-                                                    <span class="current">$129.99</span>
-                                                    <span class="normal mini-text">$189.98</span>
-                                                </div>
-                                                <div class="stock mini-text" data-stock="4000">
-                                                    <div class="qty">
-                                                        <span>Sold: <strong class="qty-sold">3459</strong></span>
-                                                        <span>Stock: <strong class="qty-available">107</strong></span>
-                                                    </div>
-                                                    <div class="bar">
-                                                        <div class="available"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="media">
-                                                <div class="thumbnail object-cover">
-                                                    <a href="#">
-                                                        <img src="assets/products/apparel1.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="hoverable">
-                                                    <ul>
-                                                        <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="discount circle flexcenter">
-                                                    <span>25%</span>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <div class="offer">
-                                                    <p class="mini-text">Offer ends at</p>
-                                                    <ul class="flexcenter">
-                                                        <li>1</li>
-                                                        <li>15</li>
-                                                        <li>27</li>
-                                                        <li>07</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="rating">
-                                                    <div class="stars"></div>
-                                                    <span class="mini-text">(2,548)</span>
-                                                </div>
-                                                <h3 class="main-links">
-                                                    <a href="#">Happy Sailed Womens Summer Boho Floral</a>
-                                                </h3>
-                                                <div class="price">
-                                                    <span class="current">$129.99</span>
-                                                    <span class="normal mini-text">$189.98</span>
-                                                </div>
-                                                <div class="stock mini-text" data-stock="4000">
-                                                    <div class="qty">
-                                                        <span>Sold: <strong class="qty-sold">3459</strong></span>
-                                                        <span>Stock: <strong class="qty-available">107</strong></span>
-                                                    </div>
-                                                    <div class="bar">
-                                                        <div class="available"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                     <div class="load-more flexcenter">
                                         <a href="#" class="secondary-button">Load More</a>
@@ -1277,6 +970,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.0.9/index.js" integrity="sha512-2VqLVM3WCyaqUgQb2hpoWHSus021RIN0Jq0wfrLqqLh+anm1kW/H4Yw7HVu3D5W4nbdUQmAA2mqQv2JEoy+kPA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/index.js"></script>
     <script>
         const filter = document.querySelector(".filter");
@@ -1312,6 +1006,7 @@
             }
         })
     </script>
+        <script src="js/category.js"></script>
 </body>
 
 </html>

@@ -2323,6 +2323,1375 @@
                 "gender": [
                     "Women","Men"
                 ]
+            },
+            {
+                "id": 17,
+                "url": "assets/MLB/Dép/11.webp",
+                "name": "MLB - Dép quai ngang unisex New Mound",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,390,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Đôi dép quai ngang đơn giản nhưng hiện đại với phom đế cao chunky cùng phần quai dép cách điệu độc đáo. Không cần cầu kì, đôi dép này hoàn hảo để phối với nhiều loại trang phục, mang đến cho bạn vẻ ngoài năng động, cá tính.",
+                "description": "Chất liệu: Synthetic Leather Kiểu dáng dép quai ngang bản rộng cá tính Đế cao su chống trơn trượt Phần quai được thiết kế với họa tiết kẻ sọc và logo bóng chày nổi bật ở giữa Trọng lượng nhẹ, tạo sự thoải mái và thoải mái cho đôi chân của bạn Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện Xuất xứ thương hiệu: Hàn Quốc",
+                "image": [
+                    "assets/MLB/Dép/11.webp",
+                    "assets/MLB/Dép/12.webp",
+                    "assets/MLB/Dép/13.webp",
+                    "assets/MLB/Dép/14.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/MLB/Dép/11.webp",
+                    "assets/MLB/Dép/12.webp",
+                    "assets/MLB/Dép/13.webp",
+                    "assets/MLB/Dép/14.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Dép",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women","Men"
+                ]
+            },
+            {
+                "id": 18,
+                "url": "assets/MLB/Dép/21.webp",
+                "name": "MLB - Dép quai ngang unisex Chunky Mound Diamond Monogram",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,690,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Đôi dép quai ngang đơn giản nhưng hiện đại với phom đế cao chunky cùng phần quai dép cách điệu độc đáo. Không cần cầu kì, đôi dép này hoàn hảo để phối với nhiều loại trang phục, mang đến cho bạn vẻ ngoài năng động, cá tính.",
+                "description": "Chất liệu: Synthetic Leather Kiểu dáng dép quai ngang bản rộng cá tính Đế cao su chống trơn trượt Phần quai được thiết kế với họa tiết kẻ sọc và logo bóng chày nổi bật ở giữa Trọng lượng nhẹ, tạo sự thoải mái và thoải mái cho đôi chân của bạn Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện Xuất xứ thương hiệu: Hàn Quốc",
+                "image": [
+                    "assets/MLB/Dép/21.webp",
+                    "assets/MLB/Dép/22.webp",
+                    "assets/MLB/Dép/23.webp",
+                    "assets/MLB/Dép/24.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/MLB/Dép/21.webp",
+                            "assets/MLB/Dép/22.webp",
+                            "assets/MLB/Dép/23.webp",
+                            "assets/MLB/Dép/24.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "MLB",
+                "category": "Dép",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women","Men"
+                ]
+            }, 
+            {
+                "id": 19,
+                "url": "assets/Adidas/Dép/11.avif",
+                "name": "Men • Originals PRIDE ADILETTE SLIDES",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,690,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "The Adilette has been a favourite of beachgoers and poolside loungers since 1972. An embossed adidas Badge of Sport print on the soft bandage upper gives this version of the iconic slides a sporty feel. The contoured footbed delivers the stability the slides are famous for.",
+                "description": "CLASSIC SPORT SANDALS WITH A LIGHTWEIGHT FEEL.",
+                "image": [
+                    "assets/Adidas/Dép/11.avif",
+                    "assets/Adidas/Dép/12.avif",
+                    "assets/Adidas/Dép/13.avif",
+                    "assets/Adidas/Dép/14.avif"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Adidas/Dép/11.avif",
+                            "assets/Adidas/Dép/12.avif",
+                            "assets/Adidas/Dép/13.avif",
+                            "assets/Adidas/Dép/14.avif"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
+                    }
+                ],
+                "brand": "Adidas",
+                "category": "Dép",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Men"
+                ]
+            },
+            {
+                "id": 20,
+                "url": "assets/Zara/Dép/1.jpeg",
+                "name": "GIÀY BÚP BÊ HỌA TIẾT HOA",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,690,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Giày búp bê dáng giày Mary Jane, đế bệt. Họa tiết hoa. Có quai hỗ trợ xỏ phía sau.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/1.jpeg",
+                    "assets/Zara/Dép/2.jpeg",
+                    "assets/Zara/Dép/3.jpeg",
+                    "assets/Zara/Dép/4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/Dép/1.jpeg",
+                            "assets/Zara/Dép/2.jpeg",
+                            "assets/Zara/Dép/3.jpeg",
+                            "assets/Zara/Dép/4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Dép",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 21,
+                "url": "assets/Zara/Dép/11.jpeg",
+                "name": "XĂNG ĐAN DA GÓT VUÔNG",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,690,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Guốc da gót vuông. Có các quai phía trước, phối khóa cài trang trí. Cố định bằng quai cổ chân cài khóa cài. Mũi vuông.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/11.jpeg",
+                    "assets/Zara/Dép/12.jpeg",
+                    "assets/Zara/Dép/13.jpeg",
+                    "assets/Zara/Dép/14.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/Dép/1.jpeg",
+                            "assets/Zara/Dép/2.jpeg",
+                            "assets/Zara/Dép/3.jpeg",
+                            "assets/Zara/Dép/4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Giày Cao Gót",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 22,
+                "url": "assets/Zara/Dép/1_1.jpeg",
+                "name": "XĂNG ĐAN DA GÓT VUÔNG",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.999.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Guốc da gót vuông. Có các quai phía trước, phối khóa cài trang trí. Cố định bằng quai cổ chân cài khóa cài. Mũi vuông.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/1_1.jpeg",
+                    "assets/Zara/Dép/1_2.jpeg",
+                    "assets/Zara/Dép/1_3.jpeg",
+                    "assets/Zara/Dép/1_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/Dép/1_1.jpeg",
+                            "assets/Zara/Dép/1_2.jpeg",
+                            "assets/Zara/Dép/1_3.jpeg",
+                            "assets/Zara/Dép/1_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Giày Cao Gót",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+             {
+                "id": 23,
+                "url": "assets/Zara/Dép/2_1.jpeg",
+                "name": "GIÀY GIẢ DA BÓNG GÓT THẤP",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.199.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Giày mule cao gót chất liệu giả da bóng. Đính nơ trang trí phía trước. Mũi nhọn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/2_1.jpeg",
+                    "assets/Zara/Dép/2_2.jpeg",
+                    "assets/Zara/Dép/2_3.jpeg",
+                    "assets/Zara/Dép/2_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Be",
+                        "image": [
+                            "assets/Zara/Dép/2_1.jpeg",
+                            "assets/Zara/Dép/2_2.jpeg",
+                            "assets/Zara/Dép/2_3.jpeg",
+                            "assets/Zara/Dép/2_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Giày Cao Gót",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 24,
+                "url": "assets/Zara/Dép/21.jpeg",
+                "name": "GUỐC GÓT KITTEN HỌA TIẾT DA ĐỘNG VẬT",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.139.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Guốc gót kitten. Họa tiết da động vật. Cố định bằng khóa cài trên quai cổ chân.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/21.jpeg",
+                    "assets/Zara/Dép/22.jpeg",
+                    "assets/Zara/Dép/23.jpeg",
+                    "assets/Zara/Dép/24.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Đốm",
+                        "image": [
+                            "assets/Zara/Dép/21.jpeg",
+                            "assets/Zara/Dép/22.jpeg",
+                            "assets/Zara/Dép/23.jpeg",
+                            "assets/Zara/Dép/24.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Giày Cao Gót",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 25,
+                "url": "assets/Zara/Dép/k1.jpeg",
+                "name": "GIÀY MULE CAO GÓT VẢI LƯỚI HỞ SAU",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.799.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Giày mule cao gót, hở sau, chất liệu vải lưới đính đá lấp lánh. Mũi nhọn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/k1.jpeg",
+                    "assets/Zara/Dép/k2.jpeg",
+                    "assets/Zara/Dép/k3.jpeg",
+                    "assets/Zara/Dép/k4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Đốm",
+                        "image": [
+                            "assets/Zara/Dép/k1.jpeg",
+                            "assets/Zara/Dép/k2.jpeg",
+                            "assets/Zara/Dép/k3.jpeg",
+                            "assets/Zara/Dép/k4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Giày Cao Gót",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 26,
+                "url": "assets/Zara/Dép/b1.jpeg",
+                "name": "DÉP DA ĐẾ BỆT HỌA TIẾT DA ĐỘNG VẬT",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.199.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Dép da phối lông, đế bệt. Họa tiết da động vật. Kiểu xỏ ngón.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/b1.jpeg",
+                    "assets/Zara/Dép/b2.jpeg",
+                    "assets/Zara/Dép/b3.jpeg",
+                    "assets/Zara/Dép/b4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Zara/Dép/b1.jpeg",
+                            "assets/Zara/Dép/b2.jpeg",
+                            "assets/Zara/Dép/b3.jpeg",
+                            "assets/Zara/Dép/b4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": "Dép",
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 27,
+                "url": "assets/Zara/Dép/a1.jpeg",
+                "name": "DÉP THỂ THAO QUAI CAO SU",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "999.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Dép thể thao tráng cao su. Có các quai cài khóa cài ở phía trước. Đế dày. Mũi tròn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/a1.jpeg",
+                    "assets/Zara/Dép/a2.jpeg",
+                    "assets/Zara/Dép/a3.jpeg",
+                    "assets/Zara/Dép/a4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "GreenNhat",
+                        "image": [
+                            "assets/Zara/Dép/a1.jpeg",
+                            "assets/Zara/Dép/a2.jpeg",
+                            "assets/Zara/Dép/a3.jpeg",
+                            "assets/Zara/Dép/a4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Dép","Sports"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 28,
+                "url": "assets/Zara/Dép/c1.jpeg",
+                "name": "XĂNG ĐAN THỂ THAO ĐẾ BÁNH MÌ",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "999.000đ"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Dép thể thao tráng cao su. Có các quai cài khóa cài ở phía trước. Đế dày. Mũi tròn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Zara/Dép/c1.jpeg",
+                    "assets/Zara/Dép/c2.jpeg",
+                    "assets/Zara/Dép/c3.jpeg",
+                    "assets/Zara/Dép/c4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Be",
+                        "image": [
+                            "assets/Zara/Dép/c1.jpeg",
+                            "assets/Zara/Dép/c2.jpeg",
+                            "assets/Zara/Dép/c3.jpeg",
+                            "assets/Zara/Dép/c4.jpeg"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "Black",
+                        "image": [
+                            "assets/Zara/Dép/c11.jpeg",
+                            "assets/Zara/Dép/c12.jpeg",
+                            "assets/Zara/Dép/c13.jpeg",
+                            "assets/Zara/Dép/c14.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Dép","Sports"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 29,
+                "url": "assets/Adidas/Dép/c1.avif",
+                "name": "ADICANE FLIP-FLOPS",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "950,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Dép thể thao tráng cao su. Có các quai cài khóa cài ở phía trước. Đế dày. Mũi tròn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Adidas/Dép/c1.avif",
+                    "assets/Adidas/Dép/c2.avif",
+                    "assets/Adidas/Dép/c3.avif",
+                    "assets/Adidas/Dép/c4.avif"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Adidas/Dép/c1.avif",
+                            "assets/Adidas/Dép/c2.avif",
+                            "assets/Adidas/Dép/c3.avif",
+                            "assets/Adidas/Dép/c4.avif"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Adidas",
+                "category": ["Dép","Sports"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 30,
+                "url": "assets/Adidas/Dép/b1.avif",
+                "name": "ADILETTE COMFORT SLIDES",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "950,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Dép thể thao tráng cao su. Có các quai cài khóa cài ở phía trước. Đế dày. Mũi tròn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Adidas/Dép/b1.avif",
+                    "assets/Adidas/Dép/b2.avif",
+                    "assets/Adidas/Dép/b3.avif",
+                    "assets/Adidas/Dép/b4.avif"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "PuppleNhat",
+                        "image": [
+                            "assets/Adidas/Dép/b1.avif",
+                            "assets/Adidas/Dép/b2.avif",
+                            "assets/Adidas/Dép/b3.avif",
+                            "assets/Adidas/Dép/b4.avif"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Adidas",
+                "category": ["Dép","Sports"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 31,
+                "url": "assets/Adidas/Women/1.avif",
+                "name": "ADIZERO BOSTON 12 SHOES",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "950,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Dép thể thao tráng cao su. Có các quai cài khóa cài ở phía trước. Đế dày. Mũi tròn.",
+                "description": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường Những thao tác đơn giản như lau chùi sản phẩm bằng khăn bông khô hoặc bàn chải mềm, tùy thuộc vào đặc tính của sản phẩm, cũng có thể giúp chúng ta chăm sóc chúng. Bất cứ khi nào có thể, hãy cố gắng sử dụng các sản phẩm thân thiện với môi trường.",
+                "image": [
+                    "assets/Adidas/Women/1.avif",
+                    "assets/Adidas/Women/2.avif",
+                    "assets/Adidas/Women/3.avif",
+                    "assets/Adidas/Women/4.avif"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Red",
+                        "image": [
+                            "assets/Adidas/Women/1.avif",
+                            "assets/Adidas/Women/2.avif",
+                            "assets/Adidas/Women/3.avif",
+                            "assets/Adidas/Women/4.avif"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "35"
+                    },
+                    {
+                        "id": 2,
+                        "name": "36"
+                    },
+                    {
+                        "id": 3,
+                        "name": "37"
+                    },
+                    {
+                        "id": 4,
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    }
+                ],
+                "brand": "Adidas",
+                "category": ["Shoes","Sports"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
             }
             
         ]

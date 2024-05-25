@@ -28,7 +28,7 @@ const showDetailProduct = () => {
     const breadcrumb = document.querySelector(".breadcrumb");
     breadcrumb.innerHTML = `
         <ul class="flexitem">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Shoes</a></li>
         <li><a href="#">${thisProduct.name}</a></li>
         </ul>`;

@@ -153,3 +153,4 @@ console.log(products[0].name)
   })
 
 };
+

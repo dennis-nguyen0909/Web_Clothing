@@ -110,3 +110,4 @@ for (let x = 0; x < stocks.length; x++) {
     percent = (sold * 100) / stock;
   stocks[x].querySelector(".available").style.width = percent + "%";
 }
+

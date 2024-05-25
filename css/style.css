@@ -1017,6 +1017,7 @@ form.search button:hover {
 .products .variant form {
     display: flex;
     margin-top: 0.5em;
+    flex-wrap: wrap;
 }
 
 .products .variant form p {
@@ -1110,6 +1111,19 @@ form.search button:hover {
 .products .variant label[for="BlueNhat"]::before {
     background-color: rgb(123,157,184);
 }
+.products .variant label[for="Đốm"]::before {
+    background-color: rgb(223,197,175);
+}
+.products .variant label[for="GreenNhat"]::before {
+    background-color: rgb(186,200,190);
+}
+.products .variant label[for="PuppleNhat"]::before {
+    background-color: rgb(163,144,151);
+}
+.products .variant label[for="Red"]::before {
+    background-color: rgb(220,91,93);
+}
+
 
 /* khi checked */
 .single-product .variant form p input:checked+label {
@@ -1625,19 +1639,19 @@ form label {
         display: block;
     } */
     .dpt-menu .beauty ul {
-        background-image: url('../assets/Zara/pant/2_2.jpg');
+        background-image: url('../assets/Zara/1_1.jpeg');
     }
 
     .dpt-menu .electronic ul {
-        background-image: url('../assets/Zara/pant/2_2.jpg');
+        background-image: url('../assets/Zara/1.jpeg');
     }
 
     .dpt-menu .fashion ul {
-        background-image: url('../assets/Zara/pant/4_2.jpg');
+        background-image: url('../assets/Zara/1_4.jpeg');
     }
 
     .dpt-menu .homekit .mega {
-        background-image: url('../assets/Zara/shirt/1_4.jpeg');
+        background-image: url('../assets/Zara/2_3.jpeg');
     }
 
     .dpt-menu .has-child> :where(ul, .mega)::before {
