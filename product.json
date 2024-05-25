@@ -5,22 +5,23 @@
         "data": [
             {
                 "id": 1,
-                "url": "assets/aoMLBXANH1/aoMLBXANH1.webp",
-                "name": "MLB - Áo thun unisex cổ tròn tay ngắn Basic Small Logo",
-                "discount": "32",
+                "url": "assets/Nike/1.png",
+                "name": "Nike Air Force 1 '07 EasyOn",
+                "discount": "20",
                 "rating": "1234",
                 "price": {
-                    "current": "990,000₫",
-                    "normal": "1000,000₫"
+                    "current": "2,591,199₫",
+                    "normal": "3,239,000₫"
                 },
                 "sold": "2795",
                 "shipping": "free shipping",
-                "information": "A stylish black coat dress for women with a classic design.",
+                "information": "Quicker than 1, 2, 3—the original hoops shoe lets you get going. This version of the AF-1 features Nike EasyOn technology for a hands-free experience. The flexible heel collapses when you step in then snaps back into place, making it easy to slip the shoe on and off. Add that to its clean, crisp leather and you've got ultimate wearability. Yeah, it's everything you love and then some.",
                 "description": "A stylish black coat dress for women with a classic design.",
                 "image": [
-                    "assets/aoMLBXANH1/aoMatTruoc.webp",
-                    "assets/aoMLBXANH1/aoMatSau.webp",
-                    "assets/aoMLBXANH1/matGan.jpeg"
+                    "assets/Nike/1.png",
+                    "assets/Nike/2.png",
+                    "assets/Nike/3.png",
+                    "assets/Nike/4.png"
                 ],
                 "reviews": [
                     {
@@ -40,170 +41,105 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "Black",
-                        "image": [
-                            "assets/aoMLBXANH1/aoden.webp",
-                            "assets/aoMLBXANH1/denmattruoc.webp",
-                            "assets/aoMLBXANH1/denmatsau.webp",
-                            "assets/aoMLBXANH1/denmatgan.jpeg"
-                        ]
-                    },
-                    {
-                        "id": "2",
+                        "id": 1,
                         "color": "Blue",
                         "image": [
-                            "assets/aoMLBXANH1/aoMLBXANH1.webp",
-                            "assets/aoMLBXANH1/aoMatTruoc.webp",
-                            "assets/aoMLBXANH1/aoMatSau.webp",
-                            "assets/aoMLBXANH1/matGan.jpeg"
+                            "assets/Nike/1.png",
+                            "assets/Nike/2.png",
+                            "assets/Nike/3.png",
+                            "assets/Nike/4.png"
                         ]
                     },
                     {
-                        "id": "3",
+                        "id": 2,
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/1_1.png",
+                            "assets/Nike/1_2.png",
+                            "assets/Nike/1_3.jpg",
+                            "assets/Nike/1_4.jpg"
+                        ]
+                    },
+                    {
+                        "id": 3,
                         "color": "White",
                         "image": [
-                            "assets/aoMLBXANH1/aotrang.webp",
-                            "assets/aoMLBXANH1/trangmattruoc.webp",
-                            "assets/aoMLBXANH1/trangmatsau.webp",
-                            "assets/aoMLBXANH1/trangmatgan.webp"
+                            "assets/Nike/2_1.png",
+                            "assets/Nike/2_2.png",
+                            "assets/Nike/2_3.png",
+                            "assets/Nike/2_4.png"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
+                        "name": "38"
+                    },
+                    {
+                        "id": 5,
+                        "name": "39"
+                    },
+                    {
+                        "id": 6,
+                        "name": "40"
+                    },
+                    {
+                        "id": 7,
+                        "name": "41"
+                    },
+                    {
+                        "id": 8,
+                        "name": "42"
+                    },
+                    {
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
-                "brand": "MLB",
-                "category": "Shirt",
+                "brand": "Nike",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Women"
+                    "Women",
+                    "Men"
                 ]
             },
             {
                 "id": 2,
-                "url": "assets/sanpham2/1.webp",
-                "name": "MLB - Áo thun unisex cổ tròn tay ngắn Varsity New York Yankees",
-                "discount": "32",
+                "url": "assets/Nike/4_1.png",
+                "name": "Nike Air Force 1 '07 Men's Shoes",
+                "discount": "20",
                 "rating": "1234",
                 "price": {
-                    "current": "1,790,000₫",
-                    "normal": "2,000,000₫"
+                    "current": "3,239,000₫"
                 },
                 "sold": "2795",
                 "shipping": "free shipping",
-                "information": "Họa tiết in cùng phông chữ được cách điệu đáng yêu, trẻ trung là điểm nhấn nổi bật cho chiếc áo thun Varsity New York Yankees, sẵn sàng trở thành trợ thủ đắc lực cho các MLB-crew dẫn đầu xu hướng. Chính vì thế, không cần tô điểm cầu kỳ, chỉ cần mix-match đơn giản cùng chiếc chân váy denim thêm chút phụ kiện túi và nón bucket là đủ để bạn tự tin tỏa sáng trong mọi hoàn cảnh.",
-                "description": "Thích hợp mặc trong các dịp: Đi chơi, đi ăn....",
+                "information": "Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with contrasting colours for style that tracks whether you're on court or on the go.",
+                "description": "Debuting in 1982 as a basketball must-have, the Air Force 1 came into its own in the '90s. The clean look of the classic white-on-white AF-1 was endorsed from the basketball courts to the street and beyond. Finding its rhythm in hip-hop culture, releasing limited collabs and colourways, Air Force 1 became an iconic sneaker around the globe. And with over 2,000 iterations of this staple, its impact on fashion, music and sneaker culture can't be denied.",
                 "image": [
-                    "assets/sanpham2/1.webp",
-                    "assets/sanpham2/2.webp",
-                    "assets/sanpham2/3.webp",
-                    "assets/sanpham2/4.jpeg"
-                ],
-                "reviews": [
-                    {
-                        "person": "Gia Huy",
-                        "date": "20/5/2024",
-                        "rating": 5,
-                        "title": "Awesome product!",
-                        "text": "Áo đẹp vcl"
-                    },
-                    {
-                        "person": "Thanh My",
-                        "date": "10/5/2024",
-                        "rating": 5,
-                        "title": "Great quality!",
-                        "text": "Áo đẹp xịn 10 điểm"
-                    }
-                ],
-                "colors": [
-                    {
-                        "id": "1",
-                        "color": "Gray",
-                        "image": [
-                            "assets/sanpham2/1.webp",
-                            "assets/sanpham2/2.webp",
-                            "assets/sanpham2/3.webp",
-                            "assets/sanpham2/4.jpeg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Pink",
-                        "image": [
-                            "assets/sanpham2/1_1.webp",
-                            "assets/sanpham2/1_2.webp",
-                            "assets/sanpham2/1_3.jpeg",
-                            "assets/sanpham2/1_4.jpeg"
-                        ]
-                    }
-                ],
-                "sizes": [
-                    {
-                        "id": 1,
-                        "name": "S"
-                    },
-                    {
-                        "id": 2,
-                        "name": "M"
-                    },
-                    {
-                        "id": 3,
-                        "name": "L"
-                    },
-                    {
-                        "id": 4,
-                        "name": "XL"
-                    }
-                ],
-                "brand": "MLB",
-                "category": "Shirt",
-                "activity": "Running",
-                "material": "Fleece",
-                "gender": [
-                    [
-                        "Men"
-                    ],
-                    [
-                        "Women"
-                    ]
-                ]
-            },
-            {
-                "id": 3,
-                "url": "assets/sanpham3/1.webp",
-                "name": "MLB - Áo thun unisex cổ tròn tay ngắn Varsity Cursive Graphic Overfit",
-                "discount": "0",
-                "rating": "1234",
-                "price": {
-                    "current": "990,000₫",
-                    "normal": "1000,000₫"
-                },
-                "sold": "2795",
-                "shipping": "free shipping",
-                "information": "Mang tinh thần năng động đậm chất MLB với chiếc áo thun Varsity Cursive Graphic Overfit. Có thiết kế basic kết hợp cùng họa tiết in ấn tượng ở trước áo, item này không chỉ đem lại cho bạn cảm giác thoải mái từ chất liệu vải mềm mại, mà còn hứa hẹn sẽ giúp bạn nâng tầm phong cách một cách dễ dàng.",
-                "description": "Xu hướng theo mùa: Sử dụng được tất cả các mùa trong năm ",
-                "image": [
-                    "assets/sanpham3/1.webp",
-                    "assets/sanpham3/2.webp",
-                    "assets/sanpham3/3.jpeg",
-                    "assets/sanpham3/4.jpeg"
+                    "assets/Nike/4_1.png",
+                    "assets/Nike/4_2.png",
+                    "assets/Nike/4_3.png",
+                    "assets/Nike/4_4.png"
                 ],
                 "reviews": [
                     {
@@ -223,479 +159,74 @@
                 ],
                 "colors": [
                     {
-                        "id": "1",
-                        "color": "BlueBlack",
-                        "image": [
-                            "assets/sanpham3/1.webp",
-                            "assets/sanpham3/2.webp",
-                            "assets/sanpham3/3.jpeg",
-                            "assets/sanpham3/4.jpeg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Pink",
-                        "image": [
-                            "assets/sanpham3/1_1.webp",
-                            "assets/sanpham3/1_2.webp",
-                            "assets/sanpham3/1_3.jpeg",
-                            "assets/sanpham3/1_4.webp"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "color": "White",
-                        "image": [
-                            "assets/sanpham3/2_1.webp",
-                            "assets/sanpham3/2_2.webp",
-                            "assets/sanpham3/2_3.webp",
-                            "assets/sanpham3/2_4.webp"
-                        ]
-                    }
-                ],
-                "sizes": [
-                    {
                         "id": 1,
-                        "name": "S"
-                    },
-                    {
-                        "id": 2,
-                        "name": "M"
-                    },
-                    {
-                        "id": 3,
-                        "name": "L"
-                    },
-                    {
-                        "id": 4,
-                        "name": "XL"
-                    }
-                ],
-                "brand": "MLB",
-                "category": "Shirt",
-                "activity": "Running",
-                "material": "Fleece",
-                "gender": [
-                    "Women"
-                ]
-            },
-            {
-                "id": 4,
-                "url": "assets/sanpham4/1.webp",
-                "name": "MLB - Áo thun unisex cổ tròn tay ngắn Classic Monogram Big Lux",
-                "discount": "10",
-                "rating": "12",
-                "price": {
-                    "current": "990,000₫",
-                    "normal": "1000,000₫"
-                },
-                "sold": "2795",
-                "shipping": "free shipping",
-                "information": "Tự tin tỏa sáng cùng chiếc áo thun Classic Monogram Big Lux với họa tiết monogram cực kì đơn giản. Chiếc item này dành cho những ngày bạn không biết mặc gì nhưng vẫn đảm bảo được phong cách thời trang cá nhân, cũng như làm đa dạng sự lựa chọn cho tủ đồ của bạn.",
-                "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image": [
-                    "assets/sanpham4/1.webp",
-                    "assets/sanpham4/2.webp",
-                    "assets/sanpham4/3.webp",
-                    "assets/sanpham4/4.webp"
-                ],
-                "reviews": [
-                    {
-                        "person": "Minh Duy",
-                        "date": "17/5/2024",
-                        "rating": 5,
-                        "title": "Awesome product!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    },
-                    {
-                        "person": "Thanh My",
-                        "date": "10/5/2024",
-                        "rating": 5,
-                        "title": "Great quality!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    }
-                ],
-                "colors": [
-                    {
-                        "id": "1",
                         "color": "Black",
                         "image": [
-                            "assets/sanpham4/1.webp",
-                            "assets/sanpham4/2.webp",
-                            "assets/sanpham4/3.webp",
-                            "assets/sanpham4/4.webp"
+                            "assets/Nike/4_1.png",
+                            "assets/Nike/4_2.png",
+                            "assets/Nike/4_3.png",
+                            "assets/Nike/4_4.png"
                         ]
                     },
                     {
-                        "id": "2",
-                        "color": "Be",
+                        "id": 2,
+                        "color": "Blue",
                         "image": [
-                            "assets/sanpham4/1_1.webp",
-                            "assets/sanpham4/1_2.webp",
-                            "assets/sanpham4/1_3.webp",
-                            "assets/sanpham4/1_4.jpeg"
+                            "assets/Nike/5_1.png",
+                            "assets/Nike/5_2.png",
+                            "assets/Nike/5_3.png",
+                            "assets/Nike/5_4.png"
                         ]
                     }
                 ],
                 "sizes": [
                     {
                         "id": 1,
-                        "name": "S"
+                        "name": "35"
                     },
                     {
                         "id": 2,
-                        "name": "M"
+                        "name": "36"
                     },
                     {
                         "id": 3,
-                        "name": "L"
+                        "name": "37"
                     },
                     {
                         "id": 4,
-                        "name": "XL"
-                    }
-                ],
-                "brand": "MLB",
-                "category": "Shirt",
-                "activity": "Running",
-                "material": "Fleece",
-                "gender": [
-                    "Women"
-                ]
-            },
-            {
-                "id": 5,
-                "url": "assets/NikeMen2/1.jpeg",
-                "name": "Nike Sportswear Premium Essentials",
-                "discount": "10",
-                "rating": "12",
-                "price": {
-                    "current": "990,000₫",
-                    "normal": "1000,000₫"
-                },
-                "sold": "2795",
-                "shipping": "free shipping",
-                "information": "Tự tin tỏa sáng cùng chiếc áo thun Classic Monogram Big Lux với họa tiết monogram cực kì đơn giản. Chiếc item này dành cho những ngày bạn không biết mặc gì nhưng vẫn đảm bảo được phong cách thời trang cá nhân, cũng như làm đa dạng sự lựa chọn cho tủ đồ của bạn.",
-                "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image": [
-                    "assets/NikeMen2/1.jpeg",
-                    "assets/NikeMen2/2.jpeg",
-                    "assets/NikeMen2/3.jpeg",
-                    "assets/NikeMen2/4.jpeg"
-                ],
-                "reviews": [
-                    {
-                        "person": "Minh Duy",
-                        "date": "17/5/2024",
-                        "rating": 5,
-                        "title": "Awesome product!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                        "name": "38"
                     },
                     {
-                        "person": "Thanh My",
-                        "date": "10/5/2024",
-                        "rating": 5,
-                        "title": "Great quality!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    }
-                ],
-                "colors": [
-                    {
-                        "id": "1",
-                        "color": "GreenNhat",
-                        "image": [
-                            "assets/NikeMen2/1.jpeg",
-                            "assets/NikeMen2/2.jpeg",
-                            "assets/NikeMen2/3.jpeg",
-                            "assets/NikeMen2/4.jpeg"
-                        ]
+                        "id": 5,
+                        "name": "39"
                     },
                     {
-                        "id": "2",
-                        "color": "Black",
-                        "image": [
-                            "assets/NikeMen2/1_1.png",
-                            "assets/NikeMen2/1_2.jpeg",
-                            "assets/NikeMen2/1_3.jpeg",
-                            "assets/NikeMen2/1_4.png"
-                        ]
-                    }
-                ],
-                "sizes": [
-                    {
-                        "id": 1,
-                        "name": "S"
+                        "id": 6,
+                        "name": "40"
                     },
                     {
-                        "id": 2,
-                        "name": "M"
+                        "id": 7,
+                        "name": "41"
                     },
                     {
-                        "id": 3,
-                        "name": "L"
+                        "id": 8,
+                        "name": "42"
                     },
                     {
-                        "id": 4,
-                        "name": "XL"
+                        "id": 9,
+                        "name": "43"
+                    },
+                    {
+                        "id": 10,
+                        "name": "44"
                     }
                 ],
                 "brand": "Nike",
-                "category": "Shirt",
+                "category": "Shoes",
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
-                    "Men"
-                ]
-            },
-            {
-                "id": 6,
-                "url": "assets/NikeMen/1.jpeg",
-                "name": "Nike Sportswear",
-                "discount": "10",
-                "rating": "12",
-                "price": {
-                    "current": "990,000₫",
-                    "normal": "1000,000₫"
-                },
-                "sold": "2795",
-                "shipping": "free shipping",
-                "information": "Throwback hoops style meets soft-cotton comfort in this roomy tee. Dropped shoulders and a loose fit through the body give our Max90 tee a relaxed and casual look, while soft, midweight cotton fabric has you feeling like an all-star.",
-                "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image": [
-                    "assets/NikeMen/1.jpeg",
-                    "assets/NikeMen/2.jpeg",
-                    "assets/NikeMen/3.jpeg",
-                    "assets/NikeMen/4.jpeg"
-                ],
-                "reviews": [
-                    {
-                        "person": "Minh Duy",
-                        "date": "17/5/2024",
-                        "rating": 5,
-                        "title": "Awesome product!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    },
-                    {
-                        "person": "Thanh My",
-                        "date": "10/5/2024",
-                        "rating": 5,
-                        "title": "Great quality!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    }
-                ],
-                "colors": [
-                    {
-                        "id": "1",
-                        "color": "White",
-                        "image": [
-                            "assets/NikeMen/1.jpeg",
-                            "assets/NikeMen/2.jpeg",
-                            "assets/NikeMen/3.jpeg",
-                            "assets/NikeMen/4.jpeg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Black",
-                        "image": [
-                            "assets/NikeMen/1.png",
-                            "assets/NikeMen/2.png",
-                            "assets/NikeMen/1_3.jpeg",
-                            "assets/NikeMen/1_4.jpeg"
-                        ]
-                    }
-                ],
-                "sizes": [
-                    {
-                        "id": 1,
-                        "name": "S"
-                    },
-                    {
-                        "id": 2,
-                        "name": "M"
-                    },
-                    {
-                        "id": 3,
-                        "name": "L"
-                    },
-                    {
-                        "id": 4,
-                        "name": "XL"
-                    }
-                ],
-                "brand": "Nike",
-                "category": "Shirt",
-                "activity": "Running",
-                "material": "Fleece",
-                "gender": [
-                    "Men"
-                ]
-            },
-            {
-                "id": 7,
-                "url": "assets/Nike/Jacket/1.png",
-                "name": "Sustainable Materials",
-                "discount": "10",
-                "rating": "12",
-                "price": {
-                    "current": "2,299,000₫",
-                    "normal": "3,299,000₫"
-                },
-                "sold": "2795",
-                "shipping": "free shipping",
-                "information": "Throwback hoops style meets soft-cotton comfort in this roomy tee. Dropped shoulders and a loose fit through the body give our Max90 tee a relaxed and casual look, while soft, midweight cotton fabric has you feeling like an all-star.",
-                "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image": [
-                    "assets/Nike/Jacket/1.png",
-                    "assets/Nike/Jacket/2.png",
-                    "assets/Nike/Jacket/3.png",
-                    "assets/Nike/Jacket/4.png"
-                ],
-                "reviews": [
-                    {
-                        "person": "Minh Duy",
-                        "date": "17/5/2024",
-                        "rating": 5,
-                        "title": "Awesome product!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    },
-                    {
-                        "person": "Thanh My",
-                        "date": "10/5/2024",
-                        "rating": 5,
-                        "title": "Great quality!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    }
-                ],
-                "colors": [
-                    {
-                        "id": "1",
-                        "color": "Black",
-                        "image": [
-                            "assets/Nike/Jacket/1.png",
-                            "assets/Nike/Jacket/2.png",
-                            "assets/Nike/Jacket/3.png",
-                            "assets/Nike/Jacket/4.png"
-                        ]
-                    }
-                ],
-                "sizes": [
-                    {
-                        "id": 1,
-                        "name": "S"
-                    },
-                    {
-                        "id": 2,
-                        "name": "M"
-                    },
-                    {
-                        "id": 3,
-                        "name": "L"
-                    },
-                    {
-                        "id": 4,
-                        "name": "XL"
-                    }
-                ],
-                "brand": "Nike",
-                "category": "Shirt",
-                "activity": "Running",
-                "material": "Fleece",
-                "gender": [
-                    "Men"
-                ]
-            },
-            {
-                "id": 8,
-                "url": "assets/Nike/Hoodie/1.jpeg",
-                "name": "Nike Solo Swoosh Men's French Terry Pullover Hoodie",
-                "discount": "10",
-                "rating": "12",
-                "price": {
-                    "current": "2,299,000₫",
-                    "normal": "3,299,000₫"
-                },
-                "sold": "2795",
-                "shipping": "free shipping",
-                "information": "Throwback hoops style meets soft-cotton comfort in this roomy tee. Dropped shoulders and a loose fit through the body give our Max90 tee a relaxed and casual look, while soft, midweight cotton fabric has you feeling like an all-star.",
-                "description": "Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện",
-                "image": [
-                    "assets/Nike/Hoodie/1.jpeg",
-                    "assets/Nike/Hoodie/2.jpeg",
-                    "assets/Nike/Hoodie/3.png",
-                    "assets/Nike/Hoodie/4.jpeg"
-                ],
-                "reviews": [
-                    {
-                        "person": "Minh Duy",
-                        "date": "17/5/2024",
-                        "rating": 5,
-                        "title": "Awesome product!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    },
-                    {
-                        "person": "Thanh My",
-                        "date": "10/5/2024",
-                        "rating": 5,
-                        "title": "Great quality!",
-                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
-                    }
-                ],
-                "colors": [
-                    {
-                        "id": "1",
-                        "color": "Gray",
-                        "image": [
-                            "assets/Nike/Hoodie/1.jpeg",
-                            "assets/Nike/Hoodie/2.jpeg",
-                            "assets/Nike/Hoodie/3.png",
-                            "assets/Nike/Hoodie/4.jpeg"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "color": "Pupple",
-                        "image": [
-                            "assets/Nike/Hoodie/1_1.png",
-                            "assets/Nike/Hoodie/1_2.jpeg",
-                            "assets/Nike/Hoodie/1_3.jpeg",
-                            "assets/Nike/Hoodie/1_4.jpeg"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "color": "Black",
-                        "image": [
-                            "assets/Nike/Hoodie/2_1.png",
-                            "assets/Nike/Hoodie/2_2.png",
-                            "assets/Nike/Hoodie/2_3.jpeg",
-                            "assets/Nike/Hoodie/2_4.jpeg"
-                        ]
-                    }
-                ],
-                "sizes": [
-                    {
-                        "id": 1,
-                        "name": "S"
-                    },
-                    {
-                        "id": 2,
-                        "name": "M"
-                    },
-                    {
-                        "id": 3,
-                        "name": "L"
-                    },
-                    {
-                        "id": 4,
-                        "name": "XL"
-                    }
-                ],
-                "brand": "Nike",
-                "category": "Shirt",
-                "activity": "Running",
-                "material": "Fleece",
-                "gender": [
+                    "Women",
                     "Men"
                 ]
             }
