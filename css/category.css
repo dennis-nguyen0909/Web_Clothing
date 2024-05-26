@@ -239,7 +239,7 @@ input[type="range"]::-webkit-slider-thumb {
     transition: width 0.3s ease, opacity 0.3s ease;
 }
 
-:is(.mini-cart .products , .prducts.cart) img {
+:is(.mini-cart .products , .prducts.cart , .checkout .products) img {
     transform: none;
 }
 
@@ -271,7 +271,7 @@ input[type="range"]::-webkit-slider-thumb {
     overflow: auto;
 }
 
-:where(.mini-cart,.products.cart) .thumbnail {
+:where(.mini-cart,.products.cart,.checkout) .thumbnail {
     position: relative;
     width: 80px;
     height: 80px;

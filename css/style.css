@@ -1460,7 +1460,8 @@ form label {
 
     .products.mini,
     .banner .row,
-    .widgets .row {
+    .widgets .row,
+    .checkout .item  {
         flex: 0 0 50%;
     }
 
@@ -1473,6 +1474,9 @@ form label {
     .is_sticky {
         position: sticky;
         top: 2em;
+    }
+    .checkout .item.right{
+        padding: 5em 0 0 5em;
     }
 }
 
