@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
 
-
 :root {
     --primary-color: #ff6b6b;
     --secondary-color: #794afa;
@@ -1042,7 +1041,7 @@ form.search button:hover {
     width: 0;
 }
 
-.products .variant label::before {
+.products .colors .variant label::before {
     opacity: 1;
 }
 
@@ -1477,6 +1476,34 @@ form label {
     }
 }
 
+@media screen and (max-width:639px) {
+    #cart-table thead {
+        display: none;
+    }
+    #cart-table tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+
+    }
+    #cart-table tbody tr td:first-child {
+        width: var(--percent100);
+        min-width: var(--percent100);
+        position: relative;
+    }
+    #cart-table tbody tr td:not(:first-child) {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: var(--percent100);
+    }
+    #cart-table tbody tr td:last-child{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+}
 @media screen and (min-width:992px) {
     .container {
         padding: 0 2em;
@@ -1749,5 +1776,14 @@ form label {
     .single-category .products.main .item {
         /* màn hình pc thì 3 sản phẩm  */
         flex: 0 0 33.3333%;
+    }
+    /* PAGE-CART */
+    .products.cart .form-cart {
+        width: 66%;
+    }
+    .products.cart .cart-summary {
+        width: 34%;
+        padding-left: 2.5em;
+        margin-top: 0;
     }
 }

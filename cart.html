@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/trending.css">
     <link rel="stylesheet" href="css/features.css">
@@ -15,7 +16,7 @@
 </head>
 <body>
     <!-- #page.site>header+main+footer -->
-    <div id="page" class="site page-category">
+    <div id="page" class="site page-cate">
         <!-- aside.site-off.desktop-hide>.off-canvas>.canvas-head+.departments+nav+.thetop-nav -->
         <aside class="site-off desktop-hide">
             <div class="off-canvas">
@@ -515,300 +516,143 @@
         </header>
         <!-- Main -->
         <main>
-            <div class="single-category">
+            <div class="single-cart">
                 <div class="container">
                     <div class="wrapper">
-                        <div class="column">
-                            <div class="holder">
-                                <div class="row sidebar">
-                                    <div class="filter">
-                                        <div class="filter-block">
-                                            <h4>Category</h4>
-                                            <ul>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="bags">
-                                                    <label for="bags">
-                                                        <span class="checked"></span>
-                                                        <span>Bags</span>
-                                                    </label>
-                                                    <span class="count">15</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="short">
-                                                    <label for="short">
-                                                        <span class="checked"></span>
-                                                        <span>Short</span>
-                                                    </label>
-                                                    <span class="count">1</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="clothing">
-                                                    <label for="clothing">
-                                                        <span class="checked"></span>
-                                                        <span>Clothing</span>
-                                                    </label>
-                                                    <span class="count">3</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="jacket">
-                                                    <label for="jacket">
-                                                        <span class="checked"></span>
-                                                        <span>Jacket</span>
-                                                    </label>
-                                                    <span class="count">4</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="Pant">
-                                                    <label for="Pant">
-                                                        <span class="checked"></span>
-                                                        <span>Pant</span>
-                                                    </label>
-                                                    <span class="count">15</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="filter-block">
-                                            <h4>Activity</h4>
-                                            <ul>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="bags">
-                                                    <label for="bags">
-                                                        <span class="checked"></span>
-                                                        <span>Bags</span>
-                                                    </label>
-                                                    <span class="count">15</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="short">
-                                                    <label for="short">
-                                                        <span class="checked"></span>
-                                                        <span>Short</span>
-                                                    </label>
-                                                    <span class="count">1</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="clothing">
-                                                    <label for="clothing">
-                                                        <span class="checked"></span>
-                                                        <span>Clothing</span>
-                                                    </label>
-                                                    <span class="count">3</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="jacket">
-                                                    <label for="jacket">
-                                                        <span class="checked"></span>
-                                                        <span>Jacket</span>
-                                                    </label>
-                                                    <span class="count">4</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="Pant">
-                                                    <label for="Pant">
-                                                        <span class="checked"></span>
-                                                        <span>Pant</span>
-                                                    </label>
-                                                    <span class="count">15</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="filter-block">
-                                            <h4>Brands</h4>
-                                            <ul>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="mlb">
-                                                    <label for="mlb">
-                                                        <span class="checked"></span>
-                                                        <span>MLB</span>
-                                                    </label>
-                                                    <span class="count">15</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="levis">
-                                                    <label for="levis">
-                                                        <span class="checked"></span>
-                                                        <span>Levis</span>
-                                                    </label>
-                                                    <span class="count">1</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="levent">
-                                                    <label for="levent">
-                                                        <span class="checked"></span>
-                                                        <span>Levent</span>
-                                                    </label>
-                                                    <span class="count">3</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="uniqlo">
-                                                    <label for="uniqlo">
-                                                        <span class="checked"></span>
-                                                        <span>Uniqlo</span>
-                                                    </label>
-                                                    <span class="count">4</span>
-                                                </li>
-                                                <li>
-                                                    <input type="checkbox" name="checkbox" id="gucci">
-                                                    <label for="gucci">
-                                                        <span class="checked"></span>
-                                                        <span>Gucci</span>
-                                                    </label>
-                                                    <span class="count">15</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="filter-block products">
-                                            <h4>Color</h4>
-                                            <ul class="bycolor variant flexitem">
-                                                <li>
-                                                    <input type="radio" name="color" id="cogrey"/>
-                                                    <label for="cogrey" class="circle"></label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="color" id="coblue"/>
-                                                    <label for="coblue" class="circle"></label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="color" id="coblack"/>
-                                                    <label for="coblack" class="circle"></label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="color" id="cored"/>
-                                                    <label for="cored" class="circle"></label>
-                                                </li>
-                                                <li>
-                                                    <input type="radio" name="color" id="colight"/>
-                                                    <label for="colight" class="circle"></label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="filter-block pricing">
-                                            <h4>Price</h4>
-                                            <div class="byprice">
-                                                <div class="range-track">
-                                                    <input type="range" value="25000" min="0" max="100000">
-                                                </div>
-                                                <div class="price-range">
-                                                    <span class="price-form">$50</span>
-                                                    <span class="price-to">$500</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="breadcrumb">
+                            <ul class="flexitem">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Cart</li>
+                            </ul>
+                        </div>
+                        <div class="page-title">
+                            <h1>Shopping Cart</h1>
+                        </div>
+                        <div class="products one cart">
+                            <div class="flexwrap">
+                                <form action="" class="form-cart">
+                                    <div class="item">
+                                        <table id="cart-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Item</th>
+                                                    <th>Price</th>
+                                                    <th>Qty</th>
+                                                    <th>Subtotal</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#"><img src="assets/Adidas/1.avif" alt=""></a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <strong><a href="#">Product 1</a></strong>
+                                                            <p>Color: Black</p>
+                                                        </div>
+                                                    </td>
+                                                    <td>$192.23</td>
+                                                    <td>
+                                                        <div class="qty-control flexitem">
+                                                            <button class="minus">-</button>
+                                                            <input type="text" value="2" min="1">
+                                                            <button class="plus">+</button>
+                                                        </div>
+                                                    </td>
+                                                    <td>$1233.23</td>
+                                                    <td>
+                                                        <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
                                     </div>
-                                </div>
-                                <div class="section">
-                                    <div class="row">
-                                        <div class="cat-head">
-                                            <div class="breadcrumb">
-                                                <ul class="flexitem">
-                                                    <li><a href="./index.html">Home</a></li>
-                                                    <li id="name-page">Women</li>
-                                                </ul>
-                                            </div>
-                                            <div class="page-title">
-                                                <h1>Women</h1>
-                                            </div>
-                                            <div class="cat-description">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, tenetur at facilis, obcaecati corporis amet modi optio voluptatem animi nobis quis sed, repellendus unde. Temporibus.</p>
-
-                                            </div>
-                                            <div class="cat-navigation flexitem">
-                                                <div class="item-filter desktop-hide">
-                                                        <a href="#" class="filter-trigger label">
-                                                            <i class="ri-menu-2-line ri-2x"></i>
-                                                            <span>Filter</span>
-                                                        </a>
-                                                </div>
-                                                <div class="item-sortir">
-                                                    <div class="label">
-                                                        <span class="mobile-hide">Sort by default</span>
-                                                        <div class="desktop-hide">Default</div>
-                                                        <i class="ri-arrow-down-s-line"></i>
+                                </form>
+                                <div class="cart-summary styled">
+                                    <div class="item">
+                                        <div class="coupon">
+                                            <input type="text" placeholder="Enter coupon">
+                                            <button>Apply</button>
+                                        </div>
+                                        <div class="shipping-rate collapse">
+                                            <div class="has-child expand">
+                                                <a href="" class="icon-small">Estimal shipping and tax</a>
+                                                <div class="content">
+                                                    <div class="countries">
+                                                        <form action="">
+                                                            <label for="country">Country</label>
+                                                            <select name="country" id="country">
+                                                                <option value=""></option>
+                                                                <option value="1">Việt Nam</option>
+                                                                <option value="2">USA</option>
+                                                                <option value="3">Thailand</option>
+                                                                <option value="4">China</option>
+                                                                <option value="5">France</option>
+                                                            </select>
+                                                        </form>
                                                     </div>
-                                                    <ul>
-                                                        <li>Default</li>
-                                                        <li>Product Name</li>
-                                                        <li>Price</li>
-                                                        <li>Brand</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="item-perpage mobile-hide">
-                                                    <div class="label">Items 10 per page</div>
-                                                    <div class="desktop-hide">10</div>
-                                            
-                                                </div>
-                                                <div class="item-options">
-                                                    <div class="label">
-                                                        <span class="mobile-hide">Show 10 per page</span>
-                                                        <div class="desktop-hide">10</div>
-                                                        <i class="ri-arrow-down-s-line"></i>
+                                                    <div class="states">
+                                                        <form action="">
+                                                            <label for="state">State/Province</label>
+                                                            <select name="state" id="state">
+                                                                <option value=""></option>
+                                                                <option value="1">Bình Chánh</option>
+                                                                <option value="2">Quận 1</option>
+                                                                <option value="3">Quận 8</option>
+                                                                <option value="4">Quận 10</option>
+                                                                <option value="5">Quận 2</option>
+                                                            </select>
+                                                        </form>
                                                     </div>
-                                                    <ul>
-                                                        <li>10</li>
-                                                        <li>20</li>
-                                                        <li>30</li>
-                                                        <li>All</li>
-                                                    </ul>
+                                                    <div class="postal-code">
+                                                        <form action="">
+                                                            <label for="postal">Zip/Postal code</label>
+                                                            <input type="number" id="postal" name="postal">
+                                                        </form>
+                                                    </div>
+                                                    <div class="rate-options variant">
+                                                        <form action="">
+                                                            <p>
+                                                                <span>Flat: $10.00</span>
+                                                                <input type="radio" name="rate-option" id="flat" checked>
+                                                                <label for="flat" class="circle"></label>
+                                                            </p>
+                                                            <p>
+                                                                <span>Best: $0.00</span>
+                                                                <input type="radio" name="rate-option" id="best" checked>
+                                                                <label for="best" class="circle"></label>
+                                                            </p>
+                                                        </form>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="products main flexwrap">
-                                        <!-- product featured  -->
-                                        <!-- <div class="item">
-                                            <div class="media">
-                                                <div class="thumbnail object-cover">
-                                                    <a href="#">
-                                                        <img src="assets/products/apparel1.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="hoverable">
-                                                    <ul>
-                                                        <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                        <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="discount circle flexcenter">
-                                                    <span>25%</span>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <div class="offer">
-                                                    <p class="mini-text">Offer ends at</p>
-                                                    <ul class="flexcenter">
-                                                        <li>1</li>
-                                                        <li>15</li>
-                                                        <li>27</li>
-                                                        <li>07</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="rating">
-                                                    <div class="stars"></div>
-                                                    <span class="mini-text">(2,548)</span>
-                                                </div>
-                                                <h3 class="main-links">
-                                                    <a href="#">Happy Sailed Womens Summer Boho Floral</a>
-                                                </h3>
-                                                <div class="price">
-                                                    <span class="current">$129.99</span>
-                                                    <span class="normal mini-text">$189.98</span>
-                                                </div>
-                                                <div class="stock mini-text" data-stock="4000">
-                                                    <div class="qty">
-                                                        <span>Sold: <strong class="qty-sold">3459</strong></span>
-                                                        <span>Stock: <strong class="qty-available">107</strong></span>
-                                                    </div>
-                                                    <div class="bar">
-                                                        <div class="available"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-
-                                    </div>
-                                    <div class="load-more flexcenter">
-                                        <a href="#" class="secondary-button">Load More</a>
+                                        <div class="cart-total">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Subtotal</th>
+                                                        <td>$123.21</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Discount</th>
+                                                        <td>-12.20$</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Shipping <span class="mini-text">(Flat)</span></th>
+                                                        <td>$10.00</td>
+                                                    </tr>
+                                                    <tr class="grand-total">
+                                                        <th>Total</th>
+                                                        <td><strong>$1231.23</strong></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a href="/checkout.html" class="secondary-button">Checkout</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -816,106 +660,6 @@
                     </div>
                 </div>
             </div>
-            <div class="banners">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="column">
-                            <div class="banner flexwrap">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/banner1.jpg" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Brutal Sale!</h4>
-                                            <h3><span>Get the deal in here</span><br>Living Room Chair</h3>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                        <a href="#" class="over-link"></a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/banner2.jpg" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Brutal Sale!</h4>
-                                            <h3><span>Get the deal in here</span><br>Living Room Chair</h3>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                        <a href="#" class="over-link"></a>
-                                    </div>
-                                </div>
-                              <!-- banner -->
-                            </div>
-                            <div class="product-categories flexwrap">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/procat1.jpg" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4>Beauty</h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Makeup</a></li>
-                                                <li><a href="#">SkinCare</a></li>
-                                                <li><a href="#">Hair Care</a></li>
-                                                <li><a href="#">Fragrance</a></li>
-                                                <li><a href="#">Foot & HanCare</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/procat2.jpg" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4>Beauty</h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Makeup</a></li>
-                                                <li><a href="#">SkinCare</a></li>
-                                                <li><a href="#">Hair Care</a></li>
-                                                <li><a href="#">Fragrance</a></li>
-                                                <li><a href="#">Foot & HanCare</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/procat3.jpg" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4>Beauty</h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Makeup</a></li>
-                                                <li><a href="#">SkinCare</a></li>
-                                                <li><a href="#">Hair Care</a></li>
-                                                <li><a href="#">Fragrance</a></li>
-                                                <li><a href="#">Foot & HanCare</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          
         </main>
         <!-- Footer -->
         <footer>
