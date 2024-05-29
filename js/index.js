@@ -110,4 +110,9 @@ for (let x = 0; x < stocks.length; x++) {
     percent = (sold * 100) / stock;
   stocks[x].querySelector(".available").style.width = percent + "%";
 }
-
+// cập nhật giỏ hàng
+// let productsInCart = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")):[]
+// function totalCart (){
+//   document.querySelector(".iscart .fly-item .item-number").innerHTML=productsInCart.length
+// }
+// totalCart()

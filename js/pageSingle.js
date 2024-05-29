@@ -1,10 +1,13 @@
-let products = null;
+
+
+let listProducts = null;
+let productsInCart = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")):[]
 fetch("product.json")
     .then((response) => response.json())
     .then((data) => {
-        products = data;
-        console.log("products", data)
+        listProducts = data;
         showDetailProduct();
+        totalCart()
     });
 
 const showDetailProduct = () => {
@@ -12,19 +15,17 @@ const showDetailProduct = () => {
     const name = urlParams.get("name");
     console.log("name", name)
     const productId = urlParams.get("id");
-    let thisProduct = products[0].data.filter((item) => item.id === +productId)[0];
+    let thisProduct = listProducts[0].data.filter((item) => item.id === +productId)[0];
     if (!productId) {
         return;
     }
     if (name === "feature") {
-        thisProduct = products[1].data.filter((item) => item.id === +productId)[0];
+        thisProduct = listProducts[1].data.filter((item) => item.id === +productId)[0];
         console.log("this", thisProduct)
     }
 
     const sizes = thisProduct.sizes;
     const colors = thisProduct.colors;
-    console.log(colors);
-    console.log(thisProduct)
     const priceNormal = thisProduct.price.normal ? thisProduct.price.normal : ''
     const breadcrumb = document.querySelector(".breadcrumb");
     breadcrumb.innerHTML = `
@@ -318,6 +319,7 @@ const showDetailProduct = () => {
 </div>
   `;
     const sizesContainer = document.getElementById("sizesContainer");
+    var cartColor,cartSize;
     sizes.forEach((size) => {
         // Create elements
         const pElement = document.createElement("p");
@@ -326,6 +328,7 @@ const showDetailProduct = () => {
         inputElement.type = "radio";
         inputElement.name = "size";
         inputElement.id = `size-${size.id}`;
+        inputElement.value=`${size.name}`;
 
         const labelElement = document.createElement("label");
         labelElement.setAttribute("for", `size-${size.id}`);
@@ -339,6 +342,11 @@ const showDetailProduct = () => {
         pElement.appendChild(inputElement);
         pElement.appendChild(labelElement);
         sizesContainer.appendChild(pElement);
+        inputElement.addEventListener('click',()=>{
+            if(inputElement.checked){
+                cartSize=inputElement.value
+            }
+        })
     });
     const colorsContainer = document.getElementById("colorsContainer");
     colors.forEach((color) => {
@@ -358,7 +366,7 @@ const showDetailProduct = () => {
         inputElm.addEventListener("click", () => {
             if (inputElm.checked) {
                 const findColor = colors.find((item) => item.color === inputElm.id);
-                console.log("find", findColor)
+                cartColor=inputElm.id
                 if (findColor && findColor.image) {
                     // Get the image element
                     const imagePrimary = document.getElementById("primary-img");
@@ -397,7 +405,96 @@ const showDetailProduct = () => {
             }
         });
     });
+    const btnAdd =document.querySelector(".button-cart button");
+    // Getting the selected size
+    const selectedSizeInput = document.querySelector('input[name="size"]:checked');
+    const selectedSize = selectedSizeInput ? selectedSizeInput.id.split('-')[1] : null;
+
+    // Getting the selected color
+    const selectedColorInput = document.querySelector('input[name="color"]:checked');
+    const selectedColor = selectedColorInput ? selectedColorInput.id : null;
+
+    const quantityInput = document.querySelector(".qty-control input");
+    const plusButton = document.querySelector(".qty-control .plus");
+    const minusButton = document.querySelector(".qty-control .minus");
+// Now you can use selectedSize and selectedColor variables as needed.
+
+    btnAdd.addEventListener("click",()=>{
+        const soLuong=document.querySelector(".qty-control input").value;
+        addToCart(thisProduct.id,name,thisProduct,cartColor,cartSize,soLuong)
+    })
+    
+
+
+    let amount = 1;
+
+    plusButton.addEventListener("click", () => {
+        amount += 1; // Thêm 1 vào biến amount mỗi khi nút plus được nhấn
+        quantityInput.value = amount; // Cập nhật giá trị của quantityInput trực tiếp
+    });
+    minusButton.addEventListener('click',()=>{
+        amount-=1;
+        if(amount>0){
+            quantityInput.value=amount
+        }else{
+            amount=1
+            quantityInput.value=amount
+
+        }
+    })
+  
+    
 };
+
+
+function addToCart(id,name,thisProduct,color,size,amount){
+    const checkProduct = productsInCart.some((item)=>item.id === id);
+    const priceNormal = thisProduct.price.current ? thisProduct.price.current : ''
+
+    if(!checkProduct){
+        productsInCart.unshift({
+            ...thisProduct,
+            id:thisProduct.id,
+            name:thisProduct.name,
+            color:color,
+            size:size,
+            price:priceNormal,
+            amount:amount,
+            quantity:1
+        })
+        localStorage.setItem("products",JSON.stringify(productsInCart))
+        totalCart()
+        window.location.reload
+
+    }else{
+        let getIndex= productsInCart.findIndex((value)=>value.id===id)
+        const pro = productsInCart.find((item)=>item.id===id)
+        console.log("size",productsInCart[getIndex].size !== size)
+        console.log("size",productsInCart[getIndex])
+        console.log("size",productsInCart[getIndex].color !== color)
+
+        if (productsInCart[getIndex].size !== size || productsInCart[getIndex].color !== color) {
+            // Nếu cùng ID nhưng khác kích thước hoặc màu sắc, thêm sản phẩm mới vào giỏ hàng
+            productsInCart[getIndex]={
+                    ...pro,
+                    name: thisProduct.name,
+                    color: color,
+                    size: size,
+                    price:priceNormal,
+                    amount: amount,
+                    quantity: ++pro.quantity
+            }
+            localStorage.setItem("products",JSON.stringify(productsInCart))
+            totalCart()
+            window.location.reload
+            renderCart()
+        }
+    }
+}
+
+function totalCart (){
+    document.querySelector(".iscart .fly-item .item-number").innerHTML=productsInCart.length
+}
 
 document.addEventListener("click", function (event) {
     if (event.target.closest(".has-child .icon-small")) {
@@ -411,3 +508,56 @@ document.addEventListener("click", function (event) {
         event.target.closest(".has-child").classList.toggle("expand");
     }
 });
+
+function renderCart(){
+    const cartContainer = document.querySelector(".mini-cart .content .cart-body .products.mini ")
+    const productCart = JSON.parse(localStorage.getItem("products"))
+    let totalCartValue = 0;
+    productCart.map((item,index) => {
+        console.log("item",item)
+        const data = `
+        <li class="item">
+                                        <div class="thumbnail object-cover">
+                                                <a href="#" >
+                                                    <img src=${item.url} alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item-content">
+                                                <p><a href="#">${item.name}</a></p>
+                                                <span class="price">
+                                                    <span>$${item.price}</span>
+                                                    <span class="fly-item">
+                                                        <span>${item.amount}</span>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <a  class="item-remove" ><i class="ri-close-line"></i></a>
+     </li>
+    `
+     // Giá trị hiện tại của sản phẩm
+     const currentPrice = parsePrice(item.price);
+     const totalPrice = currentPrice * item.amount;
+ 
+     // Thêm giá trị của sản phẩm vào tổng giá trị của giỏ hàng
+     totalCartValue += totalPrice;
+ 
+     cartContainer.innerHTML += data;
+    })
+    const cartFooter = document.querySelector(".cart-footer p strong");
+    cartFooter.textContent = formatCurrency(totalCartValue);
+
+
+    const cartHead = document.querySelector(".cart-head");
+    cartHead.innerHTML=productCart.length+" items in cart"
+}
+renderCart()
+// Hàm này loại bỏ dấu phẩy và ký tự '₫' từ giá trị
+function parsePrice(priceString) {
+    return parseInt(priceString.replace(/[^0-9]/g, ''));
+}
+function formatCurrency(price) {
+    // Chuyển đổi giá trị số thành chuỗi và ngược lại
+    const formatter = new Intl.NumberFormat('vi-VN');
+    // Sử dụng hàm format của đối tượng formatter để định dạng số thành chuỗi số tiền
+    return formatter.format(price) + "₫";
+}

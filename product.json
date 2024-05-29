@@ -4,7 +4,7 @@
         "name": "trending",
         "data": [
             {
-                "id": 1,
+                "id": 32,
                 "url": "assets/Nike/1.png",
                 "name": "Nike Air Force 1 '07 EasyOn",
                 "discount": "20",
@@ -123,7 +123,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 33,
                 "url": "assets/Nike/4_1.png",
                 "name": "Nike Air Force 1 '07 Men's Shoes",
                 "discount": "20",
@@ -231,7 +231,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 34,
                 "url": "assets/MLB/1.webp",
                 "name": "MLB - Giày sneakers unisex cổ thấp Chunky Runner Race",
                 "discount": "20",
@@ -329,7 +329,7 @@
                 ]
             },
             {
-                "id": 4,
+                "id": 35,
                 "url": "assets/MLB/1_1.webp",
                 "name": "MLB - Giày sneakers unisex cổ thấp Chunky Liner Mid Classic Monogram",
                 "discount": "20",
@@ -447,7 +447,7 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 36,
                 "url": "assets/Adidas/1.avif",
                 "name": "SAMBA OG SHOES",
                 "discount": "20",
@@ -555,7 +555,7 @@
                 ]
             },
             {
-                "id": 6,
+                "id": 37,
                 "url": "assets/Zara/1.jpeg",
                 "name": "GIÀY DA PHIÊN BẢN GIỚI HẠN",
                 "discount": "20",
@@ -652,7 +652,7 @@
                 ]
             }, 
             {
-                "id": 7,
+                "id": 38,
                 "url": "assets/Zara/1_1.jpeg",
                 "name": "GIÀY MOCCASIN DA LỘN CÓ ĐAI NGANG",
                 "discount": "0",
@@ -749,7 +749,7 @@
                 ]
             },
             {
-                "id": 8,
+                "id": 39,
                 "url": "assets/Zara/2_1.jpeg",
                 "name": "GIÀY THỂ THAO ĐẾ DÀY",
                 "discount": "0",
@@ -848,7 +848,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -956,7 +956,7 @@
                     }
                 ],
                 "brand": "Nike",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1047,7 +1047,7 @@
                     }
                 ],
                 "brand": "Nike",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1128,7 +1128,7 @@
                     }
                 ],
                 "brand": "Nike",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1219,7 +1219,7 @@
                     }
                 ],
                 "brand": "Adidas",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1300,7 +1300,7 @@
                     }
                 ],
                 "brand": "Adidas",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1381,7 +1381,7 @@
                     }
                 ],
                 "brand": "Adidas",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1462,7 +1462,7 @@
                     }
                 ],
                 "brand": "Adidas",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1543,7 +1543,7 @@
                     }
                 ],
                 "brand": "Adidas",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1650,7 +1650,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1747,7 +1747,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1844,7 +1844,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -1951,7 +1951,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2048,7 +2048,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2129,7 +2129,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2210,7 +2210,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Shoes",
+                "category": ["Shoes"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2317,7 +2317,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Dép",
+                "category": ["Dép"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2414,7 +2414,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Dép",
+                "category": ["Dép"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2511,7 +2511,7 @@
                     }
                 ],
                 "brand": "MLB",
-                "category": "Dép",
+                "category": ["Dép"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2608,7 +2608,7 @@
                     }
                 ],
                 "brand": "Adidas",
-                "category": "Dép",
+                "category": ["Dép"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2697,7 +2697,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Dép",
+                "category": ["Dép"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2786,7 +2786,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Giày Cao Gót",
+                "category": ["Giày Cao Gót"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2875,7 +2875,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Giày Cao Gót",
+                "category": ["Giày Cao Gót"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -2964,7 +2964,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Giày Cao Gót",
+                "category": ["Giày Cao Gót"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -3053,7 +3053,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Giày Cao Gót",
+                "category": ["Giày Cao Gót"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -3142,7 +3142,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Giày Cao Gót",
+                "category": ["Giày Cao Gót"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -3231,7 +3231,7 @@
                     }
                 ],
                 "brand": "Zara",
-                "category": "Dép",
+                "category": ["Dép"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [
@@ -3687,6 +3687,1177 @@
                 ],
                 "brand": "Adidas",
                 "category": ["Shoes","Sports"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 40,
+                "url": "assets/Zara/Túi/1.jpg",
+                "name": "TÚI SHOPPER THÊU HỌA TIẾT",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Túi xách mini buộc nơ và có các ngăn cài khóa kéo. Quai xách tay kiểu tết bện. Có một dây đeo chéo có thể điều chỉnh và tháo rời. Có lót bên trong. Đóng mở bằng khuy nam châm ở nắp túi.",
+                "description": "Cao x Rộng x Sâu: 11 x 18 x 5,5 cm.",
+                "image": [
+                    "assets/Zara/Túi/1.jpg",
+                    "assets/Zara/Túi/2.jpeg",
+                    "assets/Zara/Túi/3.jpeg",
+                    "assets/Zara/Túi/4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/Túi/1.jpg",
+                            "assets/Zara/Túi/2.jpeg",
+                            "assets/Zara/Túi/3.jpeg",
+                            "assets/Zara/Túi/4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 41,
+                "url": "assets/Zara/Túi/1_1.jpeg",
+                "name": "TÚI XÁCH CÓ DÂY BUỘC THẮT NƠ",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Túi xách mini buộc nơ và có các ngăn cài khóa kéo. Quai xách tay kiểu tết bện. Có một dây đeo chéo có thể điều chỉnh và tháo rời. Có lót bên trong. Đóng mở bằng khuy nam châm ở nắp túi.",
+                "description": "Cao x Rộng x Sâu: 11 x 18 x 5,5 cm.",
+                "image": [
+                    "assets/Zara/Túi/1_1.jpeg",
+                    "assets/Zara/Túi/1_2.jpeg",
+                    "assets/Zara/Túi/1_3.jpeg",
+                    "assets/Zara/Túi/1_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "BlueNhat",
+                        "image": [
+                            "assets/Zara/Túi/1_1.jpeg",
+                            "assets/Zara/Túi/1_2.jpeg",
+                            "assets/Zara/Túi/1_3.jpeg",
+                            "assets/Zara/Túi/1_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 42,
+                "url": "assets/Zara/Túi/2_1.jpeg",
+                "name": "TÚI DÂY RÚT MINI ĐÍNH CƯỜM",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Túi dây rút cỡ mini, đính cườm trang trí. Có một quai xách tay và một dây đeo vai dạng xích. Miệng xếp nếp, đóng mở bằng dây rút.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Zara/Túi/2_1.jpeg",
+                    "assets/Zara/Túi/2_2.jpeg",
+                    "assets/Zara/Túi/2_3.jpeg",
+                    "assets/Zara/Túi/2_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Yellow",
+                        "image": [
+                            "assets/Zara/Túi/2_1.jpeg",
+                            "assets/Zara/Túi/2_2.jpeg",
+                            "assets/Zara/Túi/2_3.jpeg",
+                            "assets/Zara/Túi/2_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 43,
+                "url": "assets/Zara/Túi/a1.jpeg",
+                "name": "TÚI ĐEO VAI XẾP NẾP",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Túi dây rút cỡ mini, đính cườm trang trí. Có một quai xách tay và một dây đeo vai dạng xích. Miệng xếp nếp, đóng mở bằng dây rút.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Zara/Túi/a1.jpeg",
+                    "assets/Zara/Túi/a2.jpeg",
+                    "assets/Zara/Túi/a3.jpeg",
+                    "assets/Zara/Túi/a4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Yellow",
+                        "image": [
+                            "assets/Zara/Túi/a1.jpeg",
+                            "assets/Zara/Túi/a2.jpeg",
+                            "assets/Zara/Túi/a3.jpeg",
+                            "assets/Zara/Túi/a4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 44,
+                "url": "assets/Nike/Túi/1.png",
+                "name": "Nike Sportswear Futura Luxe Women's Cross-Body Bag (1L)",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Túi dây rút cỡ mini, đính cườm trang trí. Có một quai xách tay và một dây đeo vai dạng xích. Miệng xếp nếp, đóng mở bằng dây rút.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Nike/Túi/1.png",
+                    "assets/Nike/Túi/2.png",
+                    "assets/Nike/Túi/3.jpeg",
+                    "assets/Nike/Túi/4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Yellow",
+                        "image": [
+                            "assets/Nike/Túi/1.png",
+                            "assets/Nike/Túi/2.png",
+                            "assets/Nike/Túi/3.jpeg",
+                            "assets/Nike/Túi/4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Nike",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 45,
+                "url": "assets/Nike/Túi/1_1.png",
+                "name": "Nike Sportswear Futura Luxe Women's Cross-Body Bag (1L)",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Túi dây rút cỡ mini, đính cườm trang trí. Có một quai xách tay và một dây đeo vai dạng xích. Miệng xếp nếp, đóng mở bằng dây rút.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Nike/Túi/1_1.png",
+                    "assets/Nike/Túi/1_2.png",
+                    "assets/Nike/Túi/1_3.jpeg",
+                    "assets/Nike/Túi/1_4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Túi/1_1.png",
+                            "assets/Nike/Túi/1_2.png",
+                            "assets/Nike/Túi/1_3.jpeg",
+                            "assets/Nike/Túi/1_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Nike",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 46,
+                "url": "assets/Nike/Túi/2_1.png",
+                "name": "Nike Sportswear Futura 365 Faux Fur Cross-Body Bag (1L)",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1.099.000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Snag the cross-body that's as useful as it is touchable. The main compartment features a zipped interior mesh pocket to keep your essentials organised. There's also an outer zip pocket for your keys and lip balm. Even better, an adjustable shoulder strap lets you customise how you carry this fluffy and fun bag while you're out on the town.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Nike/Túi/2_1.png",
+                    "assets/Nike/Túi/2_2.png",
+                    "assets/Nike/Túi/2_3.png",
+                    "assets/Nike/Túi/2_4.png"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Nike/Túi/2_1.png",
+                            "assets/Nike/Túi/2_2.png",
+                            "assets/Nike/Túi/2_3.png",
+                            "assets/Nike/Túi/2_4.png"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Nike",
+                "category": ["Túi Xách"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 47,
+                "url": "assets/Charles/Túi/1.webp",
+                "name": "Ví dáng dài chữ nhật Sculptural-Handle - Noir",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,590,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Snag the cross-body that's as useful as it is touchable. The main compartment features a zipped interior mesh pocket to keep your essentials organised. There's also an outer zip pocket for your keys and lip balm. Even better, an adjustable shoulder strap lets you customise how you carry this fluffy and fun bag while you're out on the town.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Túi/1.webp",
+                    "assets/Charles/Túi/2.webp",
+                    "assets/Charles/Túi/3.webp",
+                    "assets/Charles/Túi/4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Charles/Túi/1.webp",
+                            "assets/Charles/Túi/2.webp",
+                            "assets/Charles/Túi/3.webp",
+                            "assets/Charles/Túi/4.webp"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "color": "Be",
+                        "image": [
+                            "assets/Charles/Túi/1_1.jpeg",
+                            "assets/Charles/Túi/1_2.jpeg",
+                            "assets/Charles/Túi/1_3.jpeg",
+                            "assets/Charles/Túi/1_4.jpeg"
+                            
+
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ví"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 48,
+                "url": "assets/Charles/Túi/2_1.jpeg",
+                "name": "Ví dáng dài chữ nhật Denim Sculptural-Handle - Xanh denim",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,590,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Snag the cross-body that's as useful as it is touchable. The main compartment features a zipped interior mesh pocket to keep your essentials organised. There's also an outer zip pocket for your keys and lip balm. Even better, an adjustable shoulder strap lets you customise how you carry this fluffy and fun bag while you're out on the town.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Túi/2_1.jpeg",
+                    "assets/Charles/Túi/2_2.jpeg",
+                    "assets/Charles/Túi/2_3.jpeg",
+                    "assets/Charles/Túi/2_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "BlueNhat",
+                        "image": [
+                            "assets/Charles/Túi/2_1.jpeg",
+                            "assets/Charles/Túi/2_2.jpeg",
+                            "assets/Charles/Túi/2_3.jpeg",
+                            "assets/Charles/Túi/2_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ví"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 49,
+                "url": "assets/Charles/Túi/a1.webp",
+                "name": "Ví dáng dài phom chữ nhật Cressida Quilted - Hồng",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "1,090,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Túi/a1.webp",
+                    "assets/Charles/Túi/a2.webp",
+                    "assets/Charles/Túi/a3.jpeg",
+                    "assets/Charles/Túi/a4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "BlueNhat",
+                        "image": [
+                            "assets/Charles/Túi/a1.webp",
+                            "assets/Charles/Túi/a2.webp",
+                            "assets/Charles/Túi/a3.jpeg",
+                            "assets/Charles/Túi/a4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ví"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 50,
+                "url": "assets/Charles/Túi/b1.webp",
+                "name": "Ví đựng thẻ nữ phom chữ nhật Multi Slot Wristlet - Đen",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "690,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Túi/b1.webp",
+                    "assets/Charles/Túi/b2.webp",
+                    "assets/Charles/Túi/b3.webp",
+                    "assets/Charles/Túi/b4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Black",
+                        "image": [
+                            "assets/Charles/Túi/b1.webp",
+                            "assets/Charles/Túi/b2.webp",
+                            "assets/Charles/Túi/b3.webp",
+                            "assets/Charles/Túi/b4.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ví"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 51,
+                "url": "assets/Charles/Túi/c1.webp",
+                "name": "Ví đựng thẻ Micaela Quilted - Cát",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "690,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Túi/c1.webp",
+                    "assets/Charles/Túi/c2.webp",
+                    "assets/Charles/Túi/c3.jpeg",
+                    "assets/Charles/Túi/c4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Yellow",
+                        "image": [
+                            "assets/Charles/Túi/c1.webp",
+                            "assets/Charles/Túi/c2.webp",
+                            "assets/Charles/Túi/c3.jpeg",
+                            "assets/Charles/Túi/c4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ví"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 52,
+                "url": "assets/Charles/Túi/v1.jpeg",
+                "name": "Ví dạng gập nhỏ gọn - Xanh lá úa",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "950,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Túi/v1.jpeg",
+                    "assets/Charles/Túi/v2.jpeg",
+                    "assets/Charles/Túi/v3.webp",
+                    "assets/Charles/Túi/v4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "GreenNhat",
+                        "image": [
+                            "assets/Charles/Túi/v1.jpeg",
+                            "assets/Charles/Túi/v2.jpeg",
+                            "assets/Charles/Túi/v3.webp",
+                            "assets/Charles/Túi/v4.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ví"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 53,
+                "url": "assets/Charles/Ring/1.webp",
+                "name": "Nhẫn Reagan Crystal Chain-Link ",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "590,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Ring/1.webp",
+                    "assets/Charles/Ring/2.webp",
+                    "assets/Charles/Ring/3.webp",
+                    "assets/Charles/Ring/4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "YellowPink",
+                        "image": [
+                            "assets/Charles/Ring/1.webp",
+                            "assets/Charles/Ring/2.webp",
+                            "assets/Charles/Ring/3.webp",
+                            "assets/Charles/Ring/4.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ring"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 54,
+                "url": "assets/Charles/Ring/1_1.webp",
+                "name": "Nhẫn đính đá Gabine Swarovski Crystal Chain-Link - Bạc ",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "590,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Ring/1_1.webp",
+                    "assets/Charles/Ring/1_2.webp",
+                    "assets/Charles/Ring/1_3.jpeg",
+                    "assets/Charles/Ring/1_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Gray",
+                        "image": [
+                            "assets/Charles/Ring/1_1.webp",
+                            "assets/Charles/Ring/1_2.webp",
+                            "assets/Charles/Ring/1_3.jpeg",
+                            "assets/Charles/Ring/1_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ring"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 55,
+                "url": "assets/Charles/Ring/2_1.webp",
+                "name": "Nhẫn mặt trái tim Heart Stone ",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "650,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Chiếc ví Cressida Quilted Wristlet đã quay trở lại với gam màu hồng phấn nữ tính đầy xinh xắn. Vẫn giữ nguyên thiết kế chần bông mềm mại cùng kích thước nhỏ gọn đi kèm quai đeo có thể linh hoạt tháo rời, đây sẽ là sự lựa chọn hoàn hảo cho những ai yêu thích sự tiện lợi, thoải mái và phong cách.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Ring/2_1.webp",
+                    "assets/Charles/Ring/2_2.webp",
+                    "assets/Charles/Ring/2_3.jpeg",
+                    "assets/Charles/Ring/2_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Yellow",
+                        "image": [
+                            "assets/Charles/Ring/2_1.webp",
+                            "assets/Charles/Ring/2_2.webp",
+                            "assets/Charles/Ring/2_3.jpeg",
+                            "assets/Charles/Ring/2_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ring"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 56,
+                "url": "assets/Charles/Ring/3_1.webp",
+                "name": "Nhẫn dáng hở Bethania Heart Crystal Chain-Link",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "490,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Đánh thức vẻ đẹp nữ tính tiềm ẩn trong bạn với chiếc nhẫn Bethania Heart Crystal Chain-Link tinh tế. Với thiết kế vòng trơn mạ bạc đơn giản được tô điểm chuỗi xích mảnh mai cùng chi tiết trái tim xinh xắn và những viên pha lê hồng lấp lánh, tất cả đã tạo nên một nét chấm phá ngọt ngào như những nốt nhạc êm ái, dễ dàng phù hợp với mọi phong cách, từ thường ngày cho đến cả những đêm hẹn hò lãng mạn.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Charles/Ring/3_1.webp",
+                    "assets/Charles/Ring/3_2.jpeg",
+                    "assets/Charles/Ring/3_3.jpeg",
+                    "assets/Charles/Ring/3_4.webp"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Gray",
+                        "image": [
+                            "assets/Charles/Ring/3_1.webp",
+                            "assets/Charles/Ring/3_2.jpeg",
+                            "assets/Charles/Ring/3_3.jpeg",
+                            "assets/Charles/Ring/3_4.webp"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Charles",
+                "category": ["Ring"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 57,
+                "url": "assets/Zara/Necklaces/1.jpeg",
+                "name": "VÒNG CỔ NGỌC TRAI",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "490,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Đánh thức vẻ đẹp nữ tính tiềm ẩn trong bạn với chiếc nhẫn Bethania Heart Crystal Chain-Link tinh tế. Với thiết kế vòng trơn mạ bạc đơn giản được tô điểm chuỗi xích mảnh mai cùng chi tiết trái tim xinh xắn và những viên pha lê hồng lấp lánh, tất cả đã tạo nên một nét chấm phá ngọt ngào như những nốt nhạc êm ái, dễ dàng phù hợp với mọi phong cách, từ thường ngày cho đến cả những đêm hẹn hò lãng mạn.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Zara/Necklaces/1.jpeg",
+                    "assets/Zara/Necklaces/2.jpeg",
+                    "assets/Zara/Necklaces/3.jpeg",
+                    "assets/Zara/Necklaces/4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "White",
+                        "image": [
+                            "assets/Zara/Necklaces/1.jpeg",
+                            "assets/Zara/Necklaces/2.jpeg",
+                            "assets/Zara/Necklaces/3.jpeg",
+                            "assets/Zara/Necklaces/4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Necklaces"],
+                "activity": "Running",
+                "material": "Fleece",
+                "gender": [
+                    "Women"
+                ]
+            },
+            {
+                "id": 58,
+                "url": "assets/Zara/Necklaces/1_1.jpeg",
+                "name": "VÒNG CỔ DÂY THỪNG MẶT HÌNH TRÒN",
+                "discount": "0",
+                "rating": "12",
+                "price": {
+                    "current": "490,000₫"
+                },
+                "sold": "2795",
+                "shipping": "free shipping",
+                "information": "Vòng cổ dây thừng, có mặt kim loại hình tròn.",
+                "description": "Cao x Rộng x Sâu: 7 x 18 x 2 cm.",
+                "image": [
+                    "assets/Zara/Necklaces/1_1.jpeg",
+                    "assets/Zara/Necklaces/1_2.jpeg",
+                    "assets/Zara/Necklaces/1_3.jpeg",
+                    "assets/Zara/Necklaces/1_4.jpeg"
+                ],
+                "reviews": [
+                    {
+                        "person": "Minh Duy",
+                        "date": "17/5/2024",
+                        "rating": 5,
+                        "title": "Awesome product!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    },
+                    {
+                        "person": "Thanh My",
+                        "date": "10/5/2024",
+                        "rating": 5,
+                        "title": "Great quality!",
+                        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eligendi officia quam facere voluptatem ipsam."
+                    }
+                ],
+                "colors": [
+                    {
+                        "id": 1,
+                        "color": "Gray",
+                        "image": [
+                            "assets/Zara/Necklaces/1_1.jpeg",
+                    "assets/Zara/Necklaces/1_2.jpeg",
+                    "assets/Zara/Necklaces/1_3.jpeg",
+                    "assets/Zara/Necklaces/1_4.jpeg"
+                        ]
+                    }
+                ],
+                "sizes": [
+                    {
+                        "id": 1,
+                        "name": "1"
+                    }
+                ],
+                "brand": "Zara",
+                "category": ["Necklaces"],
                 "activity": "Running",
                 "material": "Fleece",
                 "gender": [

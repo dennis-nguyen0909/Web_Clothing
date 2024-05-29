@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/trending.css">
     <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Offer</title>
@@ -81,7 +82,7 @@
                     <!-- a.trigger.desktop-hide.i.ri-menu-2-line -->
                     <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
                     <div class="left flexitem">
-                        <div class="logo"><a href="/"><span class="circle"></span>.Dennis</a></div>
+                        <div class="logo"><a href="index.html"><span class="circle"></span>.Dennis</a></div>
                         <!-- .nav.mobile-hide>ul.flexitem.second-links -->
                         <nav class="mobile-hide">
                             <ul class="flexitem second-links">
@@ -97,8 +98,9 @@
                                                     <div class="row">
                                                         <h4>Women's Clothing</h4>
                                                         <ul>
-                                                            <li><a href="">Dresses</a></li>
-                                                            <li><a href="">Tops & Tees</a></li>
+                                                            <li><a href="page-category.html?type=Giày Cao Gót">High Heels Shoes</a></li>
+                                                            <li><a href="page-category.html?type=Dép">Sandal</a></li>
+                                                            <li><a href="page-category.html?type=Shoes">Shoes</a></li>
                                                             <li><a href="">Jackets & Coats</a></li>
                                                             <li><a href="">Pants & Capris</a></li>
                                                             <li><a href="">Sweaters</a></li>
@@ -114,10 +116,11 @@
                                                     <div class="row">
                                                         <h4>Jewelry</h4>
                                                         <ul>
-                                                            <li><a href="">Accessories</a></li>
-                                                            <li><a href="">Bags & Purses</a></li>
-                                                            <li><a href="">Necklaces</a></li>
-                                                            <li><a href="">Rings</a></li>
+                                                            <li><a href="page-category.html?type=Túi Xách">Hand bag</a></li>
+                                                            <li><a href="page-category.html?type=Ví">
+                                                                Wallet</a></li>
+                                                            <li><a href="">Essential Oils</a></li>
+                                                            <li><a href="">Fragrances</a></li>
                                                             <li><a href="">Earrings</a></li>
                                                             <li><a href="">Bracelets</a></li>
                                                             <li><a href="">Body Jewelry</a></li>
@@ -126,14 +129,11 @@
                                                 </div>
                                                 <div class="flexcol">
                                                     <div class="row">
-                                                        <h4>Beauty</h4>
+                                                        <h4>Accessories</h4>
                                                         <ul>
-                                                            <li><a href="">Bath Accessories</a></li>
-                                                            <li><a href="">Makeup & Cosmetics</a></li>
-                                                            <li><a href="">Skin Care</a></li>
+                                                            <li><a href="page-category.html?type=Necklaces">Necklaces</a></li>
+                                                            <li><a href="page-category.html?type=Ring">Rings</a></li>
                                                             <li><a href="">Hair Care</a></li>
-                                                            <li><a href="">Essential Oils</a></li>
-                                                            <li><a href="">Fragrances</a></li>
                                                             <li><a href="">Soaps & Bath Bombs</a></li>
                                                             <li><a href="">Face Marks & Coverings</a></li>
                                                             <li><a href="">Spa Kits & Gifts</a></li>
@@ -145,17 +145,18 @@
                                                     <div class="row">
                                                         <h4>Top brands</h4>
                                                         <ul class="women-brands">
-                                                            <li><a href="">Nike</a></li>
-                                                            <li><a href="">Louis Vuitton</a></li>
-                                                            <li><a href="">Hermes</a></li>
-                                                            <li><a href="">Gucci</a></li>
-                                                            <li><a href="">Zalando</a></li>
+                                                            <li><a href="page-category.html?name=Nike">Nike</a></li>
+                                                            <li><a href="page-category.html?name=MLB">MLB</a></li>
+                                                            <li><a href="page-category.html?name=Adidas">Adidas</a></li>
+                                                            <li><a href="page-category.html?name=Zara">Zara</a></li>
+                                                            <li><a href="page-category.html?name=Charles">Charles</a></li>
+                                                            <!-- <li><a href="">Zalando</a></li>
                                                             <li><a href="">Tiffany & Co.</a></li>
                                                             <li><a href="">Zara</a></li>
                                                             <li><a href="">H&M</a></li>
                                                             <li><a href="">Cartier</a></li>
                                                             <li><a href="">Chanel</a></li>
-                                                            <li><a href="">Hurley</a></li>
+                                                            <li><a href="">Hurley</a></li> -->
                                                         </ul>
                                                         <a href="#" class="view-all">View all brands <i class="ri-arrow-right-line"></i></a>
                                                     </div>
@@ -189,19 +190,60 @@
                     <div class="right">
                         <ul class="flexitem second-links">
                             <li class="mobile-hide"><a href="#">
-                                <div class="icon-large"><i class="ri-heart-line"></i></div>
-                                <div class="fly-item"><span class="item-number">0</span></div>
-                            </a></li>
-                            <li><a href="#" class="iscart">
-                                <div class="icon-large">
-                                    <i class="ri-shopping-cart-line"></i>
+                                    <div class="icon-large"><i class="ri-heart-line"></i></div>
                                     <div class="fly-item"><span class="item-number">0</span></div>
+                                </a></li>
+                            <li class="iscart">
+                                <a href="#">
+                                    <div class="icon-large">
+                                        <i class="ri-shopping-cart-line"></i>
+                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                    </div>
+                                    <div class="icon-text">
+                                        <div class="mini-text">Total</div>
+                                        <div class="cart-total">$0.00</div>
+                                    </div>
+                                </a>
+                                <div class="mini-cart">
+                                    <div class="content">
+                                        <div class="cart-head">
+                                            5 items in cart
+                                        </div>
+                                        <div class="cart-body">
+                                            <ul class="products mini">
+                                                <!-- <li class="item">
+                                                <div class="thumbnail object-cover">
+                                                    <a href="#" >
+                                                        <img src="assets/products/home2.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="item-content">
+                                                    <p><a href="#">Product one</a></p>
+                                                    <span class="price">
+                                                        <span>$279.99</span>
+                                                        <span class="fly-item">
+                                                            <span>2x</span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <a href="#" class="item-remove"><i class="ri-close-line"></i></a>
+                                            </li> -->
+
+                                            </ul>
+                                        </div>
+                                        <div class="cart-footer">
+                                            <div class="subtotal">
+                                                <p>SubTotal</p>
+                                                <p><strong>$1,231,231</strong></p>
+                                            </div>
+                                            <div class="actions">
+                                                <a href="checkout.html" class="primary-button">Check Out</a>
+                                                <a href="cart.html" class="secondary-button">View Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="icon-text">
-                                    <div class="mini-text">Total</div>
-                                    <div class="cart-total">$0.00</div>
-                                </div>
-                            </a></li>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -1476,8 +1518,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.0.9/index.js" integrity="sha512-2VqLVM3WCyaqUgQb2hpoWHSus021RIN0Jq0wfrLqqLh+anm1kW/H4Yw7HVu3D5W4nbdUQmAA2mqQv2JEoy+kPA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/scroll.js"></script>
-
     <script src="js/index.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 
 </html>

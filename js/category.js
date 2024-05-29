@@ -13,20 +13,28 @@ const showCategory = (newProducts)=>{
     const urlParams = new URLSearchParams(window.location.search);
     const nameParams = urlParams.get("name");
     const categoryParams = urlParams.get("category");
+    const type =urlParams.get("type")
+    console.log("name",nameParams)
     const mergeProducts = products[0].data.concat(products[1].data);
-    if(nameParams){
-        productsRender=mergeProducts.filter((item)=>item.gender.includes(nameParams))
-    }else if(categoryParams){
-        productsRender=mergeProducts.filter((item)=>item.category.includes(categoryParams))
-        
+    if (nameParams) {
+        productsRender = mergeProducts.filter((item) => item.gender.includes(nameParams));
+        if (productsRender.length === 0) {
+            productsRender = mergeProducts.filter((item) => item.brand===nameParams);
+            console.log("products", productsRender);
+        }
+    } else if (categoryParams) {
+        productsRender = mergeProducts.filter((item) => item.category.includes(categoryParams));
+    }else if (type){
+        productsRender = mergeProducts.filter((item) => item.category.includes(type));
     }
+    
     const productFilterMen = mergeProducts.filter((item)=>item.gender.includes(nameParams))
     const productFilterSports = mergeProducts.filter((item)=>item.category.includes(categoryParams))
     const namePage = document.getElementById("name-page");
     const pageTitle = document.querySelector('.page-title h1');
-    namePage.innerHTML=nameParams?nameParams:categoryParams
-    pageTitle.innerHTML=nameParams?nameParams:categoryParams
-
+    namePage.innerHTML=nameParams?nameParams:categoryParams ? categoryParams :type
+    pageTitle.innerHTML=nameParams?nameParams:categoryParams ? categoryParams :type
+    console.log("render",productsRender)
     // render products
     const containerProducts = document.querySelector(".products.main.flexwrap");
     productsRender.forEach((item)=>{
@@ -87,3 +95,10 @@ const showCategory = (newProducts)=>{
     })
 
 }
+
+// cập nhật giỏ hàng
+let productsInCart = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")):[]
+function totalCart (){
+  document.querySelector(".iscart .fly-item .item-number").innerHTML=productsInCart.length
+}
+totalCart()

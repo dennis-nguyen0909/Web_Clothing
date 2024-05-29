@@ -17,8 +17,8 @@ let listProducts2 = document.querySelectorAll(".row.products.mini")[1];
 let featureProduct =document.querySelector(".products.main.flexwrap");
 const loadProduct = () => {
   if (!products && !featureProducts) return;
-  
-  products[0].data.filter((item)=>item.id<=4).forEach((product) => {
+    console.log(products[0].data.slice(4))
+  products[0].data.filter((item)=>item.id<=35).forEach((product) => {
     // Create HTML for each product
     const priceNormal = product.price.normal ? product.price.normal : ''
     const productHTML = `
@@ -67,7 +67,7 @@ const loadProduct = () => {
     listProducts1.innerHTML += productHTML;
   });
 
-  products[0].data.filter((item)=>item.id>4).forEach((product) => {
+  products[0].data.filter((item)=>item.id>35).forEach((product) => {
     const priceNormal = product.price.normal ? product.price.normal : ''
 
     const productHTML2 = `

@@ -1123,6 +1123,14 @@ form.search button:hover {
     background-color: rgb(220,91,93);
 }
 
+.products .variant label[for="Yellow"]::before {
+    background-color: rgb(211,199,181);
+}
+
+.products .variant label[for="YellowPink"]::before {
+    background-color: rgb(253,205,178);
+}
+
 
 /* khi checked */
 .single-product .variant form p input:checked+label {
@@ -1790,4 +1798,6 @@ form label {
         padding-left: 2.5em;
         margin-top: 0;
     }
+ 
+    
 }
