@@ -64,7 +64,18 @@
     <div id="toast" class="toast">This is a toast message</div>
     <script>
         let isLoading = false; // Biến để theo dõi trạng thái của loading
-
+        function validateEmail(email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+        function showToastSuccess(message) {
+        var toast = document.getElementById("toast");
+        toast.innerHTML=message
+        toast.classList.add("showSuccess");
+        setTimeout(function(){
+            toast.classList.remove("showSuccess");
+        }, 3000); // 3 seconds
+}
         const getUser = JSON.parse(localStorage.getItem("user")) ;
         if(getUser!==null){
             window.location.href="index.html";
@@ -87,11 +98,18 @@
             const errorMessage=document.getElementById("errorMessage");
             if(email===''){
                 showToast("Email  không được để trống")
-                // errorMessage.innerText="Email không được để trống"
+                return ;
+            }
+            if(validateEmail(email)===false){
+                showToast("Email  không đúng định dạng")
                 return ;
             }
             if(password===''){
                 showToast("Password không được để trống")
+                return ;
+            }
+            if (password.length<6){
+                showToast("Password phải lớn hơn 6 ký tự")
                 return ;
             }
             if(confirmPassword===''){
@@ -102,47 +120,26 @@
                 showToast("Password không giống nhau")
                 return ;
             }
-            const apiUrl = `https://be-ecomerce.onrender.com/api/user/sign-up`;
-            const data = {
+            
+            showToastSuccess("Đăng ký thành công");
+            const users = JSON.parse(localStorage.getItem("users")) || [];
+
+            users.push({
                 email: email,
                 password: password,
                 confirmPassword: confirmPassword
-            };
+            });
 
-            const requestOptions = {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            };
-            isLoading=true
-            fetch(apiUrl, requestOptions)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('Response:', data.message);
-                    localStorage.setItem("user",JSON.stringify(data.message.data))
-                    showToast(data.message.message)
-                    setTimeout(()=>{
-                        window.location.href="index.html"
-                    },4000)
-                    isLoading=false
-                    // Xử lý phản hồi từ máy chủ (nếu cần)
-                })
-                .catch(error => {
-                    showToast(data.message)
-                    console.error('Error:', error);
-                    isLoading=false
-                });
+            console.log(users)
+            localStorage.setItem("users", JSON.stringify(users));
+
+            setTimeout(()=>{
+                window.location.href='login.html'
+            },2000)
+            
+            
         });
-        if(isLoading===true){
-            showToast("vui lòng chờ load ....")
-        }
+   
     </script>
 </body>
 </html>

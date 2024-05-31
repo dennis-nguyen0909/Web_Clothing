@@ -32,7 +32,7 @@
 </style>
 <body>
     <div class="container-form">
-        <form id="login-form" action="" method="post">
+        <form id="login-form" action="#" method="post">
                 <div class="flexitem" style="margin-left: 25px;margin: 10px 0;">
                     <div class="logo"><a href="/"><span class="circle"></span>.Dennis</a></div>
                 </div>
@@ -44,82 +44,22 @@
                     <label>Mật khẩu</label>
                     <input id="password" type="password" placeholder="Nhập password">
                 </div>
-                <label id="errorMessage"></label>
                 <div class="button-signup">
                     <button type="submit" class="primary-button">Đăng nhập</button>
                 </div>
                 <div style="display: flex;flex-direction: row; gap: 10px;">
-                    <label  style="font-size: 13px;">Bạn chưa có tài khoản ?</label>
+                    <label  style="font-size: 13px;">Bạn đã có tài khoản ?</label>
                     <a class="login" href="sign-up.html" style="color: red;font-size: 13px;">Đăng ký</a>
                 </div>
             </form>
 
     </div>
-    <!-- <button onclick="showToast()">Show Toast</button> -->
 
     <div id="toast" class="toast">This is a toast message</div>
-    <script>
-        const getUser = JSON.parse(localStorage.getItem("user")) ;
-        if(getUser!==null){
-            window.location.href="index.html";
-        }
-          function showToast(message) {
-            var toast = document.getElementById("toast");
-            toast.innerHTML=message
-            toast.classList.add("show");
-            setTimeout(function(){
-                toast.classList.remove("show");
-            }, 3000); // 3 seconds
-        }
-        document.getElementById("login-form").addEventListener("submit", function(event) {
-            event.preventDefault();
-            const email = document.getElementById("email").value;
-            const password = document.getElementById("password").value;
-            const errorMessage=document.getElementById("errorMessage");
-            if(email===''){
-                showToast("Email  không được để trống")
-                // errorMessage.innerText="Email không được để trống"
-                return ;
-            }
-            if(password===''){
-                showToast("Password không được để trống")
-                return ;
-            }
-            const apiUrl = `https://be-ecomerce.onrender.com/api/user/sign-up`;
-            const data = {
-                email: email,
-                password: password,
-            };
+    <script src="js/login.js">
+       
 
-            const requestOptions = {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            };
-
-            fetch(apiUrl, requestOptions)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('Response:', data.message);
-                    localStorage.setItem("user",JSON.stringify(data.message.data))
-                    showToast(data.message.message)
-                    setTimeout(()=>{
-                        window.location.href="index.html"
-                    },4000)
-                    // Xử lý phản hồi từ máy chủ (nếu cần)
-                })
-                .catch(error => {
-                    showToast(data.message)
-                    console.error('Error:', error);
-                });
-        });
+   
     </script>
 </body>
 </html>

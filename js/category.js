@@ -100,5 +100,7 @@ const showCategory = (newProducts)=>{
 let productsInCart = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")):[]
 function totalCart (){
   document.querySelector(".iscart .fly-item .item-number").innerHTML=productsInCart.length
+  document.querySelector(".cartMobile .fly-item .item-number").innerHTML=productsInCart.length
+  console.log(  document.querySelector(".cartMobile .cart-trigger .fly-item .item-number"))
 }
 totalCart()

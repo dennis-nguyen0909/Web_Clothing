@@ -211,6 +211,9 @@ h4 {
 .primary-button:hover {
     background-color: var(--dark-color);
 }
+#logout:hover{
+    color: red;
+}
 
 .secondary-button {
     background-color: var(--secondary-dark-color);
@@ -1800,4 +1803,34 @@ form label {
     }
  
     
+}
+
+
+.toast {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease;
+    z-index: 1000;
+}
+
+.toast.show {
+    top: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.toast.showSuccess {
+    top: 20px;
+    opacity: 1;
+    visibility: visible;
+    background-color: green;
+
 }

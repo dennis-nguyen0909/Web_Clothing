@@ -49,8 +49,10 @@
                         <div class="right">
                             <!-- ul.flexitem>.main-links>li*5>a -->
                             <ul class="flexitem main-links">
-                                    <li><a href="#">SignUp</a></li>
-                                    <li><a href="#">My account</a></li>
+                                    <li id="sign-up-id"><a  href="sign-up.html">SignUp</a></li>
+                                    <li id="account-user" >
+                                        <a id="myaccount" href="#" >MyAccount</a>
+                                    </li>
                                     <li><a href="#">Order Tracking</a></li>
                                     <li><a href="#">USD <span class="icon-small">
                                         <i class="ri-arrow-down-s-line"></i>
@@ -62,9 +64,12 @@
                                             <li><a href="#">IDR</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">English<span class="icon-small">
-                                        <i class="ri-arrow-down-s-line"></i>
-                                    </span></a>
+                                    <li>
+                                        <a href="#">English
+                                            <span class="icon-small">
+                                            <i class="ri-arrow-down-s-line"></i>
+                                            </span>
+                                        </a>
                                         <ul>
                                             <li  class="current"><a href="#">USD</a></li>
                                             <li><a href="#">VietNamese</a></li>
@@ -529,26 +534,26 @@
                                 <div class="summary-order is_sticky">
                                     <div class="summary-totals">
                                         <ul>
-                                            <li>
+                                            <!-- <li>
                                                 <span>Subtotal</span>
                                                 <span>$2155.56</span>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <span>Discount</span>
-                                                <span>$2155.56</span>
+                                                <span id="discount">$2155.56</span>
                                             </li>
                                             <li>
                                                 <span>Shipping: Flat</span>
-                                                <span>$2155.56</span>
+                                                <span id="shipping">$2155.56</span>
                                             </li>
                                             <li>
                                                 <span>Total</span>
-                                                <strong>$2155.56</strong>
+                                                <strong id="totalPrice">$2155.56</strong>
                                             </li>
                                         </ul>
                                     </div>
                                     <ul class="products mini">
-                                        <li class="item">
+                                        <!-- <li class="item">
                                             <div class="thumbnail object-cover">
                                                 <img src="assets/Adidas/2.avif" alt="">
                                             </div>
@@ -559,31 +564,8 @@
                                                     <span>x 1</span>
                                                 </span>
                                             </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="thumbnail object-cover">
-                                                <img src="assets/Adidas/2.avif" alt="">
-                                            </div>
-                                            <div class="item-content">
-                                                <p>Prdocut 1</p>
-                                                <span class="price">
-                                                    <span>$27.9</span>
-                                                    <span>x 1</span>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="thumbnail object-cover">
-                                                <img src="assets/Adidas/2.avif" alt="">
-                                            </div>
-                                            <div class="item-content">
-                                                <p>Prdocut 1</p>
-                                                <span class="price">
-                                                    <span>$27.9</span>
-                                                    <span>x 1</span>
-                                                </span>
-                                            </div>
-                                        </li>
+                                        </li> -->
+                                     
                                     </ul>
                                 </div>
                             </div>
@@ -592,6 +574,7 @@
                 </div>
             </div>
         </main>
+        <div id="toast" class="toast">This is a toast message</div>
         <!-- Footer -->
         <footer>
             <div class="newsletter">
@@ -723,7 +706,7 @@
                                     <span>Search</span>
                                 </a>
                             </li>
-                            <li >
+                            <li class="cartMobile" >
                                 <a href="#" class="cart-trigger">
                                     <i class="ri-shopping-cart-line"></i>
                                     <span>Cart</span>
@@ -749,7 +732,7 @@
                 </div>
             </div>
         </div>
-        <div id="modal" class="modal">
+        <!-- <div id="modal" class="modal">
             <div class="content flexcol">
                 <div class="image object-cover">
                     <img src="assets/MLB/1.webp" alt="">
@@ -766,14 +749,18 @@
                     <i class="ri-close-line"></i>
                 </a>
             </div>
-        </div>
+        </div> -->
         <div class="overlay"></div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.0.9/index.js" integrity="sha512-2VqLVM3WCyaqUgQb2hpoWHSus021RIN0Jq0wfrLqqLh+anm1kW/H4Yw7HVu3D5W4nbdUQmAA2mqQv2JEoy+kPA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/scroll.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/orderSummary.js"></script>
     <script>
+        // const total= document.querySelector(".summary-totals #totalPrice")
+
         const filter = document.querySelector(".filter");
         const filterTrigger = document.querySelector(".filter-trigger")
         filterTrigger.addEventListener('click',()=>{
@@ -807,8 +794,10 @@
             }
         })
     </script>
-        <script src="js/category.js"></script>
-        <script src="js/cart.js"></script>
+    <!-- <script src="js/category.js"></script> -->
+    <script src="js/cart.js"></script>
+
+        
 </body>
 
 </html>

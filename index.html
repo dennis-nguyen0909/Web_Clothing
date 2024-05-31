@@ -45,7 +45,7 @@
                         <div class="right">
                             <!-- ul.flexitem>.main-links>li*5>a -->
                             <ul class="flexitem main-links">
-                                    <li><a href="sign-up.html">SignUp</a></li>
+                                    <li id="sign-up-id"><a  href="sign-up.html">SignUp</a></li>
                                     <li id="account-user" >
                                         <a id="myaccount" href="#" >MyAccount</a>
                                     </li>
@@ -1132,14 +1132,13 @@
     <script src="js/pageSingle.js"></script>
     <!-- <script src="js/cart.js"></script> -->
     <script>
+        const loginId = document.querySelector("#sign-up-id a");
         // Lấy dữ liệu người dùng từ LocalStorage
-            const stor = JSON.parse(localStorage.getItem("user"));
-            console.log("stor",stor)
-            // Chọn phần tử <a> có id là "MyAccount"
-            const test = document.getElementById("myaccount");
-            console.log("test",test)
+        const stor = JSON.parse(localStorage.getItem("users"));
+        loginId.innerHTML=stor.name
+        console.log("stor",stor.name)
+        // loginId.innerHTML=stor.name
 
-                 test.innerText=`1231231`
 
                 
     </script>

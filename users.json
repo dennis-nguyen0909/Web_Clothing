@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name":"Minh Duy",
+        "email":"duyxitrum000@gmail.com",
+        "password":"minhduy123456",
+        "avatar":"assets/users/minhduy.png",
+        "address":"TPHCM"
+    },
+    {
+        "id":2,
+        "name":"Minh Duy",
+        "email":"duyxitrum000@gmail.com",
+        "password":"minhduy123456",
+        "avatar":"assets/users/minhduy.png",
+        "address":"TPHCM"
+    }
+]

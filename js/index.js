@@ -110,9 +110,53 @@ for (let x = 0; x < stocks.length; x++) {
     percent = (sold * 100) / stock;
   stocks[x].querySelector(".available").style.width = percent + "%";
 }
-// cập nhật giỏ hàng
-// let productsInCart = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")):[]
-// function totalCart (){
-//   document.querySelector(".iscart .fly-item .item-number").innerHTML=productsInCart.length
-// }
-// totalCart()
+
+const userStorage = JSON.parse(localStorage.getItem("users")) || null
+console.log("user",userStorage!==null)
+if(userStorage===null){
+
+
+}else{
+  const signUp = document.querySelector(".header-top .container .right .flexitem.main-links #sign-up-id")
+  const account = document.querySelector(".header-top .container .right .flexitem.main-links #account-user")
+    signUp.style.display='none'
+    account.innerHTML=`Xin chào ${userStorage.name}`
+    account.style.textDecoration='underline'
+    const imageNew =document.createElement("img");
+    imageNew.setAttribute("src",userStorage.avatar)
+    imageNew.style.width='35px'
+    imageNew.style.height='35px'
+    imageNew.style.cursor='pointer'
+    imageNew.style.marginLeft="10px"
+    const containerUlLi = document.querySelector(".header-top .container .right .flexitem.main-links")
+    const newli = document.createElement("li");
+    const newa = document.createElement("a");
+    newa.style.cursor="pointer"
+    newa.setAttribute("id","logout")
+    newli.textContent='Logout'
+    newli.appendChild(newa)
+    newli.style.padding="0 10px"
+    account.appendChild(imageNew)
+    containerUlLi.appendChild(newli)
+    newli.addEventListener("click",(e)=>{
+      e.preventDefault()
+      localStorage.removeItem("users");
+      window.location.href="index.html"
+    })
+    newli.addEventListener("mouseover", () => {
+      newli.style.textDecoration = 'underline';
+      newli.style.cursor = 'pointer';
+      newli.style.backgroundColor="#ccc"
+      newli.style.borderRadius="10px"
+
+
+
+
+  });
+    newli.addEventListener("mouseout", () => {
+      newli.style.color = 'black';
+      newli.style.textDecoration = 'none';
+      newli.style.backgroundColor="#fff"
+  });
+
+}
