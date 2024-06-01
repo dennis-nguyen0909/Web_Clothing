@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    #signup-form , #login-form{
+        padding: 1.25em 1.25em;
+        width: 50%;
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        div {
+            display: flex;
+            flex-direction: column;
+            input {
+                border-radius: 10px;
+            }
+            .login:hover{
+                color: var(--secondary-dark-color);
+            }
+        }
+        .button-signup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+            width: var(--percent100);
+            .primary-button {
+                width: var(--percent100);
+                cursor: pointer;
+            }
+        }
+    }
+    :where(#email,#password,#confirmPassword){
+        width: var(--percent100);
+        height: 3em;
+    }
+
+}
+

@@ -1,53 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.container-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
-
-#signup-form , #login-form{
-    padding: 1.25em 1.25em;
-    width: 50%;
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
+.container-form #signup-form, .container-form #login-form {
+  padding: 1.25em 1.25em;
+  width: 50%;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-#signup-form div ,#login-form div {
-    display: flex;
-    flex-direction: column;
+.container-form #signup-form div, .container-form #login-form div {
+  display: flex;
+  flex-direction: column;
 }
-#signup-form div input,#login-form div input {
-    border-radius: 10px;
+.container-form #signup-form div input, .container-form #login-form div input {
+  border-radius: 10px;
 }
-.button-signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2em;
-    width: var(--percent100);
+.container-form #signup-form div .login:hover, .container-form #login-form div .login:hover {
+  color: var(--secondary-dark-color);
 }
-.button-signup .primary-button {
-    width: var(--percent100);
-    cursor: pointer;
+.container-form #signup-form .button-signup, .container-form #login-form .button-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  width: var(--percent100);
 }
-
-:where(#email,#password,#confirmPassword){
-    width: var(--percent100);
-    height: 3em;
+.container-form #signup-form .button-signup .primary-button, .container-form #login-form .button-signup .primary-button {
+  width: var(--percent100);
+  cursor: pointer;
 }
-
-.login:hover{
-    color: var(--secondary-dark-color);
-}
+.container-form :where(#email, #password, #confirmPassword) {
+  width: var(--percent100);
+  height: 3em;
+}/*# sourceMappingURL=signup.css.map */

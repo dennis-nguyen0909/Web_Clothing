@@ -1,0 +1,20 @@
+#result {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-right: 87px;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 1000;
+}
+#result .items {
+  width: 513px;
+  max-height: 400px;
+  overflow: auto;
+}
+#result .items .item {
+  padding: 10px 55px;
+}
+#result .items .item img {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=filter.css.map */

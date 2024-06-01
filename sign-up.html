@@ -32,7 +32,7 @@
 </style>
 <body>
     <div class="container-form">
-        <form id="signup-form" action="#" method="post">
+        <form id="signup-form" >
                 <div class="flexitem" style="margin-left: 25px;margin: 10px 0;">
                     <div class="logo"><a href="/"><span class="circle"></span>.Dennis</a></div>
                 </div>
@@ -76,7 +76,7 @@
             toast.classList.remove("showSuccess");
         }, 3000); // 3 seconds
 }
-        const getUser = JSON.parse(localStorage.getItem("user")) ;
+        const getUser = JSON.parse(localStorage.getItem("users")) ;
         if(getUser!==null){
             window.location.href="index.html";
         }
@@ -90,7 +90,6 @@
         }
         document.getElementById("signup-form").addEventListener("submit", function(event) {
             event.preventDefault(); // Ngăn chặn hành vi mặc định của biểu mẫu
-
             // Lấy dữ liệu từ các trường nhập liệu
             const email = document.getElementById("email").value;
             const password = document.getElementById("password").value;
@@ -122,20 +121,10 @@
             }
             
             showToastSuccess("Đăng ký thành công");
-            const users = JSON.parse(localStorage.getItem("users")) || [];
-
-            users.push({
-                email: email,
-                password: password,
-                confirmPassword: confirmPassword
-            });
-
-            console.log(users)
-            localStorage.setItem("users", JSON.stringify(users));
-
+            
             setTimeout(()=>{
                 window.location.href='login.html'
-            },2000)
+            },1000)
             
             
         });

@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="css/features.css">
     <link rel="stylesheet" href="css/category.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/filter.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" href="assets/icon1.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
     <title>Home</title>
 </head>
 <body>
@@ -49,7 +54,21 @@
                                     <li id="account-user" >
                                         <a id="myaccount" href="#" >MyAccount</a>
                                     </li>
-                                    <li><a href="#">Order Tracking</a></li>
+                                    <li><a href="#">Lab <span class="icon-small">
+                                        <i class="ri-arrow-down-s-line"></i>
+                                    </span></a>
+                                        <ul>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab01/Vi_du/index.html" target="_blank">Lab1</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab02/lab02_bai1.html" target="_blank">Lab2</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab03/Vi_du_Lab01/index.html" target="_blank">Lab3</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab04/Vi_du/lab04_bai1.html" target="_blank">Lab4</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab05/Lab_05/lad_05.html" target="_blank">Lab5</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab06/lab_06/lab_06_menu_responsive.html" target="_blank">Lab6</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab07/demo_bai_2/index.html" target="_blank">Lab7</a></li>
+                                            <li><a href="http://dennis-nguyen.somee.com/Lab08/Lab08/lab8_json.html" target="_blank">Lab8</a></li>
+
+                                        </ul>
+                                    </li>
                                     <li><a href="#">USD <span class="icon-small">
                                         <i class="ri-arrow-down-s-line"></i>
                                     </span></a>
@@ -89,8 +108,13 @@
                         <!-- .nav.mobile-hide>ul.flexitem.second-links -->
                         <nav class="mobile-hide">
                             <ul class="flexitem second-links">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Shop</a></li>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="has-child">
+                                    <a href="#">Shop</a>
+                                    
+                                </li>
                                 <li class="has-child">
                                     <a href="page-category.html?name=Women">Woman<div class="icon-small"><i class="ri-arrow-down-s-line"></i></div></a>
                                     <!-- .mega>.container>.wrapper>.flexcol*4>.row>h4+ul>li*5>a -->
@@ -210,7 +234,7 @@
                                 <div class="mini-cart">
                                     <div class="content">
                                         <div class="cart-head">
-                                            5 items in cart
+                                            0 items in cart
                                         </div>
                                         <div class="cart-body">
                                             <ul class="products mini">
@@ -237,7 +261,7 @@
                                         <div class="cart-footer">
                                             <div class="subtotal">
                                                 <p>SubTotal</p>
-                                                <p><strong>$1,231,231</strong></p>
+                                                <p><strong>0đ</strong></p>
                                             </div>
                                             <div class="actions">
                                                 <a href="checkout.html" class="primary-button">Check Out</a>
@@ -439,9 +463,14 @@
                             <div class="search-box">
                                 <form action="" class="search">
                                     <span class="icon-large"><i class="ri-search-line"></i></span>
-                                    <input type="search" placeholder="Search for products">
+                                    <input id="search-product" type="search" placeholder="Search for products">
                                     <button type="submit">Search</button>
                                 </form>
+                                <div id="result">
+                                    <div class="items">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1130,19 +1159,8 @@
     <script src="js/index.js"></script>
     <script src="js/trendingProduct.js"></script>
     <script src="js/pageSingle.js"></script>
-    <!-- <script src="js/cart.js"></script> -->
-    <script>
-        const loginId = document.querySelector("#sign-up-id a");
-        // Lấy dữ liệu người dùng từ LocalStorage
-        const stor = JSON.parse(localStorage.getItem("users"));
-        loginId.innerHTML=stor.name
-        console.log("stor",stor.name)
-        // loginId.innerHTML=stor.name
-
-
-                
-    </script>
-
+    <script src="js/search.js"></script>
+    
 </body>
 
 </html>

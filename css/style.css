@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
-
 :root {
     --primary-color: #ff6b6b;
     --secondary-color: #794afa;
@@ -347,6 +346,8 @@ h4 {
 
 .header-top li:hover ul {
     display: block;
+    z-index: 10;
+    padding: 0 0.7em;
 }
 
 /* Header-Nav */

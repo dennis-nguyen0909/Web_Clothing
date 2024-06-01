@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="css/features.css">
     <link rel="stylesheet" href="css/category.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/filter.css">
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     <title>Category</title>
 </head>
 
@@ -214,7 +218,7 @@
                                     <div class="mini-cart">
                                         <div class="content">
                                             <div class="cart-head">
-                                                5 items in cart
+                                                0 items in cart
                                             </div>
                                             <div class="cart-body">
                                                 <ul class="products mini">
@@ -241,7 +245,7 @@
                                             <div class="cart-footer">
                                                 <div class="subtotal">
                                                     <p>SubTotal</p>
-                                                    <p><strong>$1,231,231</strong></p>
+                                                    <p><strong>0đ</strong></p>
                                                 </div>
                                                 <div class="actions">
                                                     <a href="checkout.html" class="primary-button">Check Out</a>
@@ -444,9 +448,14 @@
                             <div class="search-box">
                                 <form action="" class="search">
                                     <span class="icon-large"><i class="ri-search-line"></i></span>
-                                    <input type="search" placeholder="Search for products">
+                                    <input id="search-product" type="search" placeholder="Search for products">
                                     <button type="submit">Search</button>
                                 </form>
+                                <div id="result">
+                                    <div class="items">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1065,7 +1074,7 @@
     <script src="js/category.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/trendingProduct.js"></script>
-
+    <script src="js/search.js"></script>
 </body>
 
 </html>
