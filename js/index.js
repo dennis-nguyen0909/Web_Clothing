@@ -120,8 +120,12 @@ if(userStorage===null){
   const signUp = document.querySelector(".header-top .container .right .flexitem.main-links #sign-up-id")
   const account = document.querySelector(".header-top .container .right .flexitem.main-links #account-user")
     signUp.style.display='none'
-    account.innerHTML=`Xin chào ${userStorage.name}`
-    account.style.textDecoration='underline'
+    account.innerHTML=`Xin chào `
+    const spanNewAccount = document.createElement("span")
+    spanNewAccount.innerHTML=`${userStorage.name}`
+    spanNewAccount.style.textDecoration='underline'
+    spanNewAccount.style.cursor='pointer'
+    account.appendChild(spanNewAccount)
     const imageNew =document.createElement("img");
     imageNew.setAttribute("src",userStorage.avatar)
     imageNew.style.width='35px'

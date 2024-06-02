@@ -10,6 +10,23 @@ menuFeature.addEventListener('click', function() {
     })
 });
 
+function showToastSuccess(message) {
+    var toast = document.getElementById("toast");
+    toast.innerHTML=message
+    toast.classList.add("showSuccess");
+    setTimeout(function(){
+        toast.classList.remove("showSuccess");
+    }, 3000); // 3 seconds
+}
+function showToast(message) {
+    var toast = document.getElementById("toast");
+    toast.innerHTML=message
+    toast.classList.add("show");
+    setTimeout(function(){
+        toast.classList.remove("show");
+    }, 3000); 
+}
+
 
 const menuTrending = document.getElementById("trendingProduct");
 

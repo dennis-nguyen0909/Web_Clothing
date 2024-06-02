@@ -44,4 +44,10 @@
 .container-form :where(#email, #password, #confirmPassword) {
   width: var(--percent100);
   height: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .container-form #signup-form, .container-form #login-form {
+    width: 90%;
+  }
 }/*# sourceMappingURL=signup.css.map */

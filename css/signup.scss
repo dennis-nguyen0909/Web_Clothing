@@ -48,3 +48,9 @@
 
 }
 
+
+@media screen and (max-width:768px){
+    .container-form #signup-form,.container-form #login-form{
+        width: 90%;
+    }
+}

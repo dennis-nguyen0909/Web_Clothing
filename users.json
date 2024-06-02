@@ -9,10 +9,26 @@
     },
     {
         "id":2,
-        "name":"Minh Duy",
-        "email":"duyxitrum000@gmail.com",
-        "password":"minhduy123456",
-        "avatar":"assets/users/minhduy.png",
+        "name":"Minh Khoi",
+        "email":"minhkhoi@gmail.com",
+        "password":"123456",
+        "avatar":"assets/users/user1.png",
+        "address":"TPHCM"
+    },
+    {
+        "id":3,
+        "name":"Trọng Nghĩa",
+        "email":"trongnghia@gmail.com",
+        "password":"123456",
+        "avatar":"assets/users/user2.png",
+        "address":"TPHCM"
+    },
+    {
+        "id":2,
+        "name":"Minh Khoi",
+        "email":"minhkhoi@gmail.com",
+        "password":"123456",
+        "avatar":"assets/users/user4.png",
         "address":"TPHCM"
     }
 ]

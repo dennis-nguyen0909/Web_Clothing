@@ -197,30 +197,60 @@ const showDetailProduct = () => {
                                   </thead>
                                   <tbody>
                                       <tr>
-                                          <td>S</td>
+                                          <td>36</td>
                                           <td>85</td>
                                           <td>63,5</td>
                                           <td>89</td>
                                       </tr>
                                       <tr>
-                                          <td>M</td>
+                                          <td>37</td>
                                           <td>87,5</td>
                                           <td>67,5</td>
                                           <td>89</td>
                                       </tr>
                        
                                       <tr>
-                                          <td>L</td>
+                                          <td>38</td>
                                           <td>90</td>
                                           <td>72,5</td>
                                           <td>98</td>
                                       </tr>
                                       <tr>
-                                          <td>XL</td>
+                                          <td>39</td>
                                           <td>93</td>
                                           <td>77,5</td>
                                           <td>103</td>
                                       </tr>
+                                      <tr>
+                                      <td>40</td>
+                                      <td>93</td>
+                                      <td>77,5</td>
+                                      <td>103</td>
+                                  </tr>
+                                  <tr>
+                                  <td>41</td>
+                                  <td>93</td>
+                                  <td>77,5</td>
+                                  <td>103</td>
+                              </tr>
+                              <tr>
+                              <td>42</td>
+                              <td>93</td>
+                              <td>77,5</td>
+                              <td>103</td>
+                          </tr>
+                          <tr>
+                          <td>43</td>
+                          <td>93</td>
+                          <td>77,5</td>
+                          <td>103</td>
+                      </tr>
+                      <tr>
+                      <td>44</td>
+                      <td>93</td>
+                      <td>77,5</td>
+                      <td>103</td>
+                  </tr>
                                   </tbody>
                               </table>
                           </div>
@@ -406,13 +436,6 @@ const showDetailProduct = () => {
         });
     });
     const btnAdd =document.querySelector(".button-cart button");
-    // Getting the selected size
-    const selectedSizeInput = document.querySelector('input[name="size"]:checked');
-    const selectedSize = selectedSizeInput ? selectedSizeInput.id.split('-')[1] : null;
-
-    // Getting the selected color
-    const selectedColorInput = document.querySelector('input[name="color"]:checked');
-    const selectedColor = selectedColorInput ? selectedColorInput.id : null;
 
     const quantityInput = document.querySelector(".qty-control input");
     const plusButton = document.querySelector(".qty-control .plus");
@@ -421,7 +444,21 @@ const showDetailProduct = () => {
 
     btnAdd.addEventListener("click",()=>{
         const soLuong=document.querySelector(".qty-control input").value;
-        addToCart(thisProduct.id,name,thisProduct,cartColor,cartSize,soLuong)
+        console.log("cart",cartColor)
+        console.log("cart",cartSize)
+        console.log("cart",soLuong)
+        if(cartColor===undefined){
+            showToast("Vui lòng chọn màu sắc")
+            return ;
+        }else
+        if(cartSize===undefined){
+            showToast("Vui lòng chọn size")
+            return;
+        }else{   
+            addToCart(thisProduct.id,name,thisProduct,cartColor,cartSize,soLuong)
+            showToastSuccess("Thêm thành công")
+
+        }
     })
     
 
@@ -447,6 +484,88 @@ const showDetailProduct = () => {
 };
 
 
+document.addEventListener("click", function (event) {
+    if (event.target.closest(".has-child .icon-small")) {
+        event.preventDefault();
+        const $subMenu = document.querySelectorAll(".has-child .icon-small");
+        $subMenu.forEach((item) => {
+            if (item !== event.target) {
+                item.closest(".has-child").classList.remove("expand");
+            }
+        });
+        event.target.closest(".has-child").classList.toggle("expand");
+    }
+});
+
+function saveToLocalStorage(){
+    localStorage.setItem("products",JSON.stringify(productsInCart))
+}
+function renderCart(){
+    const cartContainer = document.querySelector(".mini-cart .content .cart-body .products.mini");
+    const cartFooter = document.querySelector(".cart-footer p strong");
+    const cartHead = document.querySelector(".cart-head");
+
+    const productCart = JSON.parse(localStorage.getItem("products"));
+    if (!productCart || productCart.length === 0) {
+        cartContainer.innerHTML = "<p>No items in cart</p>";
+        cartFooter.textContent = "$0.00";
+        cartHead.textContent = "0 items in cart";
+        return;
+    }
+
+    cartContainer.innerHTML = "";  // Clear the existing items
+    let totalCartValue = 0;
+
+    productCart.forEach((item, index) => {
+        const data = `
+        <li class="item">
+            <div class="thumbnail object-cover">
+                <a href="#">
+                    <img src="${item.url}" alt="">
+                </a>
+            </div>
+            <div class="item-content">
+                <p><a href="#">${item.name}</a></p>
+                <span class="price">
+                    <span>$${item.price}</span>
+                    <span class="fly-item">
+                        <span>${item.amount}</span>
+                        </span>
+                        </span>
+                        <span style="float:right;">Size:${item.size}
+                        </span>
+                </div>
+            <a href="#" onclick="deleteProductInCart(${index})" class="item-remove" data-index="${index}"><i class="ri-close-line"></i></a>
+        </li>
+        `;
+        const currentPrice = parsePrice(item.price);
+        const totalPrice = currentPrice * item.amount;
+        totalCartValue += totalPrice;
+
+        cartContainer.innerHTML += data;
+    });
+
+    cartFooter.textContent = formatCurrency(totalCartValue);
+    cartHead.textContent = `${productCart.length} items in cart`;
+}
+renderCart()
+// Hàm này loại bỏ dấu phẩy và ký tự '₫' từ giá trị
+function parsePrice(priceString) {
+    return parseInt(priceString.replace(/[^0-9]/g, ''));
+}
+function formatCurrency(price) {
+    // Chuyển đổi giá trị số thành chuỗi và ngược lại
+    const formatter = new Intl.NumberFormat('vi-VN');
+    // Sử dụng hàm format của đối tượng formatter để định dạng số thành chuỗi số tiền
+    return formatter.format(price) + "₫";
+}
+
+const deleteProductInCart=(index)=>{
+    productsInCart.splice(index,1)
+    saveToLocalStorage()
+    renderCart()
+    totalCart()
+}
 function addToCart(id,name,thisProduct,color,size,amount){
     const checkProduct = productsInCart.some((item)=>item.id === id);
     const priceNormal = thisProduct.price.current ? thisProduct.price.current : ''
@@ -462,31 +581,47 @@ function addToCart(id,name,thisProduct,color,size,amount){
             amount:amount,
             quantity:1
         })
-        localStorage.setItem("products",JSON.stringify(productsInCart))
+        saveToLocalStorage()
         totalCart()
-        window.location.reload
+        renderCart()
 
     }else{
         let getIndex= productsInCart.findIndex((value)=>value.id===id)
         const pro = productsInCart.find((item)=>item.id===id)
-        console.log("size",productsInCart[getIndex].size !== size)
-        console.log("size",productsInCart[getIndex])
-        console.log("size",productsInCart[getIndex].color !== color)
-
-        if (productsInCart[getIndex].size !== size || productsInCart[getIndex].color !== color) {
+        console.log("size",pro.size!==size)
+        console.log("pro",pro)
+        console.log("color",pro.color!==color)
+        console.log("getIndex",getIndex)
+        if (pro.size !== size || pro.color !== color) {
             // Nếu cùng ID nhưng khác kích thước hoặc màu sắc, thêm sản phẩm mới vào giỏ hàng
-            productsInCart[getIndex]={
+            const url = thisProduct.colors.find(item => item.color === color)?.image[0] || '';
+            productsInCart.unshift({
                     ...pro,
+                    url:url,
                     name: thisProduct.name,
                     color: color,
                     size: size,
                     price:priceNormal,
                     amount: amount,
                     quantity: ++pro.quantity
-            }
-            localStorage.setItem("products",JSON.stringify(productsInCart))
+            })
+            saveToLocalStorage()
             totalCart()
-            window.location.reload
+            renderCart()
+        }else if (pro.size===size && pro.color!==color){
+            const url = thisProduct.colors.find(item => item.color === color)?.image[0] || '';
+            productsInCart.unshift({
+                    ...pro,
+                    url:url,
+                    name: thisProduct.name,
+                    color: color,
+                    size: size,
+                    price:priceNormal,
+                    amount: amount,
+                    quantity: ++pro.quantity
+            })
+            saveToLocalStorage()
+            totalCart()
             renderCart()
         }
     }
@@ -494,70 +629,4 @@ function addToCart(id,name,thisProduct,color,size,amount){
 
 function totalCart (){
     document.querySelector(".iscart .fly-item .item-number").innerHTML=productsInCart.length
-}
-
-document.addEventListener("click", function (event) {
-    if (event.target.closest(".has-child .icon-small")) {
-        event.preventDefault();
-        const $subMenu = document.querySelectorAll(".has-child .icon-small");
-        $subMenu.forEach((item) => {
-            if (item !== event.target) {
-                item.closest(".has-child").classList.remove("expand");
-            }
-        });
-        event.target.closest(".has-child").classList.toggle("expand");
-    }
-});
-
-function renderCart(){
-    const cartContainer = document.querySelector(".mini-cart .content .cart-body .products.mini ")
-    const productCart = JSON.parse(localStorage.getItem("products"))
-    let totalCartValue = 0;
-    productCart.map((item,index) => {
-        console.log("item",item)
-        const data = `
-        <li class="item">
-                                        <div class="thumbnail object-cover">
-                                                <a href="#" >
-                                                    <img src=${item.url} alt="">
-                                                </a>
-                                            </div>
-                                            <div class="item-content">
-                                                <p><a href="#">${item.name}</a></p>
-                                                <span class="price">
-                                                    <span>$${item.price}</span>
-                                                    <span class="fly-item">
-                                                        <span>${item.amount}</span>
-                                                    </span>
-                                                </span>
-                                            </div>
-                                            <a  class="item-remove" ><i class="ri-close-line"></i></a>
-     </li>
-    `
-     // Giá trị hiện tại của sản phẩm
-     const currentPrice = parsePrice(item.price);
-     const totalPrice = currentPrice * item.amount;
- 
-     // Thêm giá trị của sản phẩm vào tổng giá trị của giỏ hàng
-     totalCartValue += totalPrice;
- 
-     cartContainer.innerHTML += data;
-    })
-    const cartFooter = document.querySelector(".cart-footer p strong");
-    cartFooter.textContent = formatCurrency(totalCartValue);
-
-
-    const cartHead = document.querySelector(".cart-head");
-    cartHead.innerHTML=productCart.length+" items in cart"
-}
-renderCart()
-// Hàm này loại bỏ dấu phẩy và ký tự '₫' từ giá trị
-function parsePrice(priceString) {
-    return parseInt(priceString.replace(/[^0-9]/g, ''));
-}
-function formatCurrency(price) {
-    // Chuyển đổi giá trị số thành chuỗi và ngược lại
-    const formatter = new Intl.NumberFormat('vi-VN');
-    // Sử dụng hàm format của đối tượng formatter để định dạng số thành chuỗi số tiền
-    return formatter.format(price) + "₫";
 }
